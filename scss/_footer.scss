@@ -40,6 +40,7 @@
 		align-self:center;
 		a{
 			color:$cblue2;
+			font-weight:600;
 		}
 	}
 
@@ -50,6 +51,9 @@
 		img {
 			max-height: 50px;
 			margin:10px;
+			background-color: transparent;
+			-webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+ 			filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
 		}
 	}
 
