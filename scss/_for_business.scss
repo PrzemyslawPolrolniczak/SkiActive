@@ -1,0 +1,87 @@
+.for_business-site {
+  margin-top: 80px;
+  p {
+    line-height: 20px;
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  img {
+    -webkit-box-shadow: 8px 10px 10px -4px rgba(230,229,229,1);
+    -moz-box-shadow: 8px 10px 10px -4px rgba(230,229,229,1);
+    box-shadow: 8px 10px 10px -4px rgba(230,229,229,1);
+    @media (max-width: 1199px) {
+      max-height: 260px;
+    }
+    margin: 0 auto;
+  }
+  .btn-outline {
+    margin: 35px auto;
+    border-radius: 0;
+    background-color: inherit;
+    color: inherit;
+    transition: all .5s;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .section-one {
+    margin-bottom: 80px;
+  }
+  .first-text-section {
+    h1 {
+      font-family: 'Roboto Condensed', sans-serif;
+      position: relative;
+      color: $cblue2;
+      font-weight: 700;
+      font-size: 50px;
+      margin-bottom: 60px;
+    }
+    h2 {
+      font-family: 'Roboto Condensed', sans-serif;
+      position: absolute;
+      top: -20px;
+      left: 15px;
+      font-size: 60px;
+      font-weight: 700;
+      color: $cblue2;
+      opacity: 0.05;
+    }
+    .underline {
+      top: 85px;
+      position: absolute;
+      width: 55px;
+      border-bottom: 6px solid $cblue2;
+    }
+  }
+  .first-photo-section {
+    padding-top: 40px;
+    padding-right: 0;
+    @media (max-width: 991px) {
+      padding-left: 20px;
+    }
+    .btn-primary {
+      color: $cblue2;
+      border-color: $cblue2;
+      &:hover {
+        color: #FFF;
+        background-color: $cblue2;
+      }
+    }
+  }
+  .second-photo-section {
+    padding-left: 0;
+    @media (max-width: 991px) {
+      padding-right: 20px;
+    }
+    .btn-primary {
+      color: $corange;
+      border-color: $corange;
+      &:hover {
+        color: #FFF;
+        background-color: $corange;
+      }
+    }
+  }
+}

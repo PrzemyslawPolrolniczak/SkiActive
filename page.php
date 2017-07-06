@@ -7,6 +7,7 @@
  * and that other 'pages' on your WordPress site may use a
  * different template.
  *
+*Template Name: For page
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package SkiActive
