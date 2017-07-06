@@ -1,12 +1,5 @@
-$cblue:#004282;
-$cblue2:#1760b2;
-$corange:#ef801e;
-$cgrey:#e6e5e5;
-$cdarkgrey:#716f6e;
-
-
 .site-footer{
-	
+
 	.newsletter{
 		color:$corange;
 		background-color:white;
@@ -28,7 +21,7 @@ $cdarkgrey:#716f6e;
 	}
 
 	.site-info{
-	
+
 		background-color:white;
 		padding:50px 0px 50px 0px;
 		display: flex;
@@ -49,7 +42,7 @@ $cdarkgrey:#716f6e;
 			color:$cblue2;
 		}
 	}
-	
+
 	.icons {
 		align-self:center;
 		display: flex;
@@ -59,7 +52,7 @@ $cdarkgrey:#716f6e;
 			margin:10px;
 		}
 	}
-	
+
 
 	.policy{
 		align-self:center;
