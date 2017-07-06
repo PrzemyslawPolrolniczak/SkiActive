@@ -1,0 +1,83 @@
+$cblue:#004282;
+$cblue2:#1760b2;
+$corange:#ef801e;
+$cgrey:#e6e5e5;
+$cdarkgrey:#716f6e;
+
+
+.site-footer{
+	
+	.newsletter{
+		color:$corange;
+		background-color:white;
+		height: 200px;
+		width:100%;
+	}
+	.footerimage img{
+		/*content:url(./img/footer-mountains.png);*/
+		/*background-image: "./img/footer-mountains.png";*/
+		width:100%;
+	}
+	a, p{
+		display:inline-block;
+		width:auto;
+	}
+
+	a, p{
+		color:black;
+	}
+
+	.site-info{
+	
+		background-color:white;
+		padding:50px 0px 50px 0px;
+		display: flex;
+		justify-content:space-between;
+	}
+
+	.newsletter{
+		border:$cgrey;
+		border-style:solid;
+		/*border-right: transparent;
+		border-left:transparent;*/
+		border-width:1px 0px 1px 0px;
+	}
+
+	.regulaminy{
+		align-self:center;
+		a{
+			color:$cblue2;
+		}
+	}
+	
+	.icons {
+		align-self:center;
+		display: flex;
+		justify-content: center;
+		img {
+			max-height: 50px;
+			margin:10px;
+		}
+	}
+	
+
+	.policy{
+		align-self:center;
+		display: flex;
+		justify-content: flex-end;
+		.policy-links{
+			/*display: flex;
+			justify-content: right;*/
+			text-align:right;
+			p{
+				padding:5px;
+				color:$cdarkgrey;
+			}
+			a{
+				color:$cdarkgrey;
+		}
+		}
+	}
+
+
+}
