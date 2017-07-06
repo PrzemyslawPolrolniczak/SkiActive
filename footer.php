@@ -16,7 +16,10 @@
 	<footer id="colophon" class="site-footer">
 		<div class="container">
 			<div class="newsletter">
-			
+			<h1>
+			NEWSLETTER SKIACTIVE
+			</h1>
+			<div class="underline"></div>
 			</div>
 
 			<div class="site-info row">

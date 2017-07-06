@@ -34,6 +34,24 @@
 		/*border-right: transparent;
 		border-left:transparent;*/
 		border-width:1px 0px 1px 0px;
+
+		h1{
+			text-align: center;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: 700;
+			padding-top:40px;
+			padding-bottom:15px;
+			font-size: 2em;
+			margin-bottom: 0px;
+			margin-top:0px;
+		}
+
+		.underline{
+			width: 60px;
+			height: 5px;
+			background-color:$corange;
+			margin:0px auto 0px auto;
+		}
 	}
 
 	.regulaminy{
