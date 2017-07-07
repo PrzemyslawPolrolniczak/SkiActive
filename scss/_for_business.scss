@@ -149,4 +149,37 @@
       box-shadow: none;
     }
   }
+  .overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000000;
+    overflow-y: hidden;
+    background-color: #000;
+    opacity: 0;
+    top: 0px;
+  }
+  .detal {
+    opacity: 0;
+    background-color: #FFF;
+    position: fixed;
+    z-index: 10000001;
+    top:15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    &.winter-detal {
+      .header {
+        padding-top: 15px;
+        padding-bottom: 13px;
+        color: white;
+        background-color: $cblue2;
+        font-weight: 700;
+        .exit {
+          text-align: right;
+        }
+      }
+    }
+  }
 }
