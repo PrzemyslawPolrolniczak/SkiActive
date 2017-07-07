@@ -12,3 +12,8 @@ body {
 a:focus, :hover, :active {
   text-decoration: none;
 }
+
+
+.disable-scroll {
+  overflow: hidden;
+}
