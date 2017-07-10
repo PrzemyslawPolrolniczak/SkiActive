@@ -20,24 +20,39 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.2.1.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/app.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,600,700" rel="stylesheet">
 
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-
-	<header id="masthead" class="site-header">
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'skiactive' ); ?></button>
-			<?php
-				wp_nav_menu( array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">
+<header>
+	<div id="page" class="container">
+		<div class="row">
+			<div class="col-xs-3"><img src="<?php echo get_template_directory_uri(); ?>/img/Logo.png" alt="Logo" class="img-responsive img-fluid logo"></div>
+			<nav id="site-navigation" class="main-navigation  col-xs-6">
+				<?php
+					wp_nav_menu( array(
+						'menu' => 'Menu 1',
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+					) );
+				?>
+			</nav><!-- #site-navigation -->
+			<div class="col-md-offset-1 col-xs-1 contact-div">
+				<span>ENG</span>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/contact.png" alt="contact" class="img-responsive img-fluid contact-img">
+				<div class="hidden contact-info">
+					<div class="little-triangle"></div>
+					<h6>DLA CIEBIE:</h6>
+					<a href="">+48 123 456789</a>
+					<a href="">dlaciebie@skiactive.com</a>
+					<h6>DLA BIZNESU:</h6>
+					<a href="">+48 123 456789</a>
+					<a href="">dlabiznesu@skiactive.com</a>
+				</div>
+			</div>
+		</div><!-- #masthead -->
+	</div>
+</header>
