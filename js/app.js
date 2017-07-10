@@ -3,7 +3,7 @@ $(document).ready(function(){
     $('.contact-info').toggleClass("hidden");
   });
 
-function showForm() {
+  function showForm() {
 		// Change button color
 
 		// Hide scrollbar
@@ -27,8 +27,8 @@ function showForm() {
 		hideAnimation($('.overlay'));
 		hideAnimation($('.owner1-details'));
 		hideAnimation($('.owner2-details'));
+		hideAnimation($('.detal'));
 		$('body').removeClass("disable-scroll");
-		// Remove red validation text and border when form is closed
 	};
 
 	$('.owner1').click(function(){
@@ -44,6 +44,11 @@ function showForm() {
 		showAnimation($('.owner2-details'), 1);
 	});
 
+	$('.winter').click(function(){
+		$('body').addClass("disable-scroll");
+		showAnimation($('.overlay'), 0.5);
+		showAnimation($('.detal'), 1);
+	});
 
 	$('.overlay').click(function(){
 		close();
@@ -52,15 +57,6 @@ function showForm() {
 	$('.exit').click(function(){
 		close();
 	});
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   function showFormRegulaminy() {
 		// Change button color
@@ -86,7 +82,6 @@ function showForm() {
 		hideAnimation($('.overlay'));
 		hideAnimation($('.regulations-details'));
 		$('body').removeClass("disable-scroll");
-		// Remove red validation text and border when form is closed
 	};
 
 	$('.regulations').click(function(){
@@ -94,13 +89,6 @@ function showForm() {
 		showAnimation($('.overlay'), 0.5);
 		showAnimation($('.regulations-details'), 1);
 	});
-
-
-
-
-  
-  
-
 });
 
 

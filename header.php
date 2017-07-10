@@ -40,7 +40,7 @@
 					) );
 				?>
 			</nav><!-- #site-navigation -->
-			<div class="col-md-offset-1 col-xs-1 contact-div">
+			<div class="col-xs-offset-1 col-xs-2 contact-div">
 				<span>ENG</span>
 				<img src="<?php echo get_template_directory_uri(); ?>/img/contact.png" alt="contact" class="img-responsive img-fluid contact-img">
 				<div class="hidden contact-info">
