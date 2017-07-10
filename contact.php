@@ -128,7 +128,7 @@ get_header(); ?>
 
 
 
-	<div class="line clo-xs-12"></div>
+	<div class="line col-xs-12"></div>
 
 
 

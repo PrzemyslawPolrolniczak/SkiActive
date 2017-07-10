@@ -1,0 +1,334 @@
+.aboutUs{
+
+
+
+
+
+	.overlay {
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	   z-index: 10000000;
+	    overflow-y: hidden;
+	    background-color: #000;
+	    opacity: 0;
+	    top: 0px;
+	}
+
+
+
+	 .owner1-details, .owner2-details{
+	 	position: fixed;
+		    z-index: 10000001;
+		    top:50%;
+		    left: 50%;
+		    transform: translate(-50%, -300px);
+
+		    
+	 	.popupbox{
+	 		background-color: white;
+			/*height: 600px;*/
+			padding:30px;
+		    h3{
+				
+				font-weight: 700;
+				color:$corange;
+		    }
+		    .role{
+				font-weight: 700;
+				margin:0px;
+		    }
+		    p{
+		    	margin:30px 0px;
+		    }
+
+			.contact-info{
+				color:$corange;
+				font-weight: 600;
+				margin-bottom: 0px;
+				margin-top: 10px;
+			}
+
+	 	}
+
+
+
+
+
+
+
+	 	.x_button{
+	 		position:absolute;
+	 		top:10px;
+	 		right:10px;
+	 	}
+		
+	 }
+
+
+
+
+
+
+
+
+
+
+
+	.we{
+		padding-top:100px;
+		padding-bottom:100px;
+		h1{
+			margin-top:0px;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: 700;
+			color:$cblue2;
+		}
+		.underline{
+			/*float:left;*/
+			width: 60px;
+			height: 5px;
+			background-color:$cblue2;
+			margin:0px auto 40px 0px;
+		}
+
+
+
+		.text{
+
+			
+			 p{
+			 	line-height: 2;
+			 }
+			.textlead{
+				 font-weight: 700;
+			}
+
+		}
+		.photos{
+			/*display: flex;
+			flex-direction: column;*/
+
+			img{
+				box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.2);
+				margin-bottom:40px;
+			}
+		}
+
+
+	}
+	
+
+
+	.infographic{
+
+		height:200px;
+		background-color:grey;
+	}
+
+
+
+
+
+
+
+	.ourteam{
+
+		padding-bottom:100px;
+		
+
+		h1{
+			text-align:center;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: 700;
+			color:$corange;
+		}
+		.underline{
+			width: 60px;
+			height: 5px;
+			background-color:$corange;
+			margin:0px auto 0px auto;
+		}
+
+
+		.section1{
+			/*float:none;*/
+			/*display:flex;
+			justify-content: center;*/
+			
+			.owner-box{
+				text-align: center;
+				cursor: pointer;
+
+				img{
+					max-height: 400px;
+					width:auto;
+					/*display:flex;
+					justify-content: center;*/
+					margin:0px auto 0px auto;
+				}
+				h4{
+					color:$corange;
+					font-weight: 700;
+				}
+				p{
+					font-weight: 700;
+				}
+			}
+		}
+
+
+
+		.section2{
+			float:none;
+			display:flex;
+			justify-content: center;
+			flex-wrap: wrap;
+
+			.employee-box{
+				text-align: center;
+				img{
+					/*max-height: 200px;
+					width:auto;*/
+					max-width: 100%;
+				}
+				h4{
+					color:$corange;
+					font-weight: 700;
+					font-size: 14px;
+				}
+				p{
+					font-weight: 700;
+					font-size: 13px;
+				}
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+	.directions{
+		padding-bottom:100px;
+		h1{
+			text-align:center;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: 700;
+			color:$cblue2;
+		}
+		.underline{
+			width: 60px;
+			height: 5px;
+			background-color:$cblue2;
+			margin:0px auto 0px auto;
+		}
+		p{
+			display:block;
+			text-align:center;
+			padding:40px 0px;
+		}
+
+
+		.gallery-slider{
+			height: 200px;
+			background-color: grey;
+		}
+	}
+
+
+
+
+
+
+
+	.licences{
+		padding-bottom:100px;
+
+		
+		p{
+			display:block;
+			text-align:center;
+			padding:40px 0px;
+		}
+		
+		
+		h1{
+			text-align:center;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: 700;
+			color:$corange;
+		}
+		.underline{
+			width: 60px;
+			height: 5px;
+			background-color:$corange;
+			margin:0px auto 0px auto;
+		}
+		
+		.partner-logos{
+
+			.partner-logo{
+				display:flex;
+				align-self: center;
+				text-align: center;
+				
+				img{
+					max-height: 200px;
+					margin:auto;
+
+				}
+				
+			}
+		}
+
+
+		.partner-description{
+			.partner-desc{
+				p{
+				
+				color:$cblue2;
+				font-family: 'Roboto Condensed', sans-serif;
+				font-weight: 700;
+				font-size: 18px;
+				}
+			}
+		}
+
+	}
+
+
+	
+
+
+
+
+
+	.partners{
+		padding-bottom:100px;
+		h1{
+			text-align:center;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: 700;
+			color:$cblue2;
+		}
+		.underline{
+			width: 60px;
+			height: 5px;
+			background-color:$cblue2;
+			margin:0px auto 0px auto;
+		}
+	}
+
+
+	.line{
+		/*padding-top: */
+	}
+
+
+}
