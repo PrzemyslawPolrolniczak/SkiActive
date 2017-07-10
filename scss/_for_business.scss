@@ -180,6 +180,14 @@
           text-align: right;
         }
       }
+      .slider {
+        margin-top: 60px;
+        height: 230px;
+        .slick-slide {
+          margin-right: 10px;
+          margin-left: 10px;
+        }
+      }
     }
   }
 }

@@ -4,8 +4,6 @@ $(document).ready(function(){
   });
 
   function showForm() {
-		// Change button color
-
 		// Hide scrollbar
 		$('body').addClass("disable-scroll");
 		// Show black overlay
@@ -28,6 +26,7 @@ $(document).ready(function(){
 		hideAnimation($('.owner1-details'));
 		hideAnimation($('.owner2-details'));
 		hideAnimation($('.detal'));
+    hideAnimation($('.regulations-details'));
 		$('body').removeClass("disable-scroll");
 	};
 
@@ -57,10 +56,8 @@ $(document).ready(function(){
 	$('.exit').click(function(){
 		close();
 	});
-  
-  function showFormRegulaminy() {
-		// Change button color
 
+  function showFormRegulaminy() {
 		// Hide scrollbar
 		$('body').addClass("disable-scroll");
 		// Show black overlay
@@ -69,26 +66,38 @@ $(document).ready(function(){
 		showAnimation($('.regulations-details'), 1);
 	}
 
-	function showAnimation(selectedObject, opacity) {
-		selectedObject.removeClass('hidden');
-		selectedObject.animate({opacity: opacity}, 300);
-	}
-
-	function hideAnimation(selectedObject) {
-		selectedObject.animate({opacity: 0}, 300, function(){selectedObject.addClass('hidden')});
-	}
-
-	function close() {
-		hideAnimation($('.overlay'));
-		hideAnimation($('.regulations-details'));
-		$('body').removeClass("disable-scroll");
-	};
-
 	$('.regulations').click(function(){
 		$('body').addClass("disable-scroll");
 		showAnimation($('.overlay'), 0.5);
 		showAnimation($('.regulations-details'), 1);
 	});
+
+  $('.slider').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    dots: true,
+    draggable: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+
 });
-
-

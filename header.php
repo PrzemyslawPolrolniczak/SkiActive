@@ -20,6 +20,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.2.1.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/app.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/slick.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,600,700" rel="stylesheet">
 
