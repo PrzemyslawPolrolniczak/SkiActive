@@ -14,6 +14,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
+	<div class="overlay hidden"></div>
 		<div class="container">
 			<div class="newsletter">
 			<h1>
@@ -26,8 +27,9 @@
 				<!--<?php  //komentarz//wp_nav_menu(array('theme_location'=>'secondary')); ?> -->
 
 
-				<div class="col-xs-6 col-md-4 regulaminy">
-					<a href="">Pobierz regulaminy SKIACTIVE</a>
+				<div class="col-xs-6 col-md-4 regulations">
+					<!--<a href="">Pobierz regulaminy SKIACTIVE</a>-->
+					<p class="regulations-link">Pobierz regulaminy SKIACTIVE</p>
 				</div>
 
 
@@ -52,6 +54,38 @@
 		<div class="footerimage">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/footer-mountains.png" alt="mountains">
 		</div>
+
+
+
+	<div class="regulations-details hidden">
+		<div class="container">
+			<div class="popup row">
+				<h1>REGULAMINY SKIACTIVE</h1>
+				<div class="underline"></div>
+				<div class="col-xs-6 col-md-6">
+					<div class="button">
+						<p>Regulamin świadczenia usług drogą elektroniczną</p>
+						<img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" class="img-responsive img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
 	</footer>
 </div><!-- #page -->
 
