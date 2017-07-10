@@ -63,7 +63,7 @@ get_header(); ?>
 					<p>co-owner</p>
 				</div>
 				
-				<div class="owner-box col-xs-6 col-md-6">
+				<div class="owner-box owner2 col-xs-6 col-md-6">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
 					<h4>Rafał Sionek</h4>
 					<p>co-owner</p>
@@ -258,7 +258,7 @@ get_header(); ?>
 					+ 48 123 456789
 				</p>
 				<p class="contact-info">
-					rafal@skiactive.com
+					lukasz@skiactive.com
 				</p>
 			</div>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/x_button.png" class="img-responsive img-fluid x_button exit">
@@ -269,6 +269,34 @@ get_header(); ?>
 
  
 
+
+
+	<div class="owner2-details hidden container">
+		
+		<div class="popupbox col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1">
+
+			<div class="owner-box owner2 col-xs-4 col-md-4">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
+			</div>
+
+			<div class="owner-box owner2 col-xs-8 col-md-8">
+				<h3>Rafał Sionek</h3>
+				<p class="role">co-owner</p>
+				<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus porro, enim earum harum eum neque, placeat quam praesentium expedita nulla dolor odio perferendis doloribus similique blanditiis suscipit. Ipsum et ad maiores sapiente vitae hic natus expedita, dignissimos voluptatibus libero perspiciatis, vero adipisci! Voluptas quae ipsa quidem quia sint quibusdam ratione doloribus ut, provident tenetur nemo maiores, ea minus molestiae eligendi nam beatae qui dolores, nihil! Nam voluptates illo ipsam labore in quia nisi dolores sed unde impedit? Hic quaerat provident sed voluptatum tempore doloremque. In blanditiis, eaque molestiae eum numquam voluptatem dolores exercitationem alias repellat! Earum, quasi dignissimos reiciendis ipsum.
+				</p>
+				<p class="contact-info">
+					+ 48 123 456789
+				</p>
+				<p class="contact-info">
+					rafal@skiactive.com
+				</p>
+			</div>
+			<img src="<?php echo get_template_directory_uri(); ?>/img/x_button.png" class="img-responsive img-fluid x_button exit">
+		</div>
+		
+
+	</div>
 
 
 
