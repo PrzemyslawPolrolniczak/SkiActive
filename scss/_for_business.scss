@@ -6,13 +6,16 @@
     font-size: 13px;
   }
   img {
-    -webkit-box-shadow: 8px 10px 10px -4px rgba(230,229,229,1);
-    -moz-box-shadow: 8px 10px 10px -4px rgba(230,229,229,1);
-    box-shadow: 8px 10px 10px -4px rgba(230,229,229,1);
-    @media (max-width: 1199px) {
-      max-height: 260px;
+    &.shadowed {
+      -webkit-box-shadow: 8px 10px 10px -4px rgba(230,229,229,1);
+      -moz-box-shadow: 8px 10px 10px -4px rgba(230,229,229,1);
+      box-shadow: 8px 10px 10px -4px rgba(230,229,229,1);
+      @media (max-width: 1199px) {
+        max-height: 260px;
+      }
+      margin: 0 auto;
     }
-    margin: 0 auto;
+
   }
   .btn-outline {
     margin: 35px auto;
@@ -128,6 +131,7 @@
     }
   }
   .question-stripe {
+    cursor: pointer;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: $cblue2;
@@ -137,8 +141,6 @@
     h1 {
       font-weight: 700;
       color: #FFF;
-      //height: 80px;
-      //line-height: 80px;
       display: inline-block;
     }
     img {
@@ -169,7 +171,7 @@
     top:15%;
     left: 50%;
     transform: translate(-50%, 0);
-    &.winter-detal {
+    &.component-detal {
       .header {
         padding-top: 15px;
         padding-bottom: 13px;
@@ -177,7 +179,10 @@
         background-color: $cblue2;
         font-weight: 700;
         .exit {
-          text-align: right;
+          img {
+            cursor: pointer;
+            float:right;
+          }
         }
       }
       .slider {
@@ -187,6 +192,146 @@
           margin-right: 10px;
           margin-left: 10px;
         }
+        .slick-track {
+          padding-bottom: 10px;
+        }
+        .slick-dots {
+          li {
+            width: 12px;
+            margin-right: 2.5px;
+            margin-left: 2.5px;
+          }
+          bottom: -35px;
+          @media (max-width: 1199px) {
+            bottom: 10px;
+          }
+          @media (max-width: 991px) {
+            bottom: 60px;
+          }
+        }
+        .slick-arrow {
+          padding-bottom: 2px;
+          @media (max-width: 1199px) {
+            top: 38%;
+          }
+          @media (max-width: 991px) {
+            top: 28%;
+          }
+        }
+      }
+      .text-row {
+        margin-bottom: 30px;
+        margin-top: 50px;
+        .text-col {
+          padding-left: 85px;
+          .hyphen-before {
+            position: absolute;
+            height: 13px;
+            width: 10px;
+            left: -6px;
+            border-bottom: 2px solid $cblue2;
+          }
+          p {
+            position: relative;
+            margin-top: 10px;
+          }
+        }
+      }
+      .footer {
+        padding-top: 15px;
+        padding-bottom: 13px;
+        background-color: $cblue2;
+        color: white;
+        font-weight: 700;
+        .leftText {
+          cursor: pointer;
+        }
+        .rightText {
+          cursor: pointer;
+          text-align: right;
+        }
+        .arrow {
+          display: inline-block;
+          &.left-arrow {
+            padding-bottom: 1px;
+            margin-right: 10px;
+          }
+          &.right-arrow {
+            margin-left: 10px;
+            float: right;
+            padding-top: 3px;
+          }
+        }
+      }
+    }
+    &.summer-detal {
+      .header {
+        background-color: $corange;
+      }
+      .slick-arrow {
+        background-color: $corange;
+        border-color: $corange;
+      }
+      .slick-dots {
+        button {
+          border: 1px solid $corange;
+          &:hover, &:focus, &:before {
+              background-color: $corange;
+              &:before {
+                  background-color: $corange;
+              }
+          }
+        }
+      }
+      .slick-active {
+        button {
+          background-color: $corange;
+        }
+      }
+      .text-row {
+        .text-col {
+          .hyphen-before {
+            border-bottom: 2px solid $corange;
+          }
+        }
+      }
+      .footer {
+        background-color: $corange;
+      }
+    }
+    &.mice-active-detal {
+      .header {
+        background-color: $cdarkgrey;
+      }
+      .slick-arrow {
+        background-color: $cdarkgrey;
+        border-color: $cdarkgrey;
+      }
+      .slick-dots {
+        button {
+          border: 1px solid $cdarkgrey;
+          &:hover, &:focus, &:before {
+              background-color: $cdarkgrey;
+              &:before {
+                  background-color: $cdarkgrey;
+              }
+          }
+        }
+      }
+      .slick-active {
+        button {
+          background-color: $cdarkgrey;
+        }
+      }
+      .text-row {
+        .text-col {
+          .hyphen-before {
+            border-bottom: 2px solid $cdarkgrey;
+          }
+        }
+      }
+      .footer {
+        background-color: $cdarkgrey;
       }
     }
   }
