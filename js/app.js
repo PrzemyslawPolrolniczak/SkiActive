@@ -64,11 +64,12 @@ $('.question-stripe').slick({
   dots: false,
   slidesToShow: 1,
   infinite: false,
-  speed: 300,
+  speed: 500,
   accessibility: false,
   arrows: false,
   draggable: false,
   nextArrow: $('.question-stripe'),
+  cssEase: 'ease-in-out',
 });
 
 $('.question-stripe').click(function () {

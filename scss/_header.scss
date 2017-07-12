@@ -30,6 +30,11 @@ header {
           transition: color 0.3s;
         }
       }
+      &.active {
+        a {
+          color: $corange;
+        }
+      }
     }
   }
   .contact-div {
