@@ -190,6 +190,7 @@
     h1 {
       color: $corange;
       text-align: center;
+      margin-bottom: 50px;
     }
     .underline {
       top: 90px;
@@ -200,20 +201,45 @@
       border-bottom: 7px solid $corange;
     }
     .card {
-      //display: flex;
+      margin-right: 10px;
+      margin-top: 40px;
+      display: flex;
+      border-top: 1px solid rgba(230, 229, 229, 0.4);
+      .no-paddings {
+        padding-left: 0px;
+        padding-right: 0;
+        position: relative;
+      }
       .image {
+        padding-left: 0;
         padding-right: 0;
       }
       .text {
         padding-left: 30px;
         padding-right: 5px;
         h3 {
-          font-size: 20px;
+          font-size: 18px;
           font-weight: 700;
           color: $corange;
         }
         h4 {
           font-size: 16px;
+          font-style: italic;
+        }
+        p {
+          margin-bottom: 0;
+        }
+      }
+      .color-info {
+        position: absolute;
+        bottom: 0;
+        background-color: $corange;
+        width: 100%;
+        h4 {
+          font-size: 16px;
+          font-style: italic;
+          text-align: center;
+          color: white;
         }
       }
     }
