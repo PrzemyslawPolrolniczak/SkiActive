@@ -76,6 +76,55 @@ $('.question-stripe').click(function () {
   $(this).slick('slickNext');
 });
 
+$('.for-you-slider').slick({
+  dots: false,
+  slidesToShow: 1,
+  infinite: false,
+  speed: 500,
+  accessibility: false,
+  arrows: false,
+  draggable: false,
+  cssEase: 'ease-in-out',
+});
+
+function removeActiveClass(first, second, third, fourth) {
+  $(first).removeClass('active');
+  $(second).removeClass('active');
+  $(third).removeClass('active');
+  $(fourth).removeClass('active');
+}
+
+$('.for-kids').click(function() {
+  $('.for-you-slider').slick('slickGoTo', '0');
+  $(this).addClass('active');
+  removeActiveClass('.for-adults', '.freeride', '.skitouring', '.for-sport')
+})
+
+$('.for-adults').click(function() {
+  $('.for-you-slider').slick('slickGoTo', '1');
+  $(this).addClass('active');
+  removeActiveClass('.for-kids', '.freeride', '.skitouring', '.for-sport')
+})
+
+$('.freeride').click(function() {
+  $('.for-you-slider').slick('slickGoTo', '2');
+  $(this).addClass('active');
+  removeActiveClass('.for-adults', '.for-kids', '.skitouring', '.for-sport')
+})
+
+$('.skitouring').click(function() {
+  $('.for-you-slider').slick('slickGoTo', '3');
+  $(this).addClass('active');
+  removeActiveClass('.for-adults', '.freeride', '.for-kids', '.for-sport')
+})
+
+$('.for-sport').click(function() {
+  $('.for-you-slider').slick('slickGoTo', '4');
+  $(this).addClass('active');
+  removeActiveClass('.for-adults', '.freeride', '.skitouring', '.for-kids')
+})
+
+
 function initSlider(sliderName) {
     $(sliderName).slick({
       centerMode: true,
