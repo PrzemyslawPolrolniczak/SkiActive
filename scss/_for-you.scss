@@ -201,10 +201,11 @@
       border-bottom: 7px solid $corange;
     }
     .card {
-      margin-right: 10px;
+      margin-right: 5px;
+      margin-left: 5px;
       margin-top: 40px;
       display: flex;
-      border-top: 1px solid rgba(230, 229, 229, 0.4);
+      box-shadow: 10px 8px 39px -1px rgba(230,229,229,1);
       .no-paddings {
         padding-left: 0px;
         padding-right: 0;
@@ -240,6 +241,20 @@
           font-style: italic;
           text-align: center;
           color: white;
+        }
+      }
+    }
+    .altCol {
+      .text {
+        h3 {
+          color: $cblue2;
+        }
+      }
+      .color-info {
+        background-color: $cblue2;
+        h4 {
+          font-weight: 700;
+          font-style: normal;
         }
       }
     }
