@@ -31,7 +31,7 @@
   p {
     line-height: 20px;
     margin-top: 30px;
-    font-size: 13px;
+    font-size: 14px;
   }
   .shadowed {
     -webkit-box-shadow: 8px 10px 10px -4px rgba(230,229,229,1);
@@ -256,6 +256,30 @@
           font-weight: 700;
           font-style: normal;
         }
+      }
+    }
+  }
+  .background-for-you {
+    .question-stripe {
+      margin-top: -1px;
+      cursor: pointer;
+      text-align: center;
+      background-color: $corange;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      margin-bottom: 80px;
+      h1 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #FFF;
+        display: inline-block;
+      }
+      img {
+        display: inline-block;
+        max-height: 35px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        box-shadow: none;
       }
     }
   }

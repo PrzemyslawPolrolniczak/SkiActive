@@ -61,19 +61,19 @@ get_header(); ?>
      <h1>Masz pytania dotyczące oferty dla biznesu?</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
    </div>
    <div>
-     <h1>Tel: +48 123 456 789 | E-mail: test@gmail.com</h1>
+     <h1>Tel: +48 123 456 789 | E-mail: dlabiznesu@skiactive.com</h1>
    </div>
  </div>
 
 
   <div class="detal hidden component-detal winter-detal">
-    <div class="container header">
+    <div class="header">
       <div class="row">
         <div class="col-xs-2 col-xs-offset-1">ATRAKCJE ZIMOWE</div>
         <div class="col-xs-1 col-xs-offset-7 exit"><img src="<?php echo get_template_directory_uri(); ?>/img/exitButton.png" alt="" class="img-responsive img-fluid"></div>
       </div>
     </div>
-    <div class="container content">
+    <div class="content">
       <div class='row'>
          <div class="slider sliderWinter">
           <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide1.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
@@ -84,22 +84,22 @@ get_header(); ?>
         </div>
      </div>
      <div class="row text-row">
-       <div class="col-xs-offset-2 col-xs-8 text-col">
-         <div class="col-xs-4">
+       <div class="text-col">
+         <div class="plain-text">
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
          </div>
-         <div class="col-xs-4">
+         <div class="plain-text">
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
          </div>
-         <div class="col-xs-4">
+         <div class="plain-text">
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
@@ -109,7 +109,7 @@ get_header(); ?>
        </div>
      </div>
     </div>
-    <div class="container footer">
+    <div class="footer">
       <div class="row">
         <div class="col-xs-2 col-xs-offset-1 leftText mice-active-link"><img src="<?php echo get_template_directory_uri(); ?>/img/leftButton.png" alt="" class="img-responsive img-fluid arrow left-arrow">MICE ACTIVE</div>
         <div class="col-xs-2 col-xs-offset-6 rightText summer-link">ATRAKCJE LETNIE<img src="<?php echo get_template_directory_uri(); ?>/img/rightButton.png" alt="" class="img-responsive img-fluid arrow right-arrow"></div>
@@ -117,13 +117,13 @@ get_header(); ?>
     </div>
   </div>
   <div class="detal hidden component-detal summer-detal">
-    <div class="container header">
+    <div class="header">
       <div class="row">
         <div class="col-xs-2 col-xs-offset-1">ATRAKCJE LETNIE</div>
         <div class="col-xs-1 col-xs-offset-7 exit"><img src="<?php echo get_template_directory_uri(); ?>/img/exitButton.png" alt="" class="img-responsive img-fluid"></div>
       </div>
     </div>
-    <div class="container content">
+    <div class="content">
       <div class='row'>
          <div class="slider sliderSummer">
           <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide1.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
@@ -134,22 +134,22 @@ get_header(); ?>
         </div>
      </div>
      <div class="row text-row">
-       <div class="col-xs-offset-2 col-xs-8 text-col">
-         <div class="col-xs-4">
+       <div class="text-col">
+         <div class="plain-text">
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
          </div>
-         <div class="col-xs-4">
+         <div class="plain-text">
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
          </div>
-         <div class="col-xs-4">
+         <div class="plain-text">
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
@@ -159,7 +159,7 @@ get_header(); ?>
        </div>
      </div>
     </div>
-    <div class="container footer">
+    <div class="footer">
       <div class="row">
         <div class="col-xs-2 col-xs-offset-1 leftText winter-link"><img src="<?php echo get_template_directory_uri(); ?>/img/leftButton.png" alt="" class="img-responsive img-fluid arrow left-arrow">ATRAKCJE ZIMOWE</div>
         <div class="col-xs-2 col-xs-offset-6 rightText mice-active-link">MICE ACTIVE<img src="<?php echo get_template_directory_uri(); ?>/img/rightButton.png" alt="" class="img-responsive img-fluid arrow right-arrow"></div>
@@ -167,13 +167,13 @@ get_header(); ?>
     </div>
   </div>
   <div class="detal hidden component-detal mice-active-detal">
-    <div class="container header">
+    <div class="header">
       <div class="row">
         <div class="col-xs-2 col-xs-offset-1">MICE ACTIVE</div>
         <div class="col-xs-1 col-xs-offset-7 exit"><img src="<?php echo get_template_directory_uri(); ?>/img/exitButton.png" alt="" class="img-responsive img-fluid"></div>
       </div>
     </div>
-    <div class="container content">
+    <div class="content">
       <div class='row'>
          <div class="slider sliderMiceActive">
           <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide1.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
@@ -184,22 +184,22 @@ get_header(); ?>
         </div>
      </div>
      <div class="row text-row">
-       <div class="col-xs-offset-2 col-xs-8 text-col">
-         <div class="col-xs-4">
+       <div class="text-col">
+         <div class="plain-text">
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
          </div>
-         <div class="col-xs-4">
+         <div class="plain-text">
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
          </div>
-         <div class="col-xs-4">
+         <div class="plain-text">
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
            <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
@@ -209,7 +209,7 @@ get_header(); ?>
        </div>
      </div>
     </div>
-    <div class="container footer">
+    <div class="footer">
       <div class="row">
         <div class="col-xs-2 col-xs-offset-1 leftText summer-link"><img src="<?php echo get_template_directory_uri(); ?>/img/leftButton.png" alt="" class="img-responsive img-fluid arrow left-arrow">ATRAKCJE LETNIE</div>
         <div class="col-xs-2 col-xs-offset-6 rightText winter-link">ATRAKCJE ZIMOWE<img src="<?php echo get_template_directory_uri(); ?>/img/rightButton.png" alt="" class="img-responsive img-fluid arrow right-arrow"></div>

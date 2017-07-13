@@ -3,7 +3,7 @@
   p {
     line-height: 20px;
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 14px;
   }
   img {
     &.shadowed {
@@ -145,8 +145,8 @@
     }
     img {
       display: inline-block;
-      max-height: 40px;
-      margin-bottom: 10px;
+      max-height: 35px;
+      margin-bottom: 20px;
       margin-left: 40px;
       box-shadow: none;
     }
@@ -164,13 +164,19 @@
     top: 0px;
   }
   .detal {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     opacity: 0;
     background-color: #FFF;
     position: fixed;
     z-index: 10000001;
-    top:15%;
-    left: 50%;
-    transform: translate(-50%, 0);
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     &.component-detal {
       .header {
         padding-top: 15px;
@@ -185,9 +191,11 @@
           }
         }
       }
+      .content {
+        flex-grow: 1;
+      }
       .slider {
         margin-top: 60px;
-        height: 230px;
         .slick-slide {
           margin-right: 10px;
           margin-left: 10px;
@@ -202,34 +210,29 @@
             margin-left: 2.5px;
           }
           bottom: -35px;
-          @media (max-width: 1199px) {
-            bottom: 10px;
-          }
-          @media (max-width: 991px) {
-            bottom: 60px;
-          }
         }
         .slick-arrow {
           padding-bottom: 2px;
-          @media (max-width: 1199px) {
-            top: 38%;
-          }
-          @media (max-width: 991px) {
-            top: 28%;
-          }
         }
       }
       .text-row {
         margin-bottom: 30px;
         margin-top: 50px;
         .text-col {
-          padding-left: 85px;
+          margin: 0 auto;
+          display: flex;
+          width: 60%;
+          justify-content: space-around;
+          .plain-text {
+            width: 125px;
+            position: relative;
+          }
           .hyphen-before {
             position: absolute;
-            height: 13px;
-            width: 10px;
-            left: -6px;
-            border-bottom: 2px solid $cblue2;
+            height: 12px;
+            width: 9px;
+            left: -25px;
+            border-bottom: 3px solid $cblue2;
           }
           p {
             position: relative;
@@ -291,7 +294,7 @@
       .text-row {
         .text-col {
           .hyphen-before {
-            border-bottom: 2px solid $corange;
+            border-bottom: 3px solid $corange;
           }
         }
       }
@@ -326,7 +329,7 @@
       .text-row {
         .text-col {
           .hyphen-before {
-            border-bottom: 2px solid $cdarkgrey;
+            border-bottom: 3px solid $cdarkgrey;
           }
         }
       }

@@ -253,5 +253,24 @@ get_header(); ?>
     </div>
 
   </div>
+  <div class="background-for-you">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/background-for-you.png" alt="" class="img-responsive img-fluid">
+    <div class="question-stripe slider">
+      <div>
+        <h1>Chcesz zorganizować wyjazd dla grupy przyjaciół?</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
+      </div>
+      <div>
+        <h1>Tel: +48 123 456 789 | E-mail: dlaciebie@skiactive.com</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row text-between-sections">
+      <div class="col-xs-12">
+        <h1>OBSERWUJ NAS NA INSTAGRAMIE</h1>
+        <div class="underline"></div>
+      </div>
+    </div>
+  </div>
 </div>
 <?php get_footer(); ?>
