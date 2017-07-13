@@ -283,4 +283,22 @@
       }
     }
   }
+  .instagram {
+    margin-top: 40px;
+    a {
+      box-shadow: 8px 10px 10px -4px rgba(230,229,229,1);
+      &:focus, &:hover, &:active {
+        color: #FFF;
+        text-decoration: none;
+      }
+    }
+  }
+  .instagram-button {
+    margin: 50px auto 100px auto;
+    color: $cblue2;
+    &:hover {
+       background-color: $cblue2;
+       color: #FFF;
+    }
+  }
 }

@@ -271,6 +271,12 @@ get_header(); ?>
         <div class="underline"></div>
       </div>
     </div>
+    <div class="instagram">
+      <?php echo do_shortcode('[instagram-feed]'); ?>
+    </div>
+    <a href="https://www.google.pl" class="instagram-button btn btn-primary btn-outline">
+      Przejdź do instagrama
+    </a>
   </div>
 </div>
 <?php get_footer(); ?>
