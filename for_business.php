@@ -61,7 +61,7 @@ get_header(); ?>
      <h1>Masz pytania dotyczące oferty dla biznesu?</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
    </div>
    <div>
-     <h1>Tel: +48 123 456 789 | E-mail: dlabiznesu@skiactive.com</h1>
+     <h1>+48 123 456789 &nbsp | &nbsp dlabiznesu@skiactive.com</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
    </div>
  </div>
 
@@ -75,7 +75,7 @@ get_header(); ?>
     </div>
     <div class="content">
       <div class='row'>
-         <div class="slider sliderWinter">
+         <div class="slider">
           <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide1.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
           <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide2.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
           <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>

@@ -15,6 +15,7 @@
  */
 get_header(); ?>
 <div class="for-you-site">
+  <div class="overlay hidden"></div>
   <div class="container">
     <div class="row section-one">
       <div class="col-xs-6 first-text-section">
@@ -24,7 +25,7 @@ get_header(); ?>
         <p class="bold-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. .</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button type="button" name="button" class="btn btn-primary btn-outline orange-button">Sprawdź aktualne wyjazdy</button>
+        <button type="button" name="button" class="btn btn-primary btn-outline orange-button detal-opener">Sprawdź aktualne wyjazdy</button>
       </div>
       <div class="col-xs-5 col-xs-offset-1 first-photo-section">
         <img src="<?php echo get_template_directory_uri(); ?>/img/photo1.png" alt="" class="img-responsive img-fluid shadowed">
@@ -34,7 +35,6 @@ get_header(); ?>
     <div class="row text-between-sections">
       <div class="col-xs-12">
         <h1>NASZE SZKOLENIA</h1>
-        <h2>NASZE SZKOLENIA</h2>
         <div class="underline"></div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
       </div>
@@ -178,7 +178,7 @@ get_header(); ?>
         <div class="underline"></div>
       </div>
       <div class="row">
-        <div class="col-xs-6">
+        <div class="col-lg-6">
 
           <div class="card shadowed row">
             <div class="image col-xs-6">
@@ -215,7 +215,7 @@ get_header(); ?>
 
           </div>
         </div>
-        <div class="col-xs-6">
+        <div class="col-lg-6">
           <div class="card shadowed row">
             <div class="image col-xs-6">
               <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
@@ -260,7 +260,7 @@ get_header(); ?>
         <h1>Chcesz zorganizować wyjazd dla grupy przyjaciół?</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
       </div>
       <div>
-        <h1>Tel: +48 123 456 789 | E-mail: dlaciebie@skiactive.com</h1>
+        <h1>+48 123 456789 &nbsp | &nbsp  dlaciebie@skiactive.com</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
       </div>
     </div>
   </div>
@@ -277,6 +277,57 @@ get_header(); ?>
     <a href="https://www.google.pl" class="instagram-button btn btn-primary btn-outline">
       Przejdź do instagrama
     </a>
+  </div>
+  <!-- HIDDEN DETAL  -->
+  <div class="detal hidden">
+    <div class="header">
+      <div class="row">
+        <div class="col-xs-2 col-xs-offset-1">ATRAKCJE ZIMOWE</div>
+        <div class="col-xs-1 col-xs-offset-7 exit"><img src="<?php echo get_template_directory_uri(); ?>/img/exitButton.png" alt="" class="img-responsive img-fluid"></div>
+      </div>
+    </div>
+    <div class="content">
+      <div class='row'>
+         <div class="slider sliderWinter">
+          <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide1.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
+          <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide2.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
+          <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
+          <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide4.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
+          <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide5.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
+        </div>
+     </div>
+     <div class="row text-row">
+       <div class="text-col">
+         <div class="plain-text">
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+         </div>
+         <div class="plain-text">
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+         </div>
+         <div class="plain-text">
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+           <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+         </div>
+       </div>
+     </div>
+    </div>
+    <div class="footer">
+      <div class="row">
+        <div class="col-xs-2 col-xs-offset-1 leftText mice-active-link"><img src="<?php echo get_template_directory_uri(); ?>/img/leftButton.png" alt="" class="img-responsive img-fluid arrow left-arrow">MICE ACTIVE</div>
+        <div class="col-xs-2 col-xs-offset-6 rightText summer-link">ATRAKCJE LETNIE<img src="<?php echo get_template_directory_uri(); ?>/img/rightButton.png" alt="" class="img-responsive img-fluid arrow right-arrow"></div>
+      </div>
+    </div>
   </div>
 </div>
 <?php get_footer(); ?>

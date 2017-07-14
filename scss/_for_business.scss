@@ -1,7 +1,7 @@
 .for_business-site {
   margin-top: 80px;
   p {
-    line-height: 20px;
+    line-height: 24px;
     margin-top: 20px;
     font-size: 14px;
   }
@@ -18,8 +18,8 @@
 
   }
   .btn-outline {
-    margin: 35px auto;
     border-radius: 0;
+    margin: 35px auto;
     background-color: inherit;
     color: inherit;
     transition: all .5s;
@@ -28,7 +28,10 @@
     font-weight: 700;
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 6px;
+    padding-bottom: 7px;
     width: 205px;
+    border: 0px;
     &:focus {
       outline: 0;
     }
@@ -69,7 +72,7 @@
     }
     .btn-primary {
       color: $cblue2;
-      border-color: $cblue2;
+      box-shadow: 0px 0px 0px 2px $cblue2;
       &:hover {
         color: #FFF;
         background-color: $cblue2;
@@ -88,7 +91,7 @@
     }
     .btn-primary {
       color: $corange;
-      border-color: $corange;
+      box-shadow: 0px 0px 0px 2px $corange;
       &:hover {
         color: #FFF;
         background-color: $corange;
@@ -109,7 +112,7 @@
   .third-photo-section {
     .btn-primary {
       color: $cdarkgrey;
-      border-color: $cdarkgrey;
+      box-shadow: 0px 0px 0px 2px $cdarkgrey;
       &:hover {
         color: #FFF;
         background-color: $cdarkgrey;

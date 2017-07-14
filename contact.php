@@ -19,7 +19,7 @@ get_header(); ?>
 
 	<div class=" top-contact col-xs-offset-1 col-xs-10">
 
-	
+
 
 		<div class="row row-contact">
 			<div class="contact-header col-xs-6 col-md-4">
@@ -65,7 +65,7 @@ get_header(); ?>
 						katarzyna@skiactive.com
 					</p>
 				</div>
-		</div>		
+		</div>
 
 		<div class="row row-contact">
 				<div class="person col-xs-6 col-md-4">
@@ -90,7 +90,7 @@ get_header(); ?>
 					<h3>FINANSE</h3>
 					<div class="underline"></div>
 				</div>
-		</div>	
+		</div>
 
 
 		<div class="row row-contact">
@@ -120,9 +120,9 @@ get_header(); ?>
 					<p>
 						lukasz@skiactive.com
 					</p>
-				</div>	
-		</div>	
-		
+				</div>
+		</div>
+
 	</div>
 
 
@@ -140,7 +140,7 @@ get_header(); ?>
 
 		<div class="bottom-contact-container col-xs-offset-1 col-xs-10">
 			<div class="row row-contact">
-	  		
+
 	  			<div class="contact-header col-xs-6 col-md-6">
 					<h3>DANE SPÓŁKI</h3>
 					<div class="underline"></div>
@@ -163,7 +163,7 @@ get_header(); ?>
 					<p>
 						52-235 Wrocław
 					</p>
-				</div>	
+				</div>
 				<div class="person col-xs-6 col-md-6">
 					<h4>SKIACTIVE</h4>
 					<p>
@@ -172,13 +172,13 @@ get_header(); ?>
 					<p>
 						52-235 Wrocław
 					</p>
-				</div>	
+				</div>
 
 	  		</div>
 
 	  		<div class="row row-contact">
 
-	  			<div class="person col-xs-6 col-md-6">
+	  			<div class="person firm-data col-xs-6 col-md-6">
 					<p>
 						NIP: PL8992662434<br>REGON: 020914960<br>KRS: 0000322349<br>
 
@@ -186,16 +186,16 @@ get_header(); ?>
 <br>IBAN: 77 2490 0005 0000 4500 1263 5570
 <br>SWIFT: ALBPPLPW
 					</p>
-				</div>	
+				</div>
 
 	  		</div>
 
 
-		</div>	
+		</div>
 	</div>
 
 
-	
+
 </div>
 
 <?php get_footer(); ?>

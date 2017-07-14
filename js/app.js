@@ -63,7 +63,7 @@ $(document).ready(function(){
 $('.question-stripe').slick({
   dots: false,
   slidesToShow: 1,
-  infinite: false,
+  infinite: true,
   speed: 500,
   accessibility: false,
   arrows: false,
@@ -245,4 +245,10 @@ function initSlider(sliderName) {
 		showAnimation($('.overlay'), 0.5);
 		showAnimation($('.regulations-details'), 1);
 	});
+
+  // For You site
+
+  $('.detal-opener').click(function () {
+    showForm();
+  });
 });

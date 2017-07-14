@@ -1,4 +1,7 @@
 .contact{
+	p {
+		margin-bottom: 5px;
+	}
 	/*display:block;*/
 
 	.top-contact{
@@ -37,10 +40,14 @@
 
 	.person{
 		font-size: 14px;
-		
+		&.firm-data {
+			margin-top: 10px;
+			line-height: 24px;
+		}
+
 
 		h4{
-			
+
 			margin-top: 30px;
 			font-size: 14px;
 			font-weight:700;
@@ -62,13 +69,13 @@
 		padding-bottom:50px;
 		position:relative;
 		/*background-image: url("./img/trees.png");*/
-		
+
 		img{
 			position:absolute;
-			height:400px;
+			max-height:450px;
 			width:auto;
 			bottom:0px;
-			right:0px;
+			right:-60px;
 		}
 
 		.bottom-contact-container{
@@ -78,7 +85,7 @@
 			margin-left: 20%;
 			margin-right: 20%;
 			width: 60%;*/
-			
+
 
 			.contact-header{
 				/*padding-right: 20px;
@@ -101,13 +108,13 @@
 		}
 	}
 
-	
+
 		.lal{
 			background-color:pink;
 			margin:0px auto;
-		
+
 		}
 
-	
-	
+
+
 }
