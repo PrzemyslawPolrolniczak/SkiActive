@@ -75,7 +75,7 @@ get_header(); ?>
     </div>
     <div class="content">
       <div class='row'>
-         <div class="slider">
+         <div class="slider sliderWinter">
           <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide1.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
           <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide2.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
           <div><img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>

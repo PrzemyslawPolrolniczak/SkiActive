@@ -1,5 +1,5 @@
 .aboutUs{
-
+	margin-top: 82px;
 
 
 
@@ -10,7 +10,7 @@
 	    right: 0;
 	    bottom: 0;
 	    left: 0;
-	   z-index: 10000000;
+	   z-index: 10000020;
 	    overflow-y: hidden;
 	    background-color: #000;
 	    opacity: 0;
@@ -21,7 +21,7 @@
 
 	 .owner1-details, .owner2-details{
 	 	position: fixed;
-		    z-index: 10000001;
+		    z-index: 10000021;
 		    top:50%;
 		    left: 50%;
 		    transform: translate(-50%, -300px);
