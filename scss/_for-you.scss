@@ -326,7 +326,7 @@
     top: 0px;
   }
   .detal {
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -339,6 +339,10 @@
     left: 0;
     right: 0;
     bottom: 0;
+    .scrollable {
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
     .header {
       padding-top: 15px;
       padding-bottom: 13px;
@@ -480,6 +484,24 @@
         font-size: 38px;
         color: $corange;
         margin-bottom: 50px;
+      }
+    }
+    .footer {
+      margin-top: 80px;
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif;
+      background-color: $corange;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      color: #FFF;
+      h1 {
+        font-size: 24px;
+        font-weight: 400;
+        color: #FFF;
+        display: inline-block;
+        span {
+          font-weight: 700;
+        }
       }
     }
   }
