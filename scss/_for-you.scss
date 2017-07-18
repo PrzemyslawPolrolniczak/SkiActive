@@ -7,12 +7,12 @@
     color: inherit;
     transition: all .5s;
     display: block;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 6px;
-    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 8px;
     width: 205px;
     &:focus {
       outline: 0;
@@ -204,14 +204,22 @@
       border-bottom: 7px solid $corange;
     }
     .card {
+      cursor: pointer;
       margin-right: 5px;
       margin-left: 5px;
       margin-top: 40px;
       display: flex;
+      transition: all 0.5s;
       box-shadow: 10px 8px 39px -1px rgba(230,229,229,1);
+      &:hover {
+        transition: all 0.5s;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 35px;
+      }
       .no-paddings {
         @media (min-width: 1200px) {
-          width: 51%;
+          width: 53%;
         }
         padding-left: 0px;
         padding-right: 0;
@@ -219,7 +227,7 @@
       }
       .image {
         @media (min-width: 1200px) {
-          width: 49%;
+          width: 47%;
         }
         padding-left: 0;
         padding-right: 0;
@@ -228,17 +236,21 @@
         padding-left: 30px;
         padding-right: 5px;
         h3 {
-          font-size: 17px;
+          font-size: 16px;
           font-weight: 700;
           color: $corange;
         }
         h4 {
-          font-size: 15px;
+          font-size: 14px;
           font-style: italic;
         }
         p {
-          margin-top: 20px;
+          font-size: 13px;
+          margin-top: 10px;
           margin-bottom: 0;
+        }
+        span {
+          font-size: 13px;
         }
       }
       .color-info {
@@ -247,7 +259,7 @@
         background-color: $corange;
         width: 100%;
         h4 {
-          font-size: 15px;
+          font-size: 14px;
           font-style: italic;
           text-align: center;
           color: white;
@@ -349,6 +361,9 @@
       color: white;
       background-color: $corange;
       font-weight: 700;
+      &.altColor {
+        background-color: $cblue2
+      }
       .exit {
         img {
           cursor: pointer;
@@ -361,6 +376,9 @@
       text-align: center;
       color: $corange;
       position: relative;
+      &.altColor {
+        color: $cblue2;
+      }
       h1 {
         font-family: 'Open Sans', sans-serif;
       }

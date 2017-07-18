@@ -17,37 +17,41 @@ get_header(); ?>
 <div class="aboutUs">
 <div class="overlay hidden"></div>
 	<div class="container">
-		
+
 		<div class="we row">
-			<div class="text col-xs-6 col-md-6">
+			<div class="text col-xs-6 col-md-6 text-col">
 				<h1>O NAS</h1>
+				<h2>O NAS</h2>
 				<div class="underline"></div>
 				<p class="textlead">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, delectus! Obcaecati alias eaque dolorem est eveniet repudiandae nesciunt amet.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci itaque unde cum sequi fugit ullam incidunt velit, atque dignissimos modi laborum iure ut repellat voluptates nobis totam animi odio, placeat facilis nulla sunt ea, laboriosam culpa officia dolorum. 
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci itaque unde cum sequi fugit ullam incidunt velit, atque dignissimos modi laborum iure ut repellat voluptates nobis totam animi odio, placeat facilis nulla sunt ea, laboriosam culpa officia dolorum.
 					<br><br>
-					Deserunt ab expedita unde laborum, minus sequi consequuntur quis sint doloremque culpa velit nihil voluptates, ipsa incidunt alias accusamus molestiae ipsum atque rerum magnam dolorem magni, autem ad odit! Illum quisquam delectus non explicabo repellendus voluptatibus laboriosam, obcaecati, consequuntur rem eos porro, suscipit, necessitatibus optio nostrum amet hic. Saepe obcaecati, ex natus nulla facilis soluta quae, voluptas magni a non! Voluptates, sapiente. Laboriosam culpa officia dolorum. 
+					Deserunt ab expedita unde laborum, minus sequi consequuntur quis sint doloremque culpa velit nihil voluptates, ipsa incidunt alias accusamus molestiae ipsum atque rerum magnam dolorem magni, autem ad odit! Illum quisquam delectus non explicabo repellendus voluptatibus laboriosam, obcaecati, consequuntur rem eos porro, suscipit, necessitatibus optio nostrum amet hic. Saepe obcaecati, ex natus nulla facilis soluta quae, voluptas magni a non! Voluptates, sapiente. Laboriosam culpa officia dolorum.
 					<br><br>
 					Deserunt ab expedita unde laborum, minus sequi consequuntur quis sint doloremque culpa velit nihil voluptates, ipsa incidunt alias accusamus molestiae ipsum atque rerum magnam dolorem magni, autem ad odit! Illum quisquam delectus non explicabo repellendus voluptatibus laboriosam, obcaecati, consequuntur rem eos porro, suscipit, necessitatibus optio nostrum amet hic. Saepe obcaecati, ex natus nulla facilis soluta quae, voluptas magni a non! Voluptates, sapiente.
-				</p>		
+				</p>
 			</div>
-			
+
 			<div class="photos col-xs-6 col-md-6">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/materialydostrony_046.jpg" alt="placeholder" class="img-responsive img-fluid ">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/materialydostrony_089.jpg" alt="placeholder" class="img-responsive img-fluid ">
 			</div>
 
 		</div>
-		
 
 
+	</div>
 
 		<div class="infographic">
-			<?php echo do_shortcode('[tf_numbers name="years"]'); ?>
+			<div class="container">
+				<?php echo do_shortcode('[tf_numbers name="years"]'); ?>
+			</div>
 		</div>
 
+<div class="container">
 
 
 
@@ -62,7 +66,7 @@ get_header(); ?>
 					<h4>Łukasz Kuźmiński</h4>
 					<p>co-owner</p>
 				</div>
-				
+
 				<div class="owner-box owner2 col-xs-6 col-md-6">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
 					<h4>Rafał Sionek</h4>
@@ -126,29 +130,29 @@ get_header(); ?>
 					<h4>Jan Kowalski</h4>
 					<p>stanowisko</p>
 				</div>
-				
+
 				<div class="employee-box col-xs-3 col-md-3">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
 					<h4>Jan Kowalski</h4>
 					<p>stanowisko</p>
 				</div>
-			
+
 
 			</div>
-			
+
 		</div>
 
 
-		
-		
+
+
 
 
 
 
 
 		<div class="directions ">
-			
-			
+
+
 			<div class="section1 row">
 				<h1>KIERUNKI WYJAZDÓW</h1>
 				<div class="underline"></div>
@@ -175,7 +179,7 @@ get_header(); ?>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque error nostrum voluptatum quos maiores, tenetur atque laboriosam sint quae facere aspernatur corrupti porro soluta eos. Maiores ut deserunt, fuga impedit. Consectetur adipisicing elit. Odio asperiores nemo, quod quae quis esse eveniet mollitia dicta dolor sit voluptate, in praesentium iure, voluptatem ratione harum commodi necessitatibus nostrum!...
 				</p>
 			</div>
-			
+
 			<div class="box">
 				<div class="partner-logos row">
 					<div class="partner-logo col-xs-4 col-md-4">
@@ -206,7 +210,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 
 
@@ -230,7 +234,7 @@ get_header(); ?>
 					<img src="<?php echo get_template_directory_uri(); ?>/img/logo_europa.jpg" alt="logo Europa" class="img-responsive img-fluid">
 				</div>
 			</div>
-			
+
 		</div>
 
 	</div>
@@ -241,7 +245,7 @@ get_header(); ?>
 
 
 	<div class="owner1-details hidden container">
-		
+
 		<div class="popupbox col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1">
 
 			<div class="owner-box owner1 col-xs-4 col-md-4">
@@ -263,16 +267,16 @@ get_header(); ?>
 			</div>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/x_button.png" class="img-responsive img-fluid x_button exit">
 		</div>
-		
+
 
 	</div>
 
- 
+
 
 
 
 	<div class="owner2-details hidden container">
-		
+
 		<div class="popupbox col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1">
 
 			<div class="owner-box owner2 col-xs-4 col-md-4">
@@ -294,7 +298,7 @@ get_header(); ?>
 			</div>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/x_button.png" class="img-responsive img-fluid x_button exit">
 		</div>
-		
+
 
 	</div>
 

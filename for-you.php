@@ -25,7 +25,7 @@ get_header(); ?>
         <p class="bold-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. .</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button type="button" name="button" class="btn btn-primary btn-outline orange-button detal-opener">Sprawdź aktualne wyjazdy</button>
+        <button type="button" name="button" class="btn btn-primary btn-outline orange-button scroll-button">Sprawdź aktualne wyjazdy</button>
       </div>
       <div class="col-xs-5 col-xs-offset-1 first-photo-section">
         <img src="<?php echo get_template_directory_uri(); ?>/img/photo1.png" alt="" class="img-responsive img-fluid shadowed">
@@ -172,6 +172,7 @@ get_header(); ?>
         </div>
       </div>
     </div>
+    <div class="scroll-to-here"></div>
     <div class="section-three row">
       <div class="col-xs-12">
         <h1>SZKOLENIA I WYJAZDY DLA CIEBIE</h1>
@@ -180,7 +181,7 @@ get_header(); ?>
       <div class="row">
         <div class="col-lg-6">
 
-          <div class="card shadowed row">
+          <div class="card card1 shadowed row">
             <div class="image col-xs-6">
               <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
             </div>
@@ -196,7 +197,7 @@ get_header(); ?>
               </div>
             </div>
           </div>
-          <div class="card shadowed row altCol">
+          <div class="card card2 shadowed row altCol">
             <div class="image col-xs-6">
               <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
             </div>
@@ -216,7 +217,7 @@ get_header(); ?>
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="card shadowed row">
+          <div class="card card3 shadowed row">
             <div class="image col-xs-6">
               <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
             </div>
@@ -232,7 +233,7 @@ get_header(); ?>
               </div>
             </div>
           </div>
-          <div class="card shadowed row altCol">
+          <div class="card card4 shadowed row altCol">
             <div class="image col-xs-6">
               <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
             </div>
@@ -279,7 +280,7 @@ get_header(); ?>
     </a>
   </div>
   <!-- HIDDEN DETAL  -->
-  <div class="detal hidden">
+  <!-- <div class="detal hidden">
     <div class="header">
       <div class="row">
         <div class="col-xs-9 col-xs-offset-1">PAGANELLA - Rodzinne ferie na nartach</div>
@@ -473,6 +474,8 @@ get_header(); ?>
       </div>
     </div>
 
+  </div> -->
+  <div class="detal hidden" id="detal">
   </div>
 </div>
 <?php get_footer(); ?>

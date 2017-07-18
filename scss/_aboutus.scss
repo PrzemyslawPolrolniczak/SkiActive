@@ -79,20 +79,33 @@
 
 
 	.we{
-		padding-top:100px;
-		padding-bottom:100px;
+		padding-top:50px;
+		//padding-bottom:100px;
+		.text-col {
+			padding-top: 50px
+		}
 		h1{
 			margin-top:0px;
 			font-family: 'Roboto Condensed', sans-serif;
 			font-weight: 700;
 			color:$cblue2;
+			font-size: 60px;
+		}
+		h2 {
+			font-family: 'Roboto Condensed', sans-serif;
+	    position: absolute;
+	    font-size: 120px;
+	    font-weight: 700;
+	    opacity: 0.05;
+			top: -40px;
+			color: $cblue2;
 		}
 		.underline{
 			/*float:left;*/
 			width: 60px;
-			height: 5px;
+			height: 6px;
 			background-color:$cblue2;
-			margin:0px auto 40px 0px;
+			margin: 20px auto 40px 0px;
 		}
 
 
@@ -105,6 +118,7 @@
 			 }
 			.textlead{
 				 font-weight: 700;
+				 margin-top: 60px;
 			}
 
 		}
@@ -114,7 +128,9 @@
 
 			img{
 				box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.2);
-				margin-bottom:40px;
+				margin-bottom: 75px;
+				max-height: 305px;
+				float: right;
 			}
 		}
 
@@ -124,9 +140,47 @@
 
 
 	.infographic{
+		background: none;
+		background-image: url(./img/counter-img.png);
+		background-size: cover;
+		background-position: center;
+		.statistics  {
+			background: none;
+			display: flex;
+			height: 600px;
 
-		height:200px;
-		background-color:grey;
+			align-items: center;
+			justify-content: center;
+			h3 {
+				display: none;
+			}
+			.number {
+				position: relative;
+				font-size: 72px;
+				color: $cblue2;
+				font-weight: 700;
+				&:before {
+					content : "";
+				  position: absolute;
+					left: 50%;
+    			transform: translateX(-50%);
+				  bottom  : -10px;
+				  height  : 1px;
+				  width   : 70px;  /* or 100px */
+				  border-bottom:8px solid $corange;
+				}
+			}
+			.count-title {
+				padding-top: 10px;
+				font-size: 28px;
+				color: $cblue2;
+			}
+			.statistics-inner {
+				width: 100%;
+				display: flex;
+				justify-content: space-around;
+			}
+		}
 	}
 
 
@@ -145,6 +199,7 @@
 			font-family: 'Roboto Condensed', sans-serif;
 			font-weight: 700;
 			color:$corange;
+			font-size: 48px;
 		}
 		.underline{
 			width: 60px;
@@ -173,9 +228,11 @@
 				h4{
 					color:$corange;
 					font-weight: 700;
+					font-size: 48px;
 				}
 				p{
 					font-weight: 700;
+					font-size: 16px;
 				}
 			}
 		}
@@ -198,11 +255,11 @@
 				h4{
 					color:$corange;
 					font-weight: 700;
-					font-size: 14px;
+					font-size: 16px;
 				}
 				p{
 					font-weight: 700;
-					font-size: 13px;
+					font-size: 14px;
 				}
 			}
 		}
