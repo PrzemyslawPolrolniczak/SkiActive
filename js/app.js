@@ -31,6 +31,7 @@
       $('.detal').addClass('hidden');
       hideAnimation($('.regulations-details'));
       $('body').removeClass("disable-scroll");
+      $('.country-detail').addClass('hidden');
     };
 
   	$('.owner1').click(function(){
@@ -380,6 +381,47 @@
       lastScrollTop = st;
   }
 
+
+
+  $('.aboutus-slider').slick({
+    centerMode: false,
+    centerPadding: '60px',
+    slidesToShow: 4,
+    dots: true,
+    draggable: false,
+    adaptiveHeight: true,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
   });
+
+  $('.italia').click(function () {
+    showAnimation($('.overlay'), 0.5);
+    // Show form
+    showAnimation($('.italia-detail'), 1);
+  });
+
+  });
+
+
+
 
 })()
