@@ -316,6 +316,7 @@ get_header(); ?>
 
 	<div class="hidden country-detail italia-detail">
 		<div class="row">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
 			<div class="col-xs-6">
 				<h1>FRANCJA</h1>
 				<div class="underline"></div>

@@ -436,7 +436,7 @@
 		}
 	}
 
-	.italia-detail {
+	.country-detail {
 		width: 900px;
 		overflow-y: hidden;
     overflow-x: hidden;
@@ -448,7 +448,35 @@
     top: 50%;
     transform: translate(-50%,-50%);
 		padding: 50px 80px;
+		h1 {
+			margin-top: 30px;
+			font-weight: 700;
+			color: $cblue2;
+			font-size: 48px;
+			font-family: 'Roboto Condensed', sans-serif;
+		}
+		.underline {
+			width: 65px;
+			height: 6px;
+			background-color:$cblue2;
+			margin:15px 0 40px 0;
+		}
+		.exit {
+			position: absolute;
+			right: 20px;
+			top: 20px;
+			max-height: 20px;
+		}
+		img {
+			max-height: 250px;
+			box-shadow: 5px 1px 30px 5px rgba(230,229,229,1);
+		}
+		p {
+			font-size: 16px;
+			line-height: 24px;
+		}
 		.flexbox {
+			margin-top: 40px;
 			padding-left: 20px;
 			display: flex;
 			justify-content: space-between;

@@ -415,7 +415,7 @@
 
   $('.italia').click(function () {
     showAnimation($('.overlay'), 0.5);
-    // Show form
+    $('body').addClass("disable-scroll");
     showAnimation($('.italia-detail'), 1);
   });
 
