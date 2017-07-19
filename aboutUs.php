@@ -318,7 +318,148 @@ get_header(); ?>
 		<div class="row">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
 			<div class="col-xs-6">
+				<h1>WŁOCHY</h1>
+				<div class="underline"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+			</div>
+			<div class="col-xs-6">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid">
+			</div>
+		</div>
+		<div class="flexbox">
+			<div class="plain-text">
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+			</div>
+			<div class="plain-text">
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+			</div>
+			<div class="plain-text">
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="hidden country-detail austria-detail">
+		<div class="row">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
+			<div class="col-xs-6">
+				<h1>AUSTRIA</h1>
+				<div class="underline"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+			</div>
+			<div class="col-xs-6">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid">
+			</div>
+		</div>
+		<div class="flexbox">
+			<div class="plain-text">
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+			</div>
+			<div class="plain-text">
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+			</div>
+			<div class="plain-text">
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="hidden country-detail france-detail">
+		<div class="row">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
+			<div class="col-xs-6">
 				<h1>FRANCJA</h1>
+				<div class="underline"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+			</div>
+			<div class="col-xs-6">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid">
+			</div>
+		</div>
+		<div class="flexbox">
+			<div class="plain-text">
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+			</div>
+			<div class="plain-text">
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+			</div>
+			<div class="plain-text">
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="hidden country-detail switzerland-detail">
+		<div class="row">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
+			<div class="col-xs-6">
+				<h1>SZWAJCARIA</h1>
 				<div class="underline"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 			</div>
