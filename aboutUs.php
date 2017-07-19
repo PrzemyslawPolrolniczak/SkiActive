@@ -47,7 +47,7 @@ get_header(); ?>
 
 		<div class="infographic">
 			<div class="container">
-				<?php echo do_shortcode('[tf_numbers name="years"]'); ?>
+				<?php echo do_shortcode('[tf_numbers name="31"]'); ?>
 			</div>
 		</div>
 

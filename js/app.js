@@ -393,6 +393,7 @@
       centerMode: false,
       centerPadding: '60px',
       slidesToShow: 4,
+      slidesToScroll: 4,
       dots: true,
       draggable: false,
       adaptiveHeight: true,
