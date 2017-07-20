@@ -36,10 +36,27 @@ get_header(); ?>
 				<div class="col-md-5 col-md-offset-1 right-side">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/home-aboutus-photo2.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-					<button class="btn btn-primary btn-outline">Dowiedz się więcej</button>
+					<a href="<?php echo get_site_url(); ?>/about-us"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
 				</div>
 			</div>
 		</div>
+		<div class="infographic">
+			<div class="container">
+				<?php echo do_shortcode('[tf_numbers name="31"]'); ?>
+			</div>
+		</div>
+
+		<div class="container">
+		 <div class="for-you-section">
+			 <h1>DLA CIEBIE</h1>
+			 <h2>DLA CIEBIE</h2>
+			 <div class="underline"></div>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. </p>
+			 <a href="<?php echo get_site_url(); ?>/for-you"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
+		 </div>
+		</div>
+
+
 	</div>
 <?php
 get_footer();

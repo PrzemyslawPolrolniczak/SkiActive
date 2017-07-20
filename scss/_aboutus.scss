@@ -1,5 +1,5 @@
 .aboutUs {
-	margin-top: 82px;
+	margin-top: 50px;
 
 	.overlay {
 		position: fixed;
@@ -15,7 +15,7 @@
 	}
 
 	.we {
-		padding-top: 50px;
+		padding-top: 140px;
 		//padding-bottom:100px;
 		.text-col {
 			padding-top: 50px;
@@ -32,16 +32,16 @@
 		h2 {
 			font-family: 'Roboto Condensed', sans-serif;
 			position: absolute;
-			font-size: 120px;
+			font-size: 90px;
 			font-weight: 700;
 			opacity: 0.05;
-			top: -30px;
+			top: 0px;
 			color: $cblue2;
 		}
 
 		.underline {
-			width: 60px;
-			height: 6px;
+			width: 70px;
+			height: 8px;
 			background-color: $cblue2;
 			margin: 20px auto 40px 0;
 		}
@@ -58,10 +58,10 @@
 		}
 
 		.photos {
-			/*display: flex;
-			flex-direction: column;*/
+			padding-top: 35px;
 			img {
-				box-shadow: 10px 10px 13px 0 rgba(0,0,0,0.2);
+				box-shadow: 6px 10px 27.84px 4.16px rgba(0, 0, 0, 0.17);
+
 				margin-bottom: 75px;
 				max-height: 305px;
 				float: right;
@@ -108,7 +108,7 @@
 
 			.count-title {
 				font-family: 'Roboto Condensed', sans-serif;
-				padding-top: 10px;
+				padding-top: 15px;
 				font-size: 28px;
 				color: $cblue2;
 			}
@@ -133,8 +133,8 @@
 		}
 
 		.underline {
-			width: 65px;
-			height: 6px;
+			width: 70px;
+			height: 8px;
 			background-color: $corange;
 			margin: 20px auto 0;
 		}
@@ -155,11 +155,11 @@
 
 				img {
 					margin: 0 auto;
-					box-shadow: 10px 8px 39px -1px rgba(230,229,229,1);
+					box-shadow: 6px 10px 27.84px 4.16px rgba(0, 0, 0, 0.05);
 				}
 
 				.owner-text {
-					box-shadow: 10px 8px 39px -1px rgba(230,229,229,1);
+					box-shadow: 6px 10px 27.84px 4.16px rgba(0, 0, 0, 0.05);
 					padding-top: 20px;
 					padding-bottom: 10px;
 				}
@@ -173,6 +173,7 @@
 				}
 
 				p {
+					color: #484645;
 					font-weight: 700;
 					font-size: 16px;
 				}
@@ -197,7 +198,7 @@
 
 				img {
 					max-width: 100%;
-					box-shadow: 10px 8px 39px -1px rgba(230,229,229,1);
+					box-shadow: 6px 10px 27.84px 4.16px rgba(0, 0, 0, 0.05);
 				}
 
 				h4 {
@@ -209,6 +210,7 @@
 				}
 
 				p {
+					color: #484645;
 					font-weight: 700;
 					font-size: 14px;
 				}
@@ -226,8 +228,8 @@
 		}
 
 		.underline {
-			width: 65px;
-			height: 6px;
+			width: 70px;
+			height: 8px;
 			background-color: $cblue2;
 			margin: 20px auto;
 		}
@@ -301,8 +303,8 @@
 		}
 
 		.underline {
-			width: 65px;
-			height: 6px;
+			width: 70px;
+			height: 8px;
 			background-color: $corange;
 			margin: 20px auto 10px;
 		}
@@ -349,8 +351,8 @@
 		}
 
 		.underline {
-			width: 65px;
-			height: 6px;
+			width: 70px;
+			height: 8px;
 			background-color: $cblue2;
 			margin: 20px auto 60px;
 		}
@@ -444,8 +446,8 @@
 		}
 
 		.underline {
-			width: 65px;
-			height: 6px;
+			width: 70px;
+			height: 8px;
 			background-color: $cblue2;
 			margin: 15px 0 40px;
 		}
