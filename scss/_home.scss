@@ -66,6 +66,21 @@
       width: 100%;
     }
   }
+  .sliding-person {
+    position: absolute;
+    z-index: 0;
+    top: 300px;
+    img {
+      max-height: 500px;
+    }
+    &.left-one {
+      left: 0;
+    }
+    &.right-one {
+      top: 350px;
+      right: 0;
+    }
+  }
   .hero-text {
     margin-top: 200px;
     h3 {
@@ -260,6 +275,7 @@
       }
     }
     .nearest-events {
+      margin-top: 70px;
       .hero-h3 {
         font-size: 30px;
         font-style: italic;

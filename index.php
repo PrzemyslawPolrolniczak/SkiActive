@@ -18,6 +18,12 @@ get_header(); ?>
 		<div class="background">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/home-bg.png" alt="mountains">
 		</div>
+		<div class="left-one sliding-person">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/left-1st.png" alt="mountains">
+		</div>
+		<div class="right-one sliding-person">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/right-1st.png" alt="mountains">
+		</div>
 		<div class="hero-text">
 			<h3>AKTYWNIE<br>DLA CIEBIE I BIZNESU</h3>
 			<div class="buttons">
