@@ -259,5 +259,187 @@
         transition: all 0.5s;
       }
     }
+    .nearest-events {
+      .hero-h3 {
+        font-size: 30px;
+        font-style: italic;
+        font-weight: 600;
+        text-align: left;
+        color: $corange;
+        padding-left: 5px;
+      }
+      .text-right {
+        padding-top: 11px;
+        text-align: right;
+        margin-top: 20px;
+        padding-right: 5px;
+      }
+      a {
+        font-size: 16px;
+        font-weight: 600;
+        font-style: italic;
+        color: $corange;
+        border-bottom: 1px solid $corange;
+        &:hover {
+          color: $corange;
+        }
+      }
+      .card {
+        text-align: left;
+        cursor: pointer;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 40px;
+        display: flex;
+        transition: all 0.5s;
+        box-shadow: 10px 8px 39px -1px rgba(230,229,229,1);
+        &:hover {
+          transition: all 0.5s;
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-top: 35px;
+        }
+        .no-paddings {
+          @media (min-width: 1200px) {
+            width: 53%;
+          }
+          padding-left: 0px;
+          padding-right: 0;
+          position: relative;
+        }
+        .image {
+          @media (min-width: 1200px) {
+            width: 47%;
+          }
+          padding-left: 0;
+          padding-right: 0;
+        }
+        .text {
+          padding-left: 30px;
+          padding-right: 5px;
+          h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: $corange;
+          }
+          h4 {
+            font-size: 14px;
+            font-style: italic;
+          }
+          p {
+            font-size: 13px;
+            margin-top: 10px;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+          }
+          span {
+            font-size: 13px;
+          }
+        }
+        .color-info {
+          position: absolute;
+          bottom: 0;
+          background-color: $corange;
+          width: 100%;
+          h4 {
+            font-size: 14px;
+            font-style: italic;
+            text-align: center;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .background-for-you {
+    .question-stripe {
+      margin-top: -1px;
+      cursor: pointer;
+      text-align: center;
+      background-color: $corange;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      margin-bottom: 80px;
+      h1 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #FFF;
+        display: inline-block;
+      }
+      img {
+        display: inline-block;
+        max-height: 35px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        box-shadow: none;
+      }
+    }
+  }
+  .for-business-section {
+    margin-top: 200px;
+    .right-side {
+      margin-top: 10px;
+      h2 {
+        font-size: 70px;
+        left: 15px;
+        top: -25px;
+        color: $cblue2
+      }
+      h1 {
+        color: $cblue2;
+      }
+      .underline {
+        top: 100px;
+        left: 18px;
+      }
+      img {
+        margin-top: 90px;
+        max-height: 570px;
+      }
+    }
+    .left-side {
+      padding-top: 20px;
+      text-align: right;
+      img {
+        max-height: 320px;
+        margin-bottom: 90px;
+      }
+      .btn {
+        float: right;
+        margin-top: 30px;
+        width: 170px;
+        box-shadow: 0px 0px 0px 1.5px $cblue2;
+        color: $cblue2;
+        transition: all 0.5s;
+        &:hover {
+          background-color: $cblue2;
+          color: white;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+  .question-stripe {
+    margin-top: 125px;
+    cursor: pointer;
+    text-align: center;
+    background-color: $cblue2;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 80px;
+    h1 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #FFF;
+      display: inline-block;
+    }
+    img {
+      display: inline-block;
+      max-height: 35px;
+      margin-bottom: 20px;
+      margin-left: 40px;
+      box-shadow: none;
+    }
   }
 }

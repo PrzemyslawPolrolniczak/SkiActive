@@ -323,7 +323,7 @@ get_header(); ?>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 			</div>
 			<div class="col-xs-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid detail-img">
 			</div>
 		</div>
 		<div class="flexbox">
@@ -370,7 +370,7 @@ get_header(); ?>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 			</div>
 			<div class="col-xs-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid detail-img">
 			</div>
 		</div>
 		<div class="flexbox">
@@ -417,7 +417,7 @@ get_header(); ?>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 			</div>
 			<div class="col-xs-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid detail-img">
 			</div>
 		</div>
 		<div class="flexbox">
@@ -464,7 +464,7 @@ get_header(); ?>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 			</div>
 			<div class="col-xs-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid detail-img">
 			</div>
 		</div>
 		<div class="flexbox">
