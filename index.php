@@ -27,8 +27,8 @@ get_header(); ?>
 		<div class="hero-text">
 			<h3>AKTYWNIE<br>DLA CIEBIE I BIZNESU</h3>
 			<div class="buttons">
-				<button class="btn btn-primary for-you"><span>DLA CIEBIE</span></button>
-				<button class="btn btn-primary for-business"><span>DLA BIZNESU</span></button>
+				<button class="btn btn-primary for-you for-you-scroll"><span>DLA CIEBIE</span></button>
+				<button class="btn btn-primary for-business for-business-scroll"><span>DLA BIZNESU</span></button>
 			</div>
 		</div>
 		<div class="container">
@@ -52,7 +52,7 @@ get_header(); ?>
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container for-you-container">
 		 <div class="for-you-section">
 			 <h1>DLA CIEBIE</h1>
 			 <h2>DLA CIEBIE</h2>
@@ -112,12 +112,12 @@ get_header(); ?>
 	      </div>
 	    </div>
 	  </div>
-		<div class="container">
+		<div class="container for-business-container">
 			<div class="for-business-section row">
 				<div class="col-md-5 left-side col-md-offset-1">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-girl.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. gratuluje spostrzegawczości ;) dolor es ipsum sit amet</p>
-					<a href="<?php echo get_site_url(); ?>/about-us"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
+					<a href="<?php echo get_site_url(); ?>/for_business"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
 				</div>
 				<div class="col-md-5 col-md-offset-1 right-side">
 					<h1>DLA BIZNESU</h1>

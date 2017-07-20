@@ -347,6 +347,18 @@
       }, 500);
     });
 
+    $('.for-you-scroll').click(function() {
+      $('html, body').animate({
+        scrollTop: $(".for-you-container").offset().top
+      }, 500);
+    });
+
+    $('.for-business-scroll').click(function() {
+      $('html, body').animate({
+        scrollTop: $(".for-business-container").offset().top
+      }, 500);
+    });
+
     //HEADER ANIMATION ON SCROLL
 
     var didScroll;

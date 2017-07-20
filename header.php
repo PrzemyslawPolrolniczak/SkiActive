@@ -31,7 +31,7 @@
 <header>
 	<div id="page" class="container">
 		<div class="row">
-			<div class="col-xs-3"><img src="<?php echo get_template_directory_uri(); ?>/img/Logo.png" alt="Logo" class="img-responsive img-fluid logo"></div>
+			<div class="col-xs-3"><a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/Logo.png" alt="Logo" class="img-responsive img-fluid logo"></a></div>
 			<nav id="site-navigation" class="main-navigation  col-xs-6">
 				<?php
 					wp_nav_menu( array(
