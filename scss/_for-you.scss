@@ -190,6 +190,18 @@
   }
   .section-three {
     margin-top: 150px;
+    .row {
+      margin-top: 46px;
+      position: relative;
+      height: 175px;
+      .row {
+        margin-top: 0;
+      }
+      &.not-first {
+        height: auto;
+        margin-bottom: 50px;
+      }
+    }
     h1 {
       color: $corange;
       text-align: center;
@@ -204,18 +216,17 @@
       border-bottom: 7px solid $corange;
     }
     .card {
+      position: absolute;
       cursor: pointer;
       margin-right: 5px;
       margin-left: 5px;
-      margin-top: 40px;
       display: flex;
       transition: all 0.5s;
       box-shadow: 10px 8px 39px -1px rgba(230,229,229,1);
+      top: 0;
       &:hover {
         transition: all 0.5s;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 35px;
+        top: -10px;
       }
       .no-paddings {
         @media (min-width: 1200px) {

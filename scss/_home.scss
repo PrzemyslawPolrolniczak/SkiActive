@@ -281,7 +281,15 @@
       }
     }
     .nearest-events {
-      margin-top: 70px;
+      margin-top: 40px;
+      height: 175px;
+      &.margin-top {
+        margin-top: 70px;
+        height: auto;
+      }
+      .relative-position {
+        position: relative;
+      }
       .hero-h3 {
         font-size: 30px;
         font-style: italic;
@@ -307,19 +315,18 @@
         }
       }
       .card {
+        position: absolute;
         text-align: left;
         cursor: pointer;
         margin-right: 5px;
         margin-left: 5px;
-        margin-top: 40px;
         display: flex;
         transition: all 0.5s;
         box-shadow: 10px 8px 39px -1px rgba(230,229,229,1);
+        top: 0;
         &:hover {
           transition: all 0.5s;
-          margin-left: 0px;
-          margin-right: 0px;
-          margin-top: 35px;
+          top: -10px;
         }
         .no-paddings {
           @media (min-width: 1200px) {

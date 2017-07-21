@@ -60,46 +60,54 @@ get_header(); ?>
 			 <div class="underline"></div>
 			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. </p>
 			 <a href="<?php echo get_site_url(); ?>/for-you"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
-			 <div class="row nearest-events">
-			 	<div class="col-xs-6">
-					<h3 class="hero-h3">Najbliższe wydarzenia</h3>
-					<div class="card card-left shadowed row">
-            <div class="image col-xs-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
-            </div>
-            <div class="col-xs-6 no-paddings">
-              <div class="text">
-                <h3>KIERUNEK WYJAZDU ABC</h3>
-                <h4>Rodzinne ferie na nartach lorem</h4>
-                <p>31.01.2017 - 07.02.2017</p>
-                <span>Molveno, Włochy</span>
-              </div>
-              <div class="color-info">
-                <h4>Family & Friends</h4>
-              </div>
-            </div>
-          </div>
-				</div>
-			 	<div class="col-xs-6">
-					<div class="text-right"><a href="<?php echo get_site_url(); ?>/for-you#for-you-expand">Sprawdź wszystkie propozycje</a></div>
-					<div class="card card-right shadowed row">
-            <div class="image col-xs-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
-            </div>
-            <div class="col-xs-6 no-paddings">
-              <div class="text">
-                <h3>KIERUNEK WYJAZDU ABC</h3>
-                <h4>Rodzinne ferie na nartach lorem</h4>
-                <p>31.01.2017 - 07.02.2017</p>
-                <span>Molveno, Włochy</span>
-              </div>
-              <div class="color-info">
-                <h4>Family & Friends</h4>
-              </div>
-            </div>
-          </div>
-				</div>
+			 <div class="row nearest-events margin-top">
+				 <div class="col-xs-6">
+				 	<h3 class="hero-h3">Najbliższe wydarzenia</h3>
+				 </div>
+				 <div class="col-xs-6">
+				 	<div class="text-right"><a href="<?php echo get_site_url(); ?>/for-you#for-you-expand">Sprawdź wszystkie propozycje</a></div>
+				 </div>
 			 </div>
+
+				 	<div class="row nearest-events">
+						<div class="col-xs-6 relative-position">
+
+						<div class="card card-left shadowed row">
+	            <div class="image col-xs-6">
+	              <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
+	            </div>
+	            <div class="col-xs-6 no-paddings">
+	              <div class="text">
+	                <h3>KIERUNEK WYJAZDU ABC</h3>
+	                <h4>Rodzinne ferie na nartach lorem</h4>
+	                <p>31.01.2017 - 07.02.2017</p>
+	                <span>Molveno, Włochy</span>
+	              </div>
+	              <div class="color-info">
+	                <h4>Family & Friends</h4>
+	              </div>
+	            </div>
+	          </div>
+					</div>
+					<div class="col-xs-6 relative-position">
+						<div class="card card-right shadowed row">
+		           <div class="image col-xs-6">
+		             <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
+	           	</div>
+	           <div class="col-xs-6 no-paddings">
+	             <div class="text">
+	               <h3>KIERUNEK WYJAZDU ABC</h3>
+	               <h4>Rodzinne ferie na nartach lorem</h4>
+	               <p>31.01.2017 - 07.02.2017</p>
+	               <span>Molveno, Włochy</span>
+	             </div>
+	             <div class="color-info">
+	               <h4>Family & Friends</h4>
+	             </div>
+	          </div>
+	        </div>
+				</div>
+			</div>
 		 </div>
 		</div>
 		<div class="background-for-you">

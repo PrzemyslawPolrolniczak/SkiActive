@@ -173,14 +173,16 @@ get_header(); ?>
       </div>
     </div>
     <div class="scroll-to-here" id="for-you-expand"></div>
-    <div class="section-three row">
-      <div class="col-xs-12">
-        <h1>SZKOLENIA I WYJAZDY DLA CIEBIE</h1>
-        <div class="underline"></div>
+    <div class="section-three">
+      <div class="row not-first">
+        <div class="col-xs-12">
+          <h1>SZKOLENIA I WYJAZDY DLA CIEBIE</h1>
+          <div class="underline"></div>
+        </div>
       </div>
+
       <div class="row">
         <div class="col-lg-6">
-
           <div class="card card1 shadowed row">
             <div class="image col-xs-6">
               <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
@@ -196,24 +198,6 @@ get_header(); ?>
                 <h4>Family & Friends</h4>
               </div>
             </div>
-          </div>
-          <div class="card card2 shadowed row altCol">
-            <div class="image col-xs-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
-            </div>
-            <div class="col-xs-6 no-paddings">
-              <div class="text">
-                <h3>KIERUNEK WYJAZDU ABC</h3>
-                <h4>Rodzinne ferie na nartach lorem</h4>
-                <p>31.01.2017 - 07.02.2017</p>
-                <span>Molveno, Włochy</span>
-              </div>
-              <div class="color-info">
-                <h4>NA ZAPYTANIE</h4>
-              </div>
-            </div>
-
-
           </div>
         </div>
         <div class="col-lg-6">
@@ -233,6 +217,28 @@ get_header(); ?>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card card2 shadowed row altCol">
+            <div class="image col-xs-6">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
+            </div>
+            <div class="col-xs-6 no-paddings">
+              <div class="text">
+                <h3>KIERUNEK WYJAZDU ABC</h3>
+                <h4>Rodzinne ferie na nartach lorem</h4>
+                <p>31.01.2017 - 07.02.2017</p>
+                <span>Molveno, Włochy</span>
+              </div>
+              <div class="color-info">
+                <h4>NA ZAPYTANIE</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
           <div class="card card4 shadowed row altCol">
             <div class="image col-xs-6">
               <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
