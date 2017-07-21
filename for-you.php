@@ -185,7 +185,7 @@ get_header(); ?>
         <div class="col-lg-6">
           <div class="card card1 shadowed row">
             <div class="image col-xs-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
             </div>
             <div class="col-xs-6 no-paddings">
               <div class="text">
@@ -203,7 +203,7 @@ get_header(); ?>
         <div class="col-lg-6">
           <div class="card card3 shadowed row">
             <div class="image col-xs-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
             </div>
             <div class="col-xs-6 no-paddings">
               <div class="text">
@@ -223,7 +223,7 @@ get_header(); ?>
         <div class="col-lg-6">
           <div class="card card2 shadowed row altCol">
             <div class="image col-xs-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
             </div>
             <div class="col-xs-6 no-paddings">
               <div class="text">
@@ -241,7 +241,7 @@ get_header(); ?>
         <div class="col-lg-6">
           <div class="card card4 shadowed row altCol">
             <div class="image col-xs-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
             </div>
             <div class="col-xs-6 no-paddings">
               <div class="text">

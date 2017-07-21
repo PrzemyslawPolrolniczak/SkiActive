@@ -315,18 +315,20 @@
         }
       }
       .card {
+        height: 175px;
+        width: 560px;
         position: absolute;
         text-align: left;
         cursor: pointer;
         margin-right: 5px;
         margin-left: 5px;
         display: flex;
-        transition: all 0.5s;
+        transition: all 0.3s;
         box-shadow: 10px 8px 39px -1px rgba(230,229,229,1);
         top: 0;
         &:hover {
-          transition: all 0.5s;
-          top: -10px;
+          transition: all 0.3s;
+          top: -5px;
         }
         .no-paddings {
           @media (min-width: 1200px) {
@@ -337,6 +339,7 @@
           position: relative;
         }
         .image {
+          overflow: hidden;
           @media (min-width: 1200px) {
             width: 47%;
           }

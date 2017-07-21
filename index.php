@@ -74,7 +74,7 @@ get_header(); ?>
 
 						<div class="card card-left shadowed row">
 	            <div class="image col-xs-6">
-	              <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
+	              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
 	            </div>
 	            <div class="col-xs-6 no-paddings">
 	              <div class="text">
@@ -92,7 +92,7 @@ get_header(); ?>
 					<div class="col-xs-6 relative-position">
 						<div class="card card-right shadowed row">
 		           <div class="image col-xs-6">
-		             <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
+		             <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
 	           	</div>
 	           <div class="col-xs-6 no-paddings">
 	             <div class="text">
