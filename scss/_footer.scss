@@ -23,7 +23,7 @@
 	.site-info{
 
 		background-color:white;
-		padding:50px 0px 50px 0px;
+		padding:90px 0px 50px 0px;
 		display: flex;
 		justify-content:space-between;
 	}
@@ -39,15 +39,15 @@
 			text-align: center;
 			font-family: 'Roboto Condensed', sans-serif;
 			font-weight: 700;
-			padding-top:40px;
 			padding-bottom:15px;
-			font-size: 2em;
 			margin-bottom: 0px;
 			margin-top:0px;
+			padding-top: 70px;
+			font-size: 32px;
 		}
 
 		.underline{
-			width: 60px;
+			width: 70px;
 			height: 5px;
 			background-color:$corange;
 			margin:0px auto 0px auto;
@@ -125,45 +125,57 @@
 
 
    .regulations-details{
-	 	position: fixed;
+	 		position: fixed;
 	    z-index: 10000001;
-	    top:50%;
-	    left: 50%;
-	    transform: translate(-50%, 0px);
-
-		.popup{
+	    top:0;
+	    left: 0;
+	    right: 0;
+			bottom: 0;
 			background-color: white;
-			/*height: 600px;*/
-			padding:30px;
-			/*transform: translate(0px, -50%);*/
 			h1{
 				color:$cblue2;
+				font-size: 52px;
 				text-align: center;
 				font-family: 'Roboto Condensed', sans-serif;
 				font-weight: 700;
-				padding-top:40px;
-				padding-bottom:15px;
-				font-size: 2em;
+				padding-top:140px;
+				padding-bottom:20px;
 				margin-bottom: 0px;
 				margin-top:0px;
 			}
-
-			.underline{
-				width: 60px;
-				height: 5px;
-				background-color:$cblue2;
-				margin:0px auto 0px auto;
+			.exit {
+				max-height: 22.5px;
+				position: absolute;
+				right: 20px;
+				top: 20px;
+				z-index: 10000002;
+				cursor: pointer;
 			}
-
-		}
-
- 	}
-
-
- 	.x_button{
- 		position:absolute;
- 		top:10px;
- 		right:10px;
+			.underline{
+				width: 76px;
+				height: 8px;
+				background-color:$cblue2;
+				margin:0px auto 120px auto;
+			}
+			a {
+				margin-top: 25px;
+				display: block;
+			}
+			.download {
+				width: 615px;
+				margin: 0 auto;
+				box-shadow: 2px 3px 9.7px 0.3px rgba(0, 0, 0, 0.2);
+				padding: 15px 30px 15px 30px;
+				p {
+					font-size: 16px;
+					color: $cblue2;
+					margin-bottom: 0;
+				}
+				img {
+					max-height: 21px;
+					float: right;
+				}
+			}
  	}
 
 

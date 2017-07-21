@@ -22,12 +22,12 @@
     font-family: 'Roboto Condensed', sans-serif;
     position: relative;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 48px;
   }
   h2 {
     font-family: 'Roboto Condensed', sans-serif;
     position: absolute;
-    font-size: 68px;
+    font-size: 80px;
     font-weight: 700;
     opacity: 0.05;
   }
@@ -79,18 +79,19 @@
       margin-top: 50px;
       h1 {
         color: $corange;
-        margin-bottom: 60px;
+        margin-bottom: 75px;
+        font-size: 60px;
       }
       h2 {
         top: -25px;
-        left: 15px;
+        left: 12px;
         color: $corange;
       }
       .underline {
-        top: 85px;
+        top: 100px;
         position: absolute;
-        width: 60px;
-        border-bottom: 6px solid $corange;
+        width: 70px;
+        border-bottom: 7px solid $corange;
       }
       .bold-paragraph {
         font-weight: 700;
@@ -112,11 +113,11 @@
       }
     }
     .first-photo-section {
+      img {
+        max-height: 305px;
+      }
       .shadowed {
-        @media (max-width: 1199px) {
-          max-height: 260px;
-        }
-        margin: 20px auto 60px auto;
+        margin: 20px auto 75px auto;
       }
     }
   }
@@ -132,7 +133,7 @@
       width: 75px;
       left: 50%;
       transform: translateX(-50%);
-      border-bottom: 6px solid $cblue2;
+      border-bottom: 7px solid $cblue2;
     }
     p {
       margin: 70px auto 0 auto;
@@ -216,7 +217,7 @@
       border-bottom: 7px solid $corange;
     }
     .card {
-      width: 560px;
+      width: 550px;
       position: absolute;
       cursor: pointer;
       margin-right: 5px;
@@ -391,6 +392,9 @@
       position: relative;
       &.altColor {
         color: $cblue2;
+        .underline {
+          border-bottom: 7px solid $cblue2;
+        }
       }
       h1 {
         font-family: 'Open Sans', sans-serif;
@@ -448,6 +452,27 @@
           background-color: $corange;
         }
       }
+      &.altColor {
+        button {
+          border: 1px solid $cblue2;
+          &:hover, &:focus, &:before {
+            background-color: $cblue2;
+            &:before {
+              background-color: $cblue2;
+            }
+          }
+        }
+        .slick-arrow {
+          background-color: $cblue2;
+          border-color: $cblue2;
+          padding-bottom: 2px;
+        }
+        .slick-active {
+          button {
+            background-color: $cblue2;
+          }
+        }
+      }
     }
     .center-margins {
       padding-bottom: 80px;
@@ -486,6 +511,21 @@
       }
     }
     .info-section {
+      &.altColor {
+        h1 {
+          color: $cblue2;
+        }
+        .underline {
+          border-bottom: 7px solid $cblue2;
+        }
+        .section-part {
+          .events-dates {
+            h3 {
+              color: $cblue2;
+            }
+          }
+        }
+      }
       margin: 0 auto;
       .section-part {
         position: relative;
@@ -508,7 +548,7 @@
         top: 60px;
         position: absolute;
         width: 55px;
-        border-bottom: 6px solid $corange;
+        border-bottom: 7px solid $corange;
       }
       h1 {
         margin-top: 100px;
@@ -518,6 +558,9 @@
       }
     }
     .footer {
+      &.altColor {
+        background-color: $cblue2;
+      }
       margin-top: 80px;
       text-align: center;
       font-family: 'Roboto Condensed', sans-serif;
@@ -536,4 +579,5 @@
       }
     }
   }
+
 }

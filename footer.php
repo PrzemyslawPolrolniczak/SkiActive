@@ -24,11 +24,8 @@
 			</div>
 
 			<div class="site-info row">
-				<!--<?php  //komentarz//wp_nav_menu(array('theme_location'=>'secondary')); ?> -->
-
 
 				<div class="col-xs-6 col-md-4 regulations">
-					<!--<a href="">Pobierz regulaminy SKIACTIVE</a>-->
 					<p class="regulations-link">Pobierz regulaminy SKIACTIVE</p>
 				</div>
 
@@ -58,21 +55,36 @@
 
 
 	<div class="regulations-details hidden">
-		<div class="container">
-			<div class="popup row">
+			<div class="row">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="" class="img-responsive img-fluid exit">
 				<h1>REGULAMINY SKIACTIVE</h1>
 				<div class="underline"></div>
-				<div class="col-xs-6 col-md-6">
-					<div class="button">
-						<p>Regulamin świadczenia usług drogą elektroniczną</p>
-						<img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" class="img-responsive img-fluid">
+				<a href="#">
+					<div class="download">
+						<p>Regulamin świadczenia usług drogą elektroniczną</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
 					</div>
-				</div>
+				</a>
+				<a href="#">
+					<div class="download">
+						<p>Regulamin świadczenia usług SKIACTIVE</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
+					</div>
+				</a>
+				<a href="#">
+					<div class="download">
+						<p>Regulamin instruktorów SKIACTIVE</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
+					</div>
+				</a>
+				<a href="#">
+					<div class="download">
+						<p>Warunki ubezpieczenia</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
+					</div>
+				</a>
+				<a href="#">
+					<div class="download">
+						<p>Regulamin postępowania przy wypadkach narciarskich</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
+					</div>
+				</a>
 			</div>
-		</div>
-
-
-
 	</div>
 
 
