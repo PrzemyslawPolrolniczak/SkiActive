@@ -172,7 +172,7 @@ get_header(); ?>
         </div>
       </div>
     </div>
-    <div class="scroll-to-here"></div>
+    <div class="scroll-to-here" id="for-you-expand"></div>
     <div class="section-three row">
       <div class="col-xs-12">
         <h1>SZKOLENIA I WYJAZDY DLA CIEBIE</h1>

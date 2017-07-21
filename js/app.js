@@ -349,13 +349,13 @@
 
     $('.for-you-scroll').click(function() {
       $('html, body').animate({
-        scrollTop: $(".for-you-container").offset().top
+        scrollTop: $(".for-you-waypoint").offset().top
       }, 500);
     });
 
     $('.for-business-scroll').click(function() {
       $('html, body').animate({
-        scrollTop: $(".for-business-container").offset().top
+        scrollTop: $(".for-business-waypoint").offset().top
       }, 500);
     });
 

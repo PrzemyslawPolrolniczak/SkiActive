@@ -183,6 +183,7 @@
   }
 
   .infographic {
+    position: relative;
     margin-top: 100px;
 		background: none;
 		background-image: url("./img/counter-img.png");
@@ -195,7 +196,6 @@
 			height: 600px;
 			align-items: center;
 			justify-content: center;
-
 			h3 {
 				display: none;
 			}
@@ -233,6 +233,12 @@
 				justify-content: space-around;
 			}
 		}
+    .for-you-waypoint {
+      height: 1px;
+      width: 10px;
+      position: absolute;
+      bottom: 80px;
+    }
 	}
 
   .for-you-section {
@@ -393,6 +399,13 @@
     }
   }
   .for-business-section {
+    position: relative;
+    .for-business-waypoint {
+      width: 10px;
+      height: 1px;
+      position: absolute;
+      top:-90px;
+    }
     margin-top: 200px;
     .right-side {
       margin-top: 10px;

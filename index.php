@@ -49,6 +49,7 @@ get_header(); ?>
 		<div class="infographic">
 			<div class="container">
 				<?php echo do_shortcode('[tf_numbers name="31"]'); ?>
+				<div class="for-you-waypoint"></div>
 			</div>
 		</div>
 
@@ -80,7 +81,7 @@ get_header(); ?>
           </div>
 				</div>
 			 	<div class="col-xs-6">
-					<div class="text-right"><a href="#">Sprawdź wszystkie propozycje</a></div>
+					<div class="text-right"><a href="<?php echo get_site_url(); ?>/for-you#for-you-expand">Sprawdź wszystkie propozycje</a></div>
 					<div class="card card-right shadowed row">
             <div class="image col-xs-6">
               <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid">
@@ -114,6 +115,7 @@ get_header(); ?>
 	  </div>
 		<div class="container for-business-container">
 			<div class="for-business-section row">
+				<div class="for-business-waypoint"></div>
 				<div class="col-md-5 left-side col-md-offset-1">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-girl.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. gratuluje spostrzegawczości ;) dolor es ipsum sit amet</p>
