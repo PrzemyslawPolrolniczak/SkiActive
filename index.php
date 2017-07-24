@@ -72,7 +72,7 @@ get_header(); ?>
 				 	<div class="row nearest-events">
 						<div class="col-xs-6 relative-position">
 
-						<div class="card card-left shadowed row">
+						<div class="card card-left card1 shadowed row">
 	            <div class="image col-xs-6">
 	              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
 	            </div>
@@ -90,7 +90,7 @@ get_header(); ?>
 	          </div>
 					</div>
 					<div class="col-xs-6 relative-position">
-						<div class="card card-right shadowed row">
+						<div class="card card-right card2 shadowed row">
 		           <div class="image col-xs-6">
 		             <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
 	           	</div>
@@ -144,6 +144,8 @@ get_header(); ?>
 	    <div>
 	      <h1>+48 123 456789 &nbsp | &nbsp dlabiznesu@skiactive.com</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
 	    </div>
+	  </div>
+		<div class="detal hidden" id="detal">
 	  </div>
 	</div>
 <?php

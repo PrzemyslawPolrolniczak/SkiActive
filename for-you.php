@@ -180,45 +180,50 @@ get_header(); ?>
           <div class="underline"></div>
         </div>
       </div>
-
+      <?php if( get_field('tile_visible') == 'yes' || get_field('tile2_visible') == 'yes'): ?>
       <div class="row">
+        <?php if( get_field('tile_visible') == 'yes'): ?>
         <div class="col-lg-6">
-          <div class="card card1 shadowed row">
+          <div class="card card1 <?php the_field('check_tile_color_theme'); ?> shadowed row">
             <div class="image col-xs-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
+              <img src="<?php the_field('tile_image'); ?>" alt="" class="img-responsive img-fluid">
             </div>
             <div class="col-xs-6 no-paddings">
               <div class="text">
-                <h3>KIERUNEK WYJAZDU ABC</h3>
-                <h4>Rodzinne ferie na nartach lorem</h4>
-                <p>31.01.2017 - 07.02.2017</p>
-                <span>Molveno, Włochy</span>
+                <h3><?php the_field('tile_header'); ?></h3>
+                <h4><?php the_field('tile_text'); ?></h4>
+                <p><?php the_field('tile_start_date'); ?> - <?php the_field('tile_end_date'); ?></p>
+                <span><?php the_field('tile_place'); ?></span>
               </div>
               <div class="color-info">
-                <h4>Family & Friends</h4>
+                <h4><?php the_field('tile_footer'); ?></h4>
               </div>
             </div>
           </div>
         </div>
+        <?php endif; ?>
+        <?php if( get_field('tile2_visible') == 'yes'): ?>
         <div class="col-lg-6">
-          <div class="card card3 shadowed row">
+          <div class="card card1 <?php the_field('check_tile2_color_theme'); ?> shadowed row">
             <div class="image col-xs-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
+              <img src="<?php the_field('tile2_image'); ?>" alt="" class="img-responsive img-fluid">
             </div>
             <div class="col-xs-6 no-paddings">
               <div class="text">
-                <h3>KIERUNEK WYJAZDU ABC</h3>
-                <h4>Rodzinne ferie na nartach lorem</h4>
-                <p>31.01.2017 - 07.02.2017</p>
-                <span>Molveno, Włochy</span>
+                <h3><?php the_field('tile2_header'); ?></h3>
+                <h4><?php the_field('tile2_text'); ?></h4>
+                <p><?php the_field('tile2_start_date'); ?> - <?php the_field('tile2_end_date'); ?></p>
+                <span><?php the_field('tile2_place'); ?></span>
               </div>
               <div class="color-info">
-                <h4>Family & Friends</h4>
+                <h4><?php the_field('tile2_footer'); ?></h4>
               </div>
             </div>
           </div>
         </div>
+        <?php endif; ?>
       </div>
+      <?php endif; ?>
       <div class="row">
         <div class="col-lg-6">
           <div class="card card2 shadowed row altCol">
@@ -239,7 +244,7 @@ get_header(); ?>
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="card card4 shadowed row altCol">
+          <div class="card card2 shadowed row altCol">
             <div class="image col-xs-6">
               <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
             </div>
