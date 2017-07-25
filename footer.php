@@ -21,6 +21,7 @@
 			NEWSLETTER SKIACTIVE
 			</h1>
 			<div class="underline"></div>
+			<?php echo do_shortcode('[wysija_form id="2"]'); ?>
 			</div>
 
 			<div class="site-info row">

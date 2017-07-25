@@ -180,6 +180,9 @@ get_header(); ?>
           <div class="underline"></div>
         </div>
       </div>
+
+      <!-- start tiles section -->
+
       <?php if( get_field('tile_visible') == 'yes' || get_field('tile2_visible') == 'yes'): ?>
       <div class="row">
         <?php if( get_field('tile_visible') == 'yes'): ?>
@@ -224,6 +227,8 @@ get_header(); ?>
         <?php endif; ?>
       </div>
       <?php endif; ?>
+
+
       <div class="row">
         <div class="col-lg-6">
           <div class="card card2 shadowed row altCol">
@@ -262,8 +267,9 @@ get_header(); ?>
           </div>
         </div>
       </div>
-    </div>
 
+
+    </div>
   </div>
   <div class="background-for-you">
     <img src="<?php echo get_template_directory_uri(); ?>/img/background-for-you.png" alt="" class="img-responsive img-fluid">

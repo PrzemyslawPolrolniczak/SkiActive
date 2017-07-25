@@ -3,8 +3,8 @@
 	.newsletter{
 		color:$corange;
 		background-color:white;
-		height: 200px;
 		width:100%;
+		padding-bottom: 75px;
 	}
 	.footerimage img{
 		/*content:url(./img/footer-mountains.png);*/
@@ -51,6 +51,98 @@
 			height: 5px;
 			background-color:$corange;
 			margin:0px auto 0px auto;
+			margin-bottom: 50px;
+		}
+		.widget_wysija_cont.shortcode_wysija {
+			.wysija-msg.ajax {
+				.allmsgs {
+					blink {
+						display: none;
+					}
+				}
+				.updated {
+					background-color: transparent;
+					border-color: transparent;
+					ul {
+						li {
+							font-size: 18px;
+							text-align: center;
+							font-weight: 700;
+						}
+					}
+				}
+				.error {
+					ul {
+						text-align: center;
+						font-size: 18px;
+						font-weight: 700;
+						&:after {
+							content: "Wystąpił problem, przepraszamy i prosimy spróbować ponownie później.";
+						}
+						li {
+							display: none;
+							a {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+		form {
+			&.shortcode_wysija.widget_wysija {
+				height: 40px;
+				display: flex;
+				justify-content: center;
+				.wysija-submit {
+					&.wysija-submit-field {
+						display: inline-block;
+						margin: 0;
+						border-radius: 0;
+				    background-color: inherit;
+				    color: inherit;
+				    transition: all .5s;
+				    display: block;
+				    font-size: 14px;
+				    font-weight: 700;
+				    padding-left: 15px;
+				    padding-right: 15px;
+				    padding-top: 7px;
+				    padding-bottom: 8px;
+				    width: 110px;
+				    &:focus {
+				      outline: 0;
+				    }
+						border-width: 0px;
+		        box-shadow: 0px 0px 0px 2px rgba(239,128,30,1);
+		        &:hover {
+		          color: #FFF;
+		          background-color: $corange;
+		        }
+		        &:active {
+		          background-color: $corange;
+		          border-color: $corange;
+		          color: #FFF;
+		        }
+					}
+				}
+				.wysija-paragraph {
+					input {
+						&:active, &:focus {
+							outline: none;
+						}
+						&::placeholder {
+							color: #a2a2a2;
+						}
+						font-size: 18px;
+						width: 400px;
+						margin-right: 25px;
+						height: 40px;
+						border: 0;
+						border-bottom: 2px solid $corange;
+					}
+				}
+			}
 		}
 	}
 
