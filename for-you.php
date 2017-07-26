@@ -182,54 +182,61 @@ get_header(); ?>
       </div>
 
       <!-- start tiles section -->
+      <?php
+        for ($i = 1; $i <= 24; $i = $i + 2) {
+          $x = $i + 1;
+        ?>
 
-      <?php if( get_field('tile_visible') == 'yes' || get_field('tile2_visible') == 'yes'): ?>
+      <?php
+      if( get_field('tile' . $i . '_visible') == 'yes' || get_field('tile' . $x . '_visible') == 'yes'): ?>
       <div class="row">
-        <?php if( get_field('tile_visible') == 'yes'): ?>
+        <?php if( get_field('tile' . $i . '_visible') == 'yes'): ?>
         <div class="col-lg-6">
-          <div class="card card1 <?php the_field('check_tile_color_theme'); ?> shadowed row">
+          <div class="card card1 <?php the_field('check_tile' . $i . '_color_theme'); ?> shadowed row">
             <div class="image col-xs-6">
-              <img src="<?php the_field('tile_image'); ?>" alt="" class="img-responsive img-fluid">
+              <img src="<?php the_field('tile' . $i . '_image'); ?>" alt="" class="img-responsive img-fluid">
             </div>
             <div class="col-xs-6 no-paddings">
               <div class="text">
-                <h3><?php the_field('tile_header'); ?></h3>
-                <h4><?php the_field('tile_text'); ?></h4>
-                <p><?php the_field('tile_start_date'); ?> - <?php the_field('tile_end_date'); ?></p>
-                <span><?php the_field('tile_place'); ?></span>
+                <h3><?php the_field('tile' . $i . '_header'); ?></h3>
+                <h4><?php the_field('tile' . $i . '_text'); ?></h4>
+                <p><?php the_field('tile' . $i . '_start_date'); ?> - <?php the_field('tile' . $i . '_end_date'); ?></p>
+                <span><?php the_field('tile' . $i . '_place'); ?></span>
               </div>
               <div class="color-info">
-                <h4><?php the_field('tile_footer'); ?></h4>
+                <h4><?php the_field('tile' . $i . '_footer'); ?></h4>
               </div>
             </div>
           </div>
         </div>
         <?php endif; ?>
-        <?php if( get_field('tile2_visible') == 'yes'): ?>
+        <?php if( get_field('tile' . $x . '_visible') == 'yes'): ?>
         <div class="col-lg-6">
-          <div class="card card1 <?php the_field('check_tile2_color_theme'); ?> shadowed row">
+          <div class="card card1 <?php the_field('check_tile' . $x . '_color_theme'); ?> shadowed row">
             <div class="image col-xs-6">
               <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
             </div>
             <div class="col-xs-6 no-paddings">
               <div class="text">
-                <h3><?php the_field('tile2_header'); ?></h3>
-                <h4><?php the_field('tile2_text'); ?></h4>
-                <p><?php the_field('tile2_start_date'); ?> - <?php the_field('tile2_end_date'); ?></p>
-                <span><?php the_field('tile2_place'); ?></span>
+                <h3><?php the_field('tile' . $x . '_header'); ?></h3>
+                <h4><?php the_field('tile' . $x . '_text'); ?></h4>
+                <p><?php the_field('tile' . $x . '_start_date'); ?> - <?php the_field('tile' . $x . '_end_date'); ?></p>
+                <span><?php the_field('tile' . $x . '_place'); ?></span>
               </div>
               <div class="color-info">
-                <h4><?php the_field('tile2_footer'); ?></h4>
+                <h4><?php the_field('tile' . $x . '_footer'); ?></h4>
               </div>
             </div>
           </div>
         </div>
         <?php endif; ?>
       </div>
-      <?php endif; ?>
+      <?php endif;
+    };
+      ?>
 
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-lg-6">
           <div class="card card2 shadowed row altCol">
             <div class="image col-xs-6">
@@ -266,7 +273,7 @@ get_header(); ?>
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
     </div>

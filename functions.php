@@ -7,6 +7,7 @@
  * @package SkiActive
  */
 
+
 if ( ! function_exists( 'skiactive_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -15,6 +16,7 @@ if ( ! function_exists( 'skiactive_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+
 function skiactive_setup() {
 	/*
 	 * Make theme available for translation.
@@ -111,6 +113,7 @@ function skiactive_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
+
 add_action( 'widgets_init', 'skiactive_widgets_init' );
 
 /**
