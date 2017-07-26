@@ -453,6 +453,22 @@
       showingDircetionsDetail('.switzerland-detail');
     });
 
+
+    $('.mobile-expander').click(function () {
+      $('.contact-mobile-container').slideDown("fast");
+    });
+
+    $('.exit-contact').click(function () {
+      $('.contact-mobile-container').slideUp("fast");
+    });
+
+    $('.burger-menu').click(function () {
+      $('.expanded-burger').slideDown("fast");
+    });
+
+    $('.exit-burger').click(function () {
+      $('.expanded-burger').slideUp("fast");
+    });
   });
 
 

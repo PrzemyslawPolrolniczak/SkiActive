@@ -29,10 +29,11 @@
 
 <body <?php body_class(); ?>>
 <header>
-	<div id="page" class="container">
-		<div class="row">
-			<div class="col-xs-3"><a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/Logo.png" alt="Logo" class="img-responsive img-fluid logo"></a></div>
-			<nav id="site-navigation" class="main-navigation  col-xs-6">
+	<div id="page" class="">
+		<div class="container">
+		<div class="row hidden-sm hidden-xs">
+			<div class="col-md-3"><a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/Logo.png" alt="Logo" class="img-responsive img-fluid logo"></a></div>
+			<nav id="site-navigation" class="main-navigation  col-md-6">
 				<?php
 					wp_nav_menu( array(
 						'menu' => 'Menu 1',
@@ -41,7 +42,7 @@
 					) );
 				?>
 			</nav><!-- #site-navigation -->
-			<div class="col-xs-offset-1 col-xs-2 contact-div">
+			<div class="col-md-offset-1 col-md-2 contact-div">
 				<span>ENG</span>
 				<img src="<?php echo get_template_directory_uri(); ?>/img/contact.png" alt="contact" class="img-responsive img-fluid contact-img">
 				<div class="hidden contact-info">
@@ -55,5 +56,56 @@
 				</div>
 			</div>
 		</div><!-- #masthead -->
+	</div>
+
+		<div class="visible-sm visible-xs">
+
+					<div class="row">
+		        <div class="navbar-header burger-container col-xs-2">
+		            <button type="button" class="navbar-toggle burger-menu">
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		            </button>
+		        </div>
+						<div class="col-xs-8">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/Logo.png" alt="Logo" class="img-responsive img-fluid logo">
+						</div>
+						<div class="col-xs-2 contact-mobile"><img src="<?php echo get_template_directory_uri(); ?>/img/contact.png" alt="contact" class="img-responsive img-fluid contact-img mobile-expander"></div>
+					</div>
+
+		        <!-- Collect the nav links, forms, and other content for toggling -->
+		        <div class="hidde expanded-burger">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/exitButton.png" alt="exit" class="img-responsive img-fluid exit-burger">
+							<nav id="site-navigation" class="main-navigation">
+								<?php
+									wp_nav_menu( array(
+										'menu' => 'Menu 1',
+										'theme_location' => 'menu-1',
+										'menu_id'        => 'primary-menu',
+									) );
+								?>
+							</nav>
+		        </div>
+						<div class="hidde contact-mobile-container">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/exitButton.png" alt="exit" class="img-responsive img-fluid exit-contact">
+							<h6>DLA CIEBIE</h6>
+							<div>
+								<a href="#">+48 123 456789</a>
+							</div>
+							<div>
+								<a href="">dlaciebie@skiactive.com</a>
+							</div>
+							<h6>DLA BIZNESU</h6>
+							<div>
+								<a href="#">+48 123 456789</a>
+							</div>
+							<div>
+								<a href="">dlabiznesu@skiactive.com</a>
+							</div>
+						</div>
+
+
+
 	</div>
 </header>

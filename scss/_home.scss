@@ -166,11 +166,12 @@
         text-align: right;
       }
       .underline {
-        background-color: $cblue2;
+        background-color: $corange;
         top: 100px;
         right: 18px;
       }
       img {
+        border-bottom: 15px solid $cblue2;
         margin-top: 85px;
         float: right;
         max-height: 480px;
@@ -178,6 +179,7 @@
     }
     .right-side {
       img {
+        border-bottom: 15px solid $cblue2;
         max-height: 310px;
         margin-bottom: 90px;
       }
@@ -269,7 +271,7 @@
       font-size: 80px;
     }
     .underline {
-      background-color: $corange;
+      background-color: $cblue2;
       left: 50%;
       transform: translate(-50%, 0%);
       height: 7px;
@@ -443,11 +445,12 @@
         color: $cblue2;
       }
       .underline {
-        background-color: $cblue2;
+        background-color: $corange;
         top: 100px;
         left: 18px;
       }
       img {
+        border-bottom: 15px solid $cblue2;
         margin-top: 90px;
         max-height: 570px;
       }
@@ -456,6 +459,7 @@
       padding-top: 20px;
       text-align: right;
       img {
+        border-bottom: 15px solid $cblue2;
         max-height: 320px;
         margin-bottom: 90px;
       }
