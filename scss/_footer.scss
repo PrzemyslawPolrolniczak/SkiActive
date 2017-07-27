@@ -5,6 +5,9 @@
 		background-color:white;
 		width:100%;
 		padding-bottom: 75px;
+		@media (max-width: 650px ) {
+			padding-bottom: 50px;
+		}
 	}
 	.footerimage img{
 		/*content:url(./img/footer-mountains.png);*/
@@ -26,6 +29,10 @@
 		padding:90px 0px 50px 0px;
 		display: flex;
 		justify-content:space-between;
+		@media (max-width: 991px) {
+			padding-top: 40px;
+			display: block;
+		}
 	}
 
 	.newsletter{
@@ -44,14 +51,21 @@
 			margin-top:0px;
 			padding-top: 70px;
 			font-size: 32px;
+			@media (max-width: 490px ) {
+				font-size: 27px;
+				padding-top: 50px;
+			}
 		}
 
 		.underline{
 			width: 70px;
-			height: 5px;
+			height: 6px;
 			background-color:$cblue2;
 			margin:0px auto 0px auto;
 			margin-bottom: 50px;
+			@media (max-width: 650px) {
+				margin-bottom: 75px;
+			}
 		}
 		.widget_wysija_cont.shortcode_wysija {
 			.wysija-msg.ajax {
@@ -94,9 +108,13 @@
 				height: 40px;
 				display: flex;
 				justify-content: center;
+				@media (max-width: 650px) {
+					flex-direction: column;
+					height: auto;
+					align-items: center;
+				}
 				.wysija-submit {
 					&.wysija-submit-field {
-						display: inline-block;
 						margin: 0;
 						border-radius: 0;
 				    background-color: inherit;
@@ -110,6 +128,9 @@
 				    padding-top: 7px;
 				    padding-bottom: 8px;
 				    width: 110px;
+						@media (max-width: 650px) {
+							margin-top: 30px;
+						}
 				    &:focus {
 				      outline: 0;
 				    }
@@ -140,6 +161,17 @@
 						height: 40px;
 						border: 0;
 						border-bottom: 2px solid $corange;
+						@media (max-width: 650px) {
+							text-align: center;
+							margin-right: 0;
+							padding-bottom: 5px;
+						}
+						@media (max-width: 490px) {
+							width: 100%;
+						}
+					}
+					@media (max-width: 490px) {
+						width: 100%;
 					}
 				}
 			}
@@ -149,6 +181,9 @@
 	.regulations{
 		align-self:center;
 		cursor: pointer;
+		@media (max-width: 991px) {
+			text-align: center;
+		}
 		a{
 			color:$cblue2;
 			font-weight:600;
@@ -156,6 +191,7 @@
 		.regulations-link{
 			color:$cblue2;
 			font-weight:600;
+
 		}
 	}
 
@@ -163,6 +199,9 @@
 		align-self:center;
 		display: flex;
 		justify-content: center;
+		@media (max-width: 991px) {
+			padding-bottom: 40px;
+		}
 		img {
 			max-height: 50px;
 			margin:10px;
@@ -179,6 +218,9 @@
 		align-self:center;
 		display: flex;
 		justify-content: flex-end;
+		@media (max-width: 991px) {
+			justify-content: center;
+		}
 		.policy-links{
 			/*display: flex;
 			justify-content: right;*/

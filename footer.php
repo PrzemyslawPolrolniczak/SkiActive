@@ -26,18 +26,21 @@
 
 			<div class="site-info row">
 
-				<div class="col-xs-6 col-md-4 regulations">
+				<div class="col-md-4 regulations hidden-xs hidden-sm">
 					<p class="regulations-link">Pobierz regulaminy SKIACTIVE</p>
 				</div>
 
 
-				<div class="col-xs-6 col-md-4 icons" >
+				<div class="col-md-4 icons" >
 					<img src="<?php echo get_template_directory_uri(); ?>/img/face-icon.png" alt="facebook icon" class="img-responsive img-fluid">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/insta-icon.png" alt="instagram icon" class="img-responsive img-fluid">
 				</div>
 
+				<div class="col-md-4 regulations visible-xs visible-sm">
+					<p class="regulations-link">Pobierz regulaminy SKIACTIVE</p>
+				</div>
 
-				<div class="col-xs-6 col-md-4 policy">
+				<div class="col-md-4 policy">
 					<div class="policy-links">
 						<a href="">Polityka cookies</a>
 						<p>|</p>
