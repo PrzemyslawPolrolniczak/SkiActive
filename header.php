@@ -68,7 +68,7 @@
 		                <span class="icon-bar"></span>
 		            </button>
 		        </div>
-						<div class="col-xs-8">
+						<div class="col-xs-8 logo-mobile">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/Logo.png" alt="Logo" class="img-responsive img-fluid logo">
 						</div>
 						<div class="col-xs-2 contact-mobile"><img src="<?php echo get_template_directory_uri(); ?>/img/contact.png" alt="contact" class="img-responsive img-fluid contact-img mobile-expander"></div>
@@ -77,6 +77,7 @@
 		        <!-- Collect the nav links, forms, and other content for toggling -->
 		        <div class="hidde expanded-burger">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/exitButton.png" alt="exit" class="img-responsive img-fluid exit-burger">
+							<a href="#" class="english">ENG</a>
 							<nav id="site-navigation" class="main-navigation">
 								<?php
 									wp_nav_menu( array(

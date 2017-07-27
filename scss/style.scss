@@ -11,8 +11,11 @@
 
 
 body {
+  width: 100%;
+  height: 100%;
   font-family: 'Open Sans', sans-serif;
   //font-family: 'Roboto Condensed', sans-serif;
+  overflow-x: hidden;
 }
 
 a:focus, :hover, :active {

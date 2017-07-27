@@ -176,12 +176,27 @@ header {
       left: 20px;
       z-index: 20000003;
     }
+    .english {
+      position: absolute;
+      right: 20px;
+      top: 28px;
+      font-size: 16px;
+      color: White;
+    }
+  }
+  .logo-mobile {
+    @media (max-width: 400px) {
+      padding: 0;
+    }
   }
   .contact-mobile {
     display: flex;
     align-items: center;
     justify-content: flex-end;
   //  height: 75px;
+    @media (max-width: 400px) {
+      padding-left: 0;
+    }
     img {
       height: 35px;
     }

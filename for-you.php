@@ -194,7 +194,7 @@ get_header(); ?>
         <div class="col-lg-6">
           <div class="card card1 <?php the_field('check_tile' . $i . '_color_theme'); ?> shadowed row">
             <div class="image col-xs-6">
-              <img src="<?php the_field('tile' . $i . '_image'); ?>" alt="" class="img-responsive img-fluid">
+              <img src="<?php the_field('tile' . $i . '_image'); ?>" alt="" class="card-image">
             </div>
             <div class="col-xs-6 no-paddings">
               <div class="text">

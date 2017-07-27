@@ -61,20 +61,20 @@ get_header(); ?>
 			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. </p>
 			 <a href="<?php echo get_site_url(); ?>/for-you"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
 			 <div class="row nearest-events margin-top">
-				 <div class="col-xs-6">
+				 <div class="col-md-6">
 				 	<h3 class="hero-h3">Najbliższe wydarzenia</h3>
 				 </div>
-				 <div class="col-xs-6">
-				 	<div class="text-right"><a href="<?php echo get_site_url(); ?>/for-you#for-you-expand">Sprawdź wszystkie propozycje</a></div>
+				 <div class="col-md-6">
+				 	<div class="text-right hidden-sm hidden-xs"><a href="<?php echo get_site_url(); ?>/for-you#for-you-expand">Sprawdź wszystkie propozycje</a></div>
 				 </div>
 			 </div>
 
 				 	<div class="row nearest-events">
-						<div class="col-xs-6 relative-position">
+						<div class="col-md-6 relative-position">
 
 						<div class="card card-left card1 shadowed row">
 	            <div class="image col-xs-6">
-	              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
+	              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="card-image">
 	            </div>
 	            <div class="col-xs-6 no-paddings">
 	              <div class="text">
@@ -89,10 +89,10 @@ get_header(); ?>
 	            </div>
 	          </div>
 					</div>
-					<div class="col-xs-6 relative-position">
+					<div class="col-md-6 relative-position">
 						<div class="card card-right card2 shadowed row">
 		           <div class="image col-xs-6">
-		             <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
+		             <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="card-image">
 	           	</div>
 	           <div class="col-xs-6 no-paddings">
 	             <div class="text">
@@ -114,10 +114,10 @@ get_header(); ?>
 	    <img src="<?php echo get_template_directory_uri(); ?>/img/background-for-you.png" alt="" class="img-responsive img-fluid">
 	    <div class="question-stripe slider">
 	      <div>
-	        <h1>Masz pytania dotyczące oferty dla Ciebie?</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
+	        <h1>Masz pytania dotyczące<br class="line-break"> oferty dla Ciebie?</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
 	      </div>
 	      <div>
-	        <h1>+48 123 456789 &nbsp | &nbsp  dlaciebie@skiactive.com</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
+	        <h1>+48 123 456789 &nbsp <span class="hidden-sm hidden-xs">|</span> <span class="hidden-sm hidden-xs">&nbsp</span><br class="line-break">dlaciebie@skiactive.com</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
 	      </div>
 	    </div>
 	  </div>
@@ -125,6 +125,9 @@ get_header(); ?>
 			<div class="for-business-section row">
 				<div class="for-business-waypoint"></div>
 				<div class="col-md-5 left-side col-md-offset-1">
+					<h1 class="visible-xs visible-sm">DLA BIZNESU</h1>
+					<h2 class="visible-xs visible-sm">DLA BIZNESU</h2>
+					<div class="underline visible-xs visible-sm"></div>
 					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-girl.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. gratuluje spostrzegawczości ;) dolor es ipsum sit amet</p>
 					<a href="<?php echo get_site_url(); ?>/for_business"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
@@ -139,10 +142,10 @@ get_header(); ?>
 		</div>
 		<div class="question-stripe slider">
 	    <div>
-	      <h1>Masz pytania dotyczące oferty dla biznesu?</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
+	      <h1>Masz pytania dotyczące<br class="line-break"> oferty dla biznesu?</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
 	    </div>
 	    <div>
-	      <h1>+48 123 456789 &nbsp | &nbsp dlabiznesu@skiactive.com</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
+	      <h1>+48 123 456789 &nbsp <span class="hidden-sm hidden-xs">|</span> <span class="hidden-sm hidden-xs">&nbsp</span><br class="line-break"> dlabiznesu@skiactive.com</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
 	    </div>
 	  </div>
 		<div class="detal hidden" id="detal">
