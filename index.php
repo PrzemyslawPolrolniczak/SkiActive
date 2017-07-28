@@ -48,7 +48,26 @@ get_header(); ?>
 		</div>
 		<div class="infographic">
 			<div class="container">
-				<?php echo do_shortcode('[tf_numbers name="31"]'); ?>
+
+				<span class="hidden-sm hidden-xs">
+					<?php echo do_shortcode('[tf_numbers name="31"]'); ?>
+				</span>
+				<span class="visible-sm visible-xs">
+					<div class="statistics stats-custom-0" data-sp="80" id="tf-stat-44">
+						<div class="slider">
+							<div class="stat" data-count="16">
+								<span class="number">
+
+								</span>
+								<span class="count-title">
+
+								</span>
+							</div>
+							<div></div>
+							<div></div>
+						</div>
+					</div>
+				</span>
 				<div class="for-you-waypoint"></div>
 			</div>
 		</div>
@@ -108,6 +127,9 @@ get_header(); ?>
 	        </div>
 				</div>
 			</div>
+
+			<a href=""><button class="btn btn-primary btn-outline all-proposals">Sprawdź wszystkie propozycje</button></a>
+
 		 </div>
 		</div>
 		<div class="background-for-you">
