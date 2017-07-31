@@ -431,6 +431,50 @@
       ]
     });
 
+    $('.right-arrow').click(function () {
+      if ( $('.first').hasClass('hidde') == false ) {
+        $('.first').fadeOut(function () {
+          $('.first').addClass('hidde');
+          $('.second').fadeIn().removeClass('hidde');
+        });
+
+      } else if ( $('.second').hasClass('hidde') == false ) {
+        $('.second').fadeOut(function () {
+          $('.second').addClass('hidde');
+          $('.third').fadeIn().removeClass('hidde');
+        });
+
+      } else if ( $('.third').hasClass('hidde') == false ) {
+        $('.third').fadeOut(function () {
+          $('.third').addClass('hidde');
+          $('.first').fadeIn().removeClass('hidde');
+        });
+      }
+    });
+
+    $('.left-arrow').click(function () {
+      if ( $('.first').hasClass('hidde') == false ) {
+        $('.first').fadeOut(function () {
+          $('.first').addClass('hidde');
+          $('.third').fadeIn().removeClass('hidde');
+        });
+
+      } else if ( $('.second').hasClass('hidde') == false ) {
+        $('.second').fadeOut(function () {
+          $('.second').addClass('hidde');
+          $('.first').fadeIn().removeClass('hidde');
+        });
+
+      } else if ( $('.third').hasClass('hidde') == false ) {
+        $('.third').fadeOut(function () {
+          $('.third').addClass('hidde');
+          $('.second').fadeIn().removeClass('hidde');
+        });
+      }
+    })
+
+
+
     function showingDircetionsDetail(direction) {
       showAnimation($('.overlay'), 0.5);
       $('body').addClass("disable-scroll");

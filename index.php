@@ -37,9 +37,12 @@ get_header(); ?>
 					<h1>O NAS</h1>
 					<h2>O NAS</h2>
 					<div class="underline"></div>
-					<img src="<?php echo get_template_directory_uri(); ?>/img/home-aboutus-photo1.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/home-aboutus-photo1.png" alt="placeholder" class="img-responsive img-fluid shadowed">
 				</div>
 				<div class="col-md-5 col-md-offset-1 right-side">
+					<h1 class="visible-xs visible-sm">O NAS</h1>
+					<h2 class="visible-xs visible-sm">O NAS</h2>
+					<div class="underline visible-xs visible-sm"></div>
 					<img src="<?php echo get_template_directory_uri(); ?>/img/home-aboutus-photo2.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
 					<a href="<?php echo get_site_url(); ?>/about-us"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
@@ -53,18 +56,24 @@ get_header(); ?>
 					<?php echo do_shortcode('[tf_numbers name="31"]'); ?>
 				</span>
 				<span class="visible-sm visible-xs">
-					<div class="statistics stats-custom-0" data-sp="80" id="tf-stat-44">
-						<div class="slider">
-							<div class="stat" data-count="16">
-								<span class="number">
-
-								</span>
-								<span class="count-title">
-
-								</span>
-							</div>
-							<div></div>
-							<div></div>
+					<div class="statistics">
+						<div class="left-arrow">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/leftArrow.png" alt="placeholder" class="img-responsive img-fluid">
+						</div>
+						<div class="first">
+							<div class="number">16</div>
+							<div class="count-title">lat działalności</div>
+						</div>
+						<div class="second hidde">
+							<div class="number">287</div>
+							<div class="count-title">zrealizowanych projektów</div>
+						</div>
+						<div class="third hidde">
+							<div class="number">24</div>
+							<div class="count-title">odwiedzone kraje</div>
+						</div>
+						<div class="right-arrow">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/rightArrow.png" alt="placeholder" class="img-responsive img-fluid">
 						</div>
 					</div>
 				</span>
@@ -128,7 +137,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<a href=""><button class="btn btn-primary btn-outline all-proposals">Sprawdź wszystkie propozycje</button></a>
+			<a href=""><button class="btn btn-primary btn-outline all-proposals hidden-lg hidden-md">Sprawdź wszystkie propozycje</button></a>
 
 		 </div>
 		</div>

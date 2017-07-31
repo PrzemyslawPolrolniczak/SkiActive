@@ -73,6 +73,9 @@
     img {
       max-height: 500px;
     }
+    @media (max-width: 991px) {
+      display: none;
+    }
     &.left-one {
       left: 0;
       @media (max-width: 1475px) {
@@ -105,11 +108,28 @@
       text-align: center;
       color: white;
       font-family: 'Roboto Condensed', sans-serif;
+      @media (max-width: 991px) {
+        margin-bottom: 130px;
+      }
+      @media (max-width: 700px) {
+        font-size: 54px;
+      }
+      @media (max-width: 500px) {
+        font-size: 42px;
+      }
+      @media (max-width: 400px) {
+        font-size: 32px;
+      }
     }
     .buttons {
       margin-top: 45px;
       display: flex;
       justify-content: center;
+      @media (max-width: 991px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+      }
       .btn-primary {
         filter: drop-shadow(1px 6px 12px #666666);
         -webkit-filter: drop-shadow(1px 6px 12px #666666);
@@ -128,6 +148,10 @@
         &:active, &:focus {
           outline: 0;
         }
+        @media (max-width: 991px) {
+          filter: none;
+          -webkit-filter: none;
+        }
         &.for-you {
           margin-right: 22.5px;
           border-color: $corange;
@@ -137,6 +161,9 @@
             transition: all 0.3s;
             border-color: #f19746;
             background-color: #f19746;
+          }
+          @media (max-width: 991px) {
+            margin-right: 0px;
           }
         }
         &.for-business {
@@ -149,28 +176,76 @@
             background-color: #257acd;
             border-color: #257acd;
           }
+          @media (max-width: 991px) {
+            margin-top: 30px;
+            margin-left: 0px;
+          }
         }
       }
     }
   }
   .about-us-section {
     margin-top: 440px;
+    @media (max-width: 991px) {
+      margin-top: 100px;
+    }
+    h2 {
+      right: 15px;
+      top: -60px;
+      color: $cblue2;
+      @media (max-width: 991px) {
+        right: auto;
+        top: -80px;
+        left: 15px;
+      }
+      @media (max-width: 500px) {
+        font-size: 80px;
+        top: -53px;
+      }
+      @media (max-width: 400px) {
+        font-size: 55px;
+      }
+    }
+    h1 {
+      color: $cblue2;
+      text-align: right;
+      @media (max-width: 991px) {
+        text-align: left;
+        margin-bottom: 60px;
+      }
+      @media (max-width: 500px) {
+        font-size: 50px;
+      }
+      @media (max-width: 400px) {
+        font-size: 36px;
+        margin-bottom: 50px;
+      }
+    }
+    .underline {
+      background-color: $corange;
+      top: 100px;
+      right: 18px;
+      @media (max-width: 991px) {
+        right: auto;
+        left: 18px;
+        top: 75px;
+      }
+      @media (max-width: 500px) {
+        top: 65px;
+        height: 7px;
+        width: 60px
+      }
+      @media (max-width: 400px) {
+        top: 45px;
+        height: 5px;
+        width: 50px;
+      }
+    }
     .left-side {
+      @media (max-width: 991px) {
+        display: none;
+      }
       margin-top: 10px;
-      h2 {
-        right: 15px;
-        top: -60px;
-        color: $cblue2
-      }
-      h1 {
-        color: $cblue2;
-        text-align: right;
-      }
-      .underline {
-        background-color: $corange;
-        top: 100px;
-        right: 18px;
-      }
       img {
         border-bottom: 15px solid $cblue2;
         margin-top: 85px;
@@ -183,6 +258,9 @@
         border-bottom: 15px solid $cblue2;
         max-height: 310px;
         margin-bottom: 90px;
+        @media (max-width: 991px ) {
+          margin-bottom: 10px;
+        }
       }
       .btn {
         margin-top: 40px;
@@ -194,6 +272,9 @@
           background-color: $cblue2;
           color: white;
           transition: all 0.5s;
+        }
+        @media (max-width: 991px) {
+          margin-top: 30px;
         }
       }
     }
@@ -207,6 +288,10 @@
 		background-size: cover;
 		background-position: center;
 
+    @media (max-width: 991px) {
+      margin-top: 1px;
+    }
+
 		.statistics {
 			background: none;
 			display: flex;
@@ -216,6 +301,23 @@
 			h3 {
 				display: none;
 			}
+      @media (max-width: 991px) {
+        justify-content: space-between;
+      }
+
+      .first, .second, .third {
+        display: flex;
+        flex-direction: column;
+        &.hidde {
+          display: none;
+        }
+      }
+
+      .right-arrow, .left-arrow {
+        display: flex;
+        height: 100%;
+        align-items: center;
+      }
 
 			.number {
 				position: relative;
@@ -223,6 +325,9 @@
 				color: $cblue2;
 				font-weight: 700;
 				font-family: 'Roboto Condensed', sans-serif;
+        @media (max-width: 991px) {
+          text-align: center;
+        }
 
 				&:before {
 					content: "";
@@ -242,6 +347,10 @@
 				padding-top: 15px;
 				font-size: 28px;
 				color: $cblue2;
+        @media (max-width: 991px) {
+          padding-top: 20px;
+          text-align: center;
+        }
 			}
 
 			.statistics-inner {
@@ -410,6 +519,9 @@
         transition: all 0.3s;
         box-shadow: 10px 8px 39px -1px rgba(230,229,229,1);
         top: 0;
+        @media (max-width: 1199px) {
+          width: 460px;
+        }
         @media (max-width: 991px) {
           left: 50%;
           transform: translate(-50%, 0%);
@@ -436,8 +548,11 @@
           top: -5px;
         }
         .no-paddings {
-          @media (min-width: 1200px) {
+          @media (min-width: 992px) {
             width: 53%;
+          }
+          @media (max-width: 1199px) {
+            width: 55%;
           }
           @media (max-width: 991px) {
             width: auto;
@@ -454,8 +569,11 @@
           position: relative;
           overflow: hidden;
           height: 175px;
-          @media (min-width: 1200px) {
+          @media (min-width: 992px) {
             width: 47%;
+          }
+          @media (max-width: 1199px) {
+            width: 45%
           }
           @media (max-width: 991px) {
             width: 45%;
@@ -530,9 +648,9 @@
     }
     .all-proposals {
       width: 240px;
-      margin: 0 auto;
+      margin: 5px auto 0 auto;
       @media (max-width: 760px) {
-        margin: 0;
+        margin: 5px 0 0 0;
         margin-left: 6px;
       }
     }
