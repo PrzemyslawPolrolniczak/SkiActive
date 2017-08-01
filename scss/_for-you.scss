@@ -192,9 +192,18 @@
   .section-three {
     margin-top: 150px;
     .row {
-      margin-top: 46px;
       position: relative;
       height: 175px;
+      @media (max-width: 991px) {
+        background-color: transparent;
+      }
+      .relative-position {
+        position: relative;
+        @media (max-width: 991px) {
+          height: 175px;
+          margin-bottom: 20px;
+        }
+      }
       .row {
         margin-top: 0;
       }
@@ -217,8 +226,10 @@
       border-bottom: 7px solid $corange;
     }
     .card {
+      height: 175px;
       width: 550px;
       position: absolute;
+      text-align: left;
       cursor: pointer;
       margin-right: 5px;
       margin-left: 5px;
@@ -226,13 +237,47 @@
       transition: all 0.3s;
       box-shadow: 10px 8px 39px -1px rgba(230,229,229,1);
       top: 0;
+      @media (max-width: 1199px) {
+        width: 460px;
+      }
+      @media (max-width: 991px) {
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 500px;
+      }
+      @media (max-width: 760px) {
+        left: auto;
+        transform: none;
+      }
+      @media (max-width: 560px) {
+        width: 395px;
+      }
+      @media (max-width: 460px) {
+        width: 325px;
+      }
+      @media (max-width: 380px) {
+        width: 300px;
+      }
+      @media (max-width: 350px) {
+        width: 263px;
+      }
       &:hover {
         transition: all 0.3s;
         top: -5px;
       }
       .no-paddings {
-        @media (min-width: 1200px) {
+        @media (min-width: 992px) {
           width: 53%;
+        }
+        @media (max-width: 1199px) {
+          width: 55%;
+        }
+        @media (max-width: 991px) {
+          width: auto;
+        }
+        @media (max-width: 350px) {
+          width: 218px;
+
         }
         padding-left: 0px;
         padding-right: 0;
@@ -242,23 +287,48 @@
         position: relative;
         overflow: hidden;
         height: 175px;
-        @media (min-width: 1200px) {
+        @media (min-width: 992px) {
           width: 47%;
         }
-        padding-left: 0;
-        padding-right: 0;
+        @media (max-width: 1199px) {
+          width: 45%
+        }
+        @media (max-width: 991px) {
+          width: 45%;
+        }
+        @media (max-width: 560px) {
+          width: 30%;
+        }
+        @media (max-width: 460px) {
+          width: 20%;
+        }
+        @media (max-width: 350px) {
+          width: 17%;
+        }
         .card-image {
           position: absolute;
-          left: 50%;
-          top: 50%;
-          transition: translate(-50%, -50%);
+          top:-100%; left:0; right: 0; bottom:-100%;
           margin: auto;
           max-height: 400px;
         }
+        padding-left: 0;
+        padding-right: 0;
       }
       .text {
         padding-left: 30px;
-        padding-right: 5px;
+        @media (max-width: 991px) {
+          width: 300px;
+        }
+        @media (max-width: 560px ) {
+          width: 280px;
+        }
+        @media (max-width: 460px) {
+          padding-left: 10px;
+          width: 260px;
+        }
+        @media (max-width: 380px) {
+          width: 250px;
+        }
         h3 {
           font-size: 16px;
           font-weight: 700;
@@ -269,9 +339,12 @@
           font-style: italic;
         }
         p {
+          width: 100%;
           font-size: 13px;
           margin-top: 10px;
           margin-bottom: 0;
+          margin-left: 0;
+          margin-right: 0;
         }
         span {
           font-size: 13px;

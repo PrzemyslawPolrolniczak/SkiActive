@@ -471,6 +471,26 @@
           $('.second').fadeIn().removeClass('hidde');
         });
       }
+    });
+
+    function kek() {
+      if ($('.tile-row').children().length > 1) {
+        $('.tile-row').css('height', '390px');
+      }
+      // var arraey = $('.tile-row').children('.card');
+      // console.log(arraey.length());
+    }
+
+    if ($('.tile-row').children().length > 1 && $( window ).width() < 976) {
+      $('.tile-row').css('height', '390px');
+    }
+
+    $( window ).resize( function () {
+      if ($('.tile-row').children().length > 1 && $( window ).width() < 976) {
+        $('.tile-row').css('height', '390px');
+      } else {
+        $('.tile-row').css('height', '175px');
+      }
     })
 
 
@@ -513,9 +533,41 @@
     $('.exit-burger').click(function () {
       $('.expanded-burger').slideUp("fast");
     });
+
+    function expander(dropdown, arrow) {
+      var droped = $(dropdown);
+      var expand = $(arrow);
+      if (droped.hasClass('hidde') == true ){
+        droped.slideDown("slow");
+        droped.removeClass('hidde');
+        expand.css('transform', 'rotate(180deg)');
+      } else {
+        droped.slideUp('slow');
+        droped.addClass('hidde');
+        expand.css('transform', 'none');
+      }
+    }
+
+    $('.expand-for-you').click(function () {
+      expander('.for-you-drop', '.expand-for-you');
+    });
+
+    $('.expand-for-business').click(function () {
+      expander('.for-business-drop', '.expand-for-business')
+    });
+
+    $('.expand-marketing').click(function () {
+      expander('.marketing-drop', '.expand-marketing')
+    });
+
+    $('.expand-finanses').click(function () {
+      expander('.finanses-drop', '.expand-finanses')
+    });
+
+    $('.expand-company-info').click(function () {
+      expander('.company-info-drop', '.expand-company-info')
+    });
+
+
   });
-
-
-
-
 })()

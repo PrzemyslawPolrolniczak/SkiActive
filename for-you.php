@@ -189,10 +189,10 @@ get_header(); ?>
 
       <?php
       if( get_field('tile' . $i . '_visible') == 'yes' || get_field('tile' . $x . '_visible') == 'yes'): ?>
-      <div class="row">
+      <div class="row tile-row">
         <?php if( get_field('tile' . $i . '_visible') == 'yes'): ?>
-        <div class="col-lg-6">
-          <div class="card card1 <?php the_field('check_tile' . $i . '_color_theme'); ?> shadowed row">
+        <div class="col-md-6 relative-position">
+          <div class="card card-left card1 <?php the_field('check_tile' . $i . '_color_theme'); ?> shadowed row">
             <div class="image col-xs-6">
               <img src="<?php the_field('tile' . $i . '_image'); ?>" alt="" class="card-image">
             </div>
@@ -211,10 +211,10 @@ get_header(); ?>
         </div>
         <?php endif; ?>
         <?php if( get_field('tile' . $x . '_visible') == 'yes'): ?>
-        <div class="col-lg-6">
-          <div class="card card1 <?php the_field('check_tile' . $x . '_color_theme'); ?> shadowed row">
+        <div class="col-md-6 relative-position">
+          <div class="card card-right card1 <?php the_field('check_tile' . $x . '_color_theme'); ?> shadowed row">
             <div class="image col-xs-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="img-responsive img-fluid">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="card-image">
             </div>
             <div class="col-xs-6 no-paddings">
               <div class="text">
