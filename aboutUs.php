@@ -19,10 +19,11 @@ get_header(); ?>
 	<div class="container">
 
 		<div class="we row">
-			<div class="text col-xs-6 col-md-6 text-col">
+			<div class="text col-md-6 text-col">
 				<h1>O NAS</h1>
 				<h2>O NAS</h2>
 				<div class="underline"></div>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/materialydostrony_046.jpg" alt="placeholder" class="img-responsive img-fluid hidden-md hidden-lg">
 				<p class="textlead">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, delectus! Obcaecati alias eaque dolorem est eveniet repudiandae nesciunt amet.
 				</p>
@@ -35,8 +36,8 @@ get_header(); ?>
 				</p>
 			</div>
 
-			<div class="photos col-xs-6 col-md-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/materialydostrony_046.jpg" alt="placeholder" class="img-responsive img-fluid ">
+			<div class="photos col-md-6">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/materialydostrony_046.jpg" alt="placeholder" class="img-responsive img-fluid hidden-xs hidden-sm">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/materialydostrony_089.jpg" alt="placeholder" class="img-responsive img-fluid ">
 			</div>
 
@@ -47,7 +48,31 @@ get_header(); ?>
 
 		<div class="infographic">
 			<div class="container">
-				<?php echo do_shortcode('[tf_numbers name="31"]'); ?>
+				<span class="hidden-sm hidden-xs">
+					<?php echo do_shortcode('[tf_numbers name="31"]'); ?>
+				</span>
+				<span class="visible-sm visible-xs">
+					<div class="statistics">
+						<div class="left-arrow">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/leftArrow.png" alt="placeholder" class="img-responsive img-fluid">
+						</div>
+						<div class="first">
+							<div class="number">16</div>
+							<div class="count-title">lat działalności</div>
+						</div>
+						<div class="second hidde">
+							<div class="number">287</div>
+							<div class="count-title">zrealizowanych projektów</div>
+						</div>
+						<div class="third hidde">
+							<div class="number">24</div>
+							<div class="count-title">odwiedzone kraje</div>
+						</div>
+						<div class="right-arrow">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/rightArrow.png" alt="placeholder" class="img-responsive img-fluid">
+						</div>
+					</div>
+				</span>
 			</div>
 		</div>
 
@@ -79,7 +104,7 @@ get_header(); ?>
 
 			</div>
 
-			<div class="border-class"></div>
+			<div class="border-class hidden-xs hidden-sm"></div>
 
 			<div class="section2 col-xs-12 col-md-8 col-md-offset-2">
 
@@ -132,13 +157,13 @@ get_header(); ?>
 					<p>stanowisko</p>
 				</div>
 
-				<div class="employee-box col-xs-6 col-sm-4 col-md-3">
+				<div class="employee-box col-xs-6 col-sm-4 col-md-3 col-md-offset-3">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
 					<h4>Jan Kowalski</h4>
 					<p>stanowisko</p>
 				</div>
 
-				<div class="employee-box col-xs-6 col-sm-4 col-md-3">
+				<div class="employee-box col-xs-6 col-sm-4 col-md-3 col-sm-offset-4 col-md-offset-0">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
 					<h4>Jan Kowalski</h4>
 					<p>stanowisko</p>
@@ -230,28 +255,20 @@ get_header(); ?>
 
 			<div class="box">
 				<div class="partner-logos row">
-					<div class="partner-logo col-xs-4 col-md-4">
+					<div class="partner-logo col-sm-4">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/logo_sitn.jpg" alt="logo SITN PZN" class="img-responsive img-fluid">
-					</div>
-					<div class="partner-logo col-xs-4 col-md-4">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo_fischer.jpg" alt="logo Fischer" class="img-responsive img-fluid">
-					</div>
-					<div class="partner-logo col-xs-4 col-md-4">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo_brikomaplus.jpg" alt="logo BRIKO-MAPLUS" class="img-responsive img-fluid">
-					</div>
-				</div>
-				<div class="partner-description row">
-					<div class="partner-desc col-xs-4 col-md-4">
 						<p>
 							Licencja SITN PZN<br>od 2004 r.
 						</p>
 					</div>
-					<div class="partner-desc col-xs-4 col-md-4">
+					<div class="partner-logo col-sm-4">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/logo_fischer.jpg" alt="logo Fischer" class="img-responsive img-fluid fisher-logo">
 						<p>
 							Licencja<br>FISHER
 						</p>
 					</div>
-					<div class="partner-desc col-xs-4 col-md-4">
+					<div class="partner-logo col-sm-4">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/logo_brikomaplus.jpg" alt="logo BRIKO-MAPLUS" class="img-responsive img-fluid">
 						<p>
 							Autoryzacja<br>BRIKO-MAPLUS
 						</p>
@@ -269,16 +286,16 @@ get_header(); ?>
 			<h1>PARTNERZY</h1>
 			<div class="underline"></div>
 			<div class="partner-logos row">
-				<div class="partner-logo col-xs-3 col-md-3">
+				<div class="partner-logo col-xs-12 col-sm-6 col-md-3">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/logo_cam.jpg" alt="logo CAMdivision" class="img-responsive img-fluid">
 				</div>
-				<div class="partner-logo col-xs-3 col-md-3">
+				<div class="partner-logo col-xs-12 col-sm-6 col-md-3">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/logo_briko.jpg" alt="logo Briko" class="img-responsive img-fluid">
 				</div>
-				<div class="partner-logo col-xs-3 col-md-3">
+				<div class="partner-logo col-xs-12 col-sm-6 col-md-3">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/logo_fischer.jpg" alt="logo Fischer" class="img-responsive img-fluid">
 				</div>
-				<div class="partner-logo col-xs-3 col-md-3">
+				<div class="partner-logo col-xs-12 col-sm-6 col-md-3">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/logo_europa.jpg" alt="logo Europa" class="img-responsive img-fluid">
 				</div>
 			</div>

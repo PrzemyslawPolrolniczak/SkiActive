@@ -411,8 +411,16 @@
       adaptiveHeight: true,
       arrows: false,
       responsive: [{
+          breakpoint: 991,
+          settings: {
+            draggable: true,
+            slidesToScroll: 1,
+          }
+        },
+        {
           breakpoint: 768,
           settings: {
+            draggable: true,
             arrows: false,
             centerMode: true,
             centerPadding: '40px',
@@ -420,12 +428,23 @@
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 677,
           settings: {
+            draggable: true,
             arrows: false,
             centerMode: true,
             centerPadding: '40px',
-            slidesToShow: 1
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 500,
+          settings: {
+            draggable: true,
+            arrows: false,
+            centerMode: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
           }
         }
       ]
