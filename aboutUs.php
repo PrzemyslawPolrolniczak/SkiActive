@@ -23,7 +23,7 @@ get_header(); ?>
 				<h1>O NAS</h1>
 				<h2>O NAS</h2>
 				<div class="underline"></div>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/materialydostrony_046.jpg" alt="placeholder" class="img-responsive img-fluid hidden-md hidden-lg">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/aboutus-1.png" alt="placeholder" class="img-responsive img-fluid hidden-md hidden-lg">
 				<p class="textlead">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, delectus! Obcaecati alias eaque dolorem est eveniet repudiandae nesciunt amet.
 				</p>
@@ -37,8 +37,8 @@ get_header(); ?>
 			</div>
 
 			<div class="photos col-md-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/materialydostrony_046.jpg" alt="placeholder" class="img-responsive img-fluid hidden-xs hidden-sm">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/materialydostrony_089.jpg" alt="placeholder" class="img-responsive img-fluid ">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/aboutus-1.png" alt="placeholder" class="img-responsive img-fluid hidden-xs hidden-sm">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/aboutus-2.png" alt="placeholder" class="img-responsive img-fluid ">
 			</div>
 
 		</div>
@@ -201,28 +201,29 @@ get_header(); ?>
 
 			<div class="slider aboutus-slider">
 					<div class="country italia col-xs-4">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/aboutus-italia.png" alt="" class="img-responsive img-fluid">
 						<div class="txt">
 							<h1>WŁOCHY</h1>
 							<p>24 lokalizacje wyjazdów</p>
 						</div>
 					</div>
 					<div class="country austria col-xs-4">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/aboutus-austria.png" alt="" class="img-responsive img-fluid">
 						<div class="txt">
 							<h1>AUSTRIA</h1>
 							<p>24 lokalizacje wyjazdów</p>
 						</div>
 					</div>
 					<div class="country france col-xs-4">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/aboutus-france.png" alt="" class="img-responsive img-fluid">
 						<div class="txt">
 							<h1>FRANCJA</h1>
 							<p>24 lokalizacje wyjazdów</p>
 						</div>
 					</div>
 					<div class="country switzerland col-xs-4">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/aboutus-switrzland
+						.png" alt="" class="img-responsive img-fluid">
 						<div class="txt">
 							<h1>SZWAJCARIA</h1>
 							<p>24 lokalizacje wyjazdów</p>
@@ -305,13 +306,16 @@ get_header(); ?>
 	</div>
 
 	<div class="hidden owner1-details row">
-		<div class="col-xs-5 no-paddings">
+		<div class="col-xs-4 col-md-5 no-paddings hidden-xs hidden-sm">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
 		</div>
-		<div class="col-xs-7 text-div">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/x_button.png" alt="placeholder" class="img-responsive img-fluid exit">
-				<h1>Łukasz Kuźmiński</h1>
-				<h2>co-owner</h2>
+		<div class="col-xs-12 col-md-7 text-div">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid hidden-md hidden-lg owner-picture ">
+				<div class="owner-name">
+					<h1>Łukasz Kuźmiński</h1>
+					<h2>co-owner</h2>
+				</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
 				<a href="#">+ 48 123 456789</a>
 				<a href="#">lukasz@skiactive.com</a>
@@ -323,7 +327,7 @@ get_header(); ?>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
 		</div>
 		<div class="col-xs-7 text-div">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/x_button.png" alt="placeholder" class="img-responsive img-fluid exit">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
 				<h1>Rafał Sionek</h1>
 				<h2>co-owner</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
@@ -335,13 +339,13 @@ get_header(); ?>
 	<div class="hidden country-detail italia-detail">
 		<div class="row">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
-			<div class="col-xs-6">
+			<div class="col-sm-5 col-md-6">
 				<h1>WŁOCHY</h1>
 				<div class="underline"></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+				<p class="description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 			</div>
-			<div class="col-xs-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid detail-img">
+			<div class="col-sm-7 col-md-6">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/aboutus-italia.png" alt="" class="img-responsive img-fluid detail-img">
 			</div>
 		</div>
 		<div class="flexbox">
@@ -382,13 +386,13 @@ get_header(); ?>
 	<div class="hidden country-detail austria-detail">
 		<div class="row">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
-			<div class="col-xs-6">
+			<div class="col-sm-5 col-md-6">
 				<h1>AUSTRIA</h1>
 				<div class="underline"></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 			</div>
-			<div class="col-xs-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid detail-img">
+			<div class="col-sm-7 col-md-6">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/aboutus-austria.png" alt="" class="img-responsive img-fluid detail-img">
 			</div>
 		</div>
 		<div class="flexbox">
@@ -429,13 +433,13 @@ get_header(); ?>
 	<div class="hidden country-detail france-detail">
 		<div class="row">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
-			<div class="col-xs-6">
+			<div class="col-sm-5 col-md-6">
 				<h1>FRANCJA</h1>
 				<div class="underline"></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 			</div>
-			<div class="col-xs-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid detail-img">
+			<div class="col-sm-7 col-md-6">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/aboutus-france.png" alt="" class="img-responsive img-fluid detail-img">
 			</div>
 		</div>
 		<div class="flexbox">
@@ -476,13 +480,13 @@ get_header(); ?>
 	<div class="hidden country-detail switzerland-detail">
 		<div class="row">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
-			<div class="col-xs-6">
+			<div class="col-sm-5 col-md-6">
 				<h1>SZWAJCARIA</h1>
 				<div class="underline"></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 			</div>
-			<div class="col-xs-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutustestimg.png" alt="" class="img-responsive img-fluid detail-img">
+			<div class="col-sm-7 col-md-6">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/aboutus-switrzland.png" alt="" class="img-responsive img-fluid detail-img">
 			</div>
 		</div>
 		<div class="flexbox">

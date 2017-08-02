@@ -406,10 +406,10 @@
       centerPadding: '60px',
       slidesToShow: 4,
       slidesToScroll: 4,
-      dots: true,
+      dots: false,
       draggable: false,
       adaptiveHeight: true,
-      arrows: false,
+      arrows: true,
       responsive: [{
           breakpoint: 991,
           settings: {
@@ -440,6 +440,7 @@
         {
           breakpoint: 500,
           settings: {
+            dots: true,
             draggable: true,
             arrows: false,
             centerMode: false,
