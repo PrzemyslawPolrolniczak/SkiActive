@@ -53,20 +53,6 @@
       showAnimation($('.owner2-details'), 1);
     });
 
-    //UNSLCIK FUNCTION
-    function unslickSlick(slick1, slick2, slick3) {
-
-      if ($(slick1).hasClass('slick-initialized') == true) {
-        $(slick1).slick('unslick');
-      }
-      if ($(slick2).hasClass('slick-initialized') == true) {
-        $(slick2).slick('unslick');
-      }
-      if ($(slick3).hasClass('slick-initialized') == true) {
-        $(slick3).slick('unslick');
-      }
-    }
-
     //SLICK FUNCTION
 
 
@@ -137,36 +123,6 @@
       removeActiveClass('.for-adults', '.freeride', '.skitouring', '.for-kids')
     })
 
-
-    function initSlider(sliderName) {
-      $(sliderName).slick({
-        centerMode: true,
-        centerPadding: '60px',
-        slidesToShow: 3,
-        dots: true,
-        draggable: false,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-              arrows: false,
-              centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 3
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              arrows: false,
-              centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 1
-            }
-          }
-        ]
-      });
-    }
-
     //HIDE FUNCTION
     function hideModal(first, second) {
       $(first).addClass('hidden');
@@ -180,67 +136,29 @@
       $('body').addClass("disable-scroll");
       showAnimation($('.overlay'), 0.5);
       showAnimation($('.winter-detal'), 1);
-      unslickSlick('.sliderSummer', '.sliderMiceActive');
-      if ($('.sliderWinter').hasClass('slick-initialized') == false) {
-        initSlider('.sliderWinter');
-      }
+      detailOpener('./winterdetail/', '.sliderWinter')
     });
 
     $('.summer').click(function() {
       $('body').addClass("disable-scroll");
       showAnimation($('.overlay'), 0.5);
-      showAnimation($('.summer-detal'), 1);
-      unslickSlick('.sliderWinter', '.sliderMiceActive');
-      if ($('.sliderSummer').hasClass('slick-initialized') == false) {
-        initSlider('.sliderSummer');
-      }
+      showAnimation($('.winter-detal'), 1);
+      detailOpener('./summerdetail/', '.sliderSummer')
     });
 
     $('.mice-active').click(function() {
       $('body').addClass("disable-scroll");
       showAnimation($('.overlay'), 0.5);
-      showAnimation($('.mice-active-detal'), 1);
-      unslickSlick('.sliderWinter', '.sliderSummer');
-      if ($('.sliderMiceActive').hasClass('slick-initialized') == false) {
-        initSlider('.sliderMiceActive');
-      }
+      showAnimation($('.winter-detal'), 1);
+      detailOpener('./miceactivedetail/', '.sliderMiceActive');
     });
 
     $('.overlay').click(function() {
       close();
-      unslickSlick('.sliderSummer', '.sliderWinter', '.sliderMiceActive');
     });
 
     $('.exit').click(function() {
       close();
-      unslickSlick('.sliderSummer', '.sliderWinter', '.sliderMiceActive');
-    });
-
-    $('.mice-active-link').click(function() {
-      hideModal('.winter-detal', '.summer-detal');
-      showAnimation($('.mice-active-detal'), 1);
-      unslickSlick('.sliderWinter', '.sliderSummer');
-      if ($('.sliderMiceActive').hasClass('slick-initialized') == false) {
-        initSlider('.sliderMiceActive');
-      }
-    });
-
-    $('.winter-link').click(function() {
-      hideModal('.mice-active-detal', '.summer-detal');
-      showAnimation($('.winter-detal'), 1);
-      unslickSlick('.sliderSummer', '.sliderMiceActive');
-      if ($('.sliderWinter').hasClass('slick-initialized') == false) {
-        initSlider('.sliderWinter');
-      }
-    });
-
-    $('.summer-link').click(function() {
-      hideModal('.winter-detal', '.mice-active-detal');
-      showAnimation($('.summer-detal'), 1);
-      unslickSlick('.sliderWinter', '.sliderMiceActive');
-      if ($('.sliderSummer').hasClass('slick-initialized') == false) {
-        initSlider('.sliderSummer');
-      }
     });
 
     function showFormRegulaminy() {
@@ -272,26 +190,50 @@
             close();
             $detal.empty();
           });
+          $('.mice-active-link').click(function () {
+            detailOpener('./miceactivedetail/', '.sliderMiceActive');
+          });
+          $('.winter-link').click(function() {
+            detailOpener('./winterdetail/', '.sliderWinter');
+          });
+          $('.summer-link').click(function() {
+            detailOpener('./summerdetail/', '.sliderSummer');
+          });
           if ($(slider1st).hasClass('slick-initialized') == false) {
             $(slider1st).slick({
               centerMode: false,
               centerPadding: '60px',
               slidesToShow: 3,
-              dots: true,
+              dots: false,
               draggable: false,
-              adaptiveHeight: true,
+              adaptiveHeight: false,
               responsive: [{
+                  breakpoint: 992,
+                  settings: {
+                    arrows: true,
+                    draggable: true,
+                    dots: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2
+                  }
+                },
+                {
                   breakpoint: 768,
                   settings: {
                     arrows: false,
+                    dots: true,
+                    draggable: true,
                     centerMode: true,
                     centerPadding: '40px',
-                    slidesToShow: 3
+                    slidesToShow: 2
                   }
                 },
                 {
                   breakpoint: 480,
                   settings: {
+                    dots: true,
+                    draggable: true,
                     arrows: false,
                     centerMode: true,
                     centerPadding: '40px',
