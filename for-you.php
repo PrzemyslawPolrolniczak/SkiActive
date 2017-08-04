@@ -22,16 +22,16 @@ get_header(); ?>
         <h1>DLA CIEBIE</h1>
         <h2>DLA CIEBIE</h2>
         <div class="underline"></div>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/photo1.png" alt="" class="img-responsive img-fluid hidden-lg hidden-md shadowed">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/foryou/foryou-image1.png" alt="" class="img-responsive img-fluid hidden-lg hidden-md shadowed">
         <p class="bold-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. .</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <img src="<?php echo get_template_directory_uri(); ?>/img/photo1.png" alt="" class="img-responsive img-fluid hidden-lg hidden-md shadowed">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/foryou/foryou-image2.png" alt="" class="img-responsive img-fluid hidden-lg hidden-md shadowed">
         <button type="button" name="button" class="btn btn-primary btn-outline orange-button scroll-button">Sprawdź aktualne wyjazdy</button>
       </div>
       <div class="col-md-5 col-md-offset-1 first-photo-section">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/photo1.png" alt="" class="img-responsive img-fluid hidden-xs hidden-sm shadowed">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/photo1.png" alt="" class="img-responsive img-fluid hidden-xs hidden-sm shadowed">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/foryou/foryou-image1.png" alt="" class="img-responsive img-fluid hidden-xs hidden-sm shadowed">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/foryou/foryou-image2.png" alt="" class="img-responsive img-fluid hidden-xs hidden-sm shadowed">
       </div>
     </div>
     <div class="row text-between-sections">
@@ -76,7 +76,7 @@ get_header(); ?>
             </p>
           </div>
           <div class="col-md-offset-1 col-md-5 col-sm-6 image-half">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid shadowed">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/foryou/foryou-image3.png" alt="" class="img-responsive img-fluid shadowed">
           </div>
         </div>
         <!-- 2 -->
@@ -100,7 +100,7 @@ get_header(); ?>
             </p>
           </div>
           <div class="col-md-offset-1 col-md-5 col-sm-6 image-half">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid shadowed">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/foryou/foryou-image4.png" alt="" class="img-responsive img-fluid shadowed">
           </div>
         </div>
         <!-- 3 -->
@@ -124,7 +124,7 @@ get_header(); ?>
             </p>
           </div>
           <div class="col-md-offset-1 col-md-5 col-sm-6 image-half">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid shadowed">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/foryou/foryou-image5.png" alt="" class="img-responsive img-fluid shadowed">
           </div>
         </div>
         <!-- 4 -->
@@ -148,7 +148,7 @@ get_header(); ?>
             </p>
           </div>
           <div class="col-md-offset-1 col-md-5 col-sm-6 image-half">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid shadowed">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/foryou/foryou-image6.png" alt="" class="img-responsive img-fluid shadowed">
           </div>
         </div>
         <!-- 5 -->
@@ -172,7 +172,7 @@ get_header(); ?>
             </p>
           </div>
           <div class="col-md-offset-1 col-md-5 col-sm-6 image-half">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/slide3.png" alt="" class="img-responsive img-fluid shadowed">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/foryou/foryou-image6.png" alt="" class="img-responsive img-fluid shadowed">
           </div>
         </div>
       </div>
@@ -367,7 +367,8 @@ get_header(); ?>
     </div>
   </div>
   <div class="background-for-you">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/background-for-you.png" alt="" class="img-responsive img-fluid">
+    <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/background-for-you.png" alt="" class="img-responsive img-fluid"> -->
+    <div class="background"></div>
     <div class="question-stripe slider">
       <div>
         <h1>Chcesz zorganizować wyjazd<br class="line-break"> dla grupy przyjaciół?</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">

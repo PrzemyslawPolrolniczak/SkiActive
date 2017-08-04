@@ -18,8 +18,8 @@
 
   <div class="header">
     <div class="row">
-      <div class="col-xs-9 col-xs-offset-1">PAGANELLA - Rodzinne ferie na nartach</div>
-      <div class="col-xs-1 exit"><img src="<?php echo get_template_directory_uri(); ?>/img/exitButton.png" alt="" class="img-responsive img-fluid"></div>
+      <div class="col-xs-8 col-xs-offset-1">PAGANELLA <br class="visible-xs"><span class="hidden-xs">-</span> Rodzinne ferie na nartach</div>
+      <div class="col-xs-2 exit"><img src="<?php echo get_template_directory_uri(); ?>/img/exitButton.png" alt="" class="img-responsive img-fluid"></div>
     </div>
   </div>
 
@@ -41,7 +41,7 @@
      </div>
     </div>
     <div class="row container center-margins">
-      <div class="col-xs-4 col-xs-offset-1">
+      <div class="col-sm-5 col-lg-4 col-lg-offset-1">
         <p class="info-header">Termin</p>
         <p class="info-paragraph">24.01.2017 - 07.02.2017</p>
         <p class="info-header">Zakwaterowanie</p>
@@ -55,7 +55,7 @@
           <div class=""></div>
         </div>
       </div>
-      <div class="col-xs-6">
+      <div class="col-lg-6 col-sm-7">
         <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <a href="" class="weather">Sprawdź prognozę pogody <img src="<?php echo get_template_directory_uri(); ?>/img/arrow-right-o.png" alt="" class="img-responsive img-fluid arrow"></a>
         <a href="" class="route">Sprawdź mapę tras narciarskich <img src="<?php echo get_template_directory_uri(); ?>/img/arrow-right-b.png" alt="" class="img-responsive img-fluid arrow"></a>
@@ -109,20 +109,44 @@
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
        <div class="row">
          <div class="events-dates col-xs-12">
-           <h3 class="col-xs-offset-1">24.01.2017</h3>
+           <h3 class="col-md-offset-1">24.01.2017</h3>
            <div class="row">
              <div class="col-xs-2 time">
                <p>9:00</p>
-               <p>10:15</p>
-               <p>11:00</p>
-               <p>13:15</p>
-               <p>14:00</p>
              </div>
              <div class="col-xs-10">
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-2 time">
+               <p>10:15</p>
+             </div>
+             <div class="col-xs-10">
                <p>Lorem ipsum dolor sit amet</p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-2 time">
+               <p>11:00</p>
+             </div>
+             <div class="col-xs-10">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-2 time">
+               <p>13:15</p>
+             </div>
+             <div class="col-xs-10">
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-2 time">
+               <p>14:00</p>
+             </div>
+             <div class="col-xs-10">
                <p>Lorem ipsum dolor sit amet, consectetur</p>
              </div>
            </div>
@@ -130,20 +154,44 @@
        </div>
        <div class="row">
          <div class="events-dates col-xs-12">
-           <h3 class="col-xs-offset-1">25.01.2017</h3>
+           <h3 class="col-md-offset-1">25.01.2017</h3>
            <div class="row">
              <div class="col-xs-2 time">
                <p>9:00</p>
-               <p>10:15</p>
-               <p>11:00</p>
-               <p>13:15</p>
-               <p>14:00</p>
              </div>
              <div class="col-xs-10">
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-2 time">
+               <p>10:15</p>
+             </div>
+             <div class="col-xs-10">
                <p>Lorem ipsum dolor sit amet</p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-2 time">
+               <p>11:00</p>
+             </div>
+             <div class="col-xs-10">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-2 time">
+               <p>13:15</p>
+             </div>
+             <div class="col-xs-10">
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-2 time">
+               <p>14:00</p>
+             </div>
+             <div class="col-xs-10">
                <p>Lorem ipsum dolor sit amet, consectetur</p>
              </div>
            </div>
@@ -151,20 +199,44 @@
        </div>
        <div class="row">
          <div class="events-dates col-xs-12">
-           <h3 class="col-xs-offset-1">26.01.2017</h3>
+           <h3 class="col-md-offset-1">26.01.2017</h3>
            <div class="row">
              <div class="col-xs-2 time">
                <p>9:00</p>
-               <p>10:15</p>
-               <p>11:00</p>
-               <p>13:15</p>
-               <p>14:00</p>
              </div>
              <div class="col-xs-10">
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-2 time">
+               <p>10:15</p>
+             </div>
+             <div class="col-xs-10">
                <p>Lorem ipsum dolor sit amet</p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-2 time">
+               <p>11:00</p>
+             </div>
+             <div class="col-xs-10">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-2 time">
+               <p>13:15</p>
+             </div>
+             <div class="col-xs-10">
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-2 time">
+               <p>14:00</p>
+             </div>
+             <div class="col-xs-10">
                <p>Lorem ipsum dolor sit amet, consectetur</p>
              </div>
            </div>
@@ -178,16 +250,34 @@
        <div class="row">
          <div class="events-dates col-xs-12">
            <div class="row">
-             <div class="col-xs-2 time">
-               <p>2 200 zł</p>
-               <p>2 500 zł</p>
-               <p>2 750 zł</p>
-               <p>3 500 zł</p>
+             <div class="col-xs-3 col-sm-2 time">
+               <p>2 200zł</p>
              </div>
-             <div class="col-xs-10">
+             <div class="col-xs-9 col-sm-10">
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-3 col-sm-2 time">
+               <p>2 500zł</p>
+             </div>
+             <div class="col-xs-9 col-sm-10">
                <p>Lorem ipsum dolor sit amet</p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-3 col-sm-2 time">
+               <p>2 750zł</p>
+             </div>
+             <div class="col-xs-9 col-sm-10">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-3 col-sm-2 time">
+               <p>3 500zł</p>
+             </div>
+             <div class="col-xs-9 col-sm-10">
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
              </div>
            </div>
@@ -203,7 +293,7 @@
     <div class="footer">
       <div class="row">
         <div class="container">
-          <h1>Masz pytania dotyczące tego wyjazdu? &nbsp <span>+48 123 456789 &nbsp|&nbsp dlaciebie@skiactive.com</span></h1>
+          <h1>Masz pytania dotyczące tego wyjazdu?<br class="hidden-md hidden-lg"> <span class="hidden-md hidden-lg">&nbsp</span> <span>+48 123 456789 &nbsp|&nbsp dlaciebie@skiactive.com</span></h1>
         </div>
       </div>
     </div>

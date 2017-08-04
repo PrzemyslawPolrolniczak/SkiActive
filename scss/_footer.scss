@@ -9,10 +9,17 @@
 			padding-bottom: 50px;
 		}
 	}
-	.footerimage img{
-		/*content:url(./img/footer-mountains.png);*/
-		/*background-image: "./img/footer-mountains.png";*/
-		width:100%;
+	.footerimage {
+		background-image: url("./img/footer-mountains.png");
+		height: 600px;
+		background-size: cover;
+		background-position: center top;
+		@media (max-width: 991px) {
+			height: 400px;
+		}
+		@media (max-width: 767px) {
+			height: 300px;
+		}
 	}
 	a, p{
 		display:inline-block;
