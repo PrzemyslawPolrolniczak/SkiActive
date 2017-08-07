@@ -392,7 +392,7 @@ get_header(); ?>
       Przejdź do instagrama
     </a>
   </div>
-  <div class="detal hidden" id="detal">
+  <div class="detal detal-site hidden" id="detal">
   </div>
 </div>
 <?php get_footer(); ?>

@@ -97,7 +97,7 @@ get_header(); ?>
 				 </div>
 			 </div>
 
-				 	<div class="row nearest-events">
+				 	<div class="row nearest-events tile-row">
 						<div class="col-md-6 relative-position">
 
 						<div class="card card-left card1 shadowed row">
@@ -179,7 +179,7 @@ get_header(); ?>
 	      <h1>+48 123 456789 &nbsp <span class="hidden-sm hidden-xs">|</span> <span class="hidden-sm hidden-xs">&nbsp</span><br class="line-break"> dlabiznesu@skiactive.com</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
 	    </div>
 	  </div>
-		<div class="detal hidden" id="detal">
+		<div class="detal hidden detal-site" id="detal">
 	  </div>
 	</div>
 <?php

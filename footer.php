@@ -58,33 +58,33 @@
 
 
 	<div class="regulations-details hidden">
-			<div class="row">
+			<div class="">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="" class="img-responsive img-fluid exit">
-				<h1>REGULAMINY SKIACTIVE</h1>
+				<h1>REGULAMINY<br class="line-break"> SKIACTIVE</h1>
 				<div class="underline"></div>
 				<a href="#">
 					<div class="download">
-						<p>Regulamin świadczenia usług drogą elektroniczną</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
+						<p>Regulamin świadczenia usług<br class="line-break"> drogą elektroniczną</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
 					</div>
 				</a>
 				<a href="#">
 					<div class="download">
-						<p>Regulamin świadczenia usług SKIACTIVE</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
+						<p>Regulamin świadczenia<br class="line-break"> usług SKIACTIVE</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
 					</div>
 				</a>
 				<a href="#">
 					<div class="download">
-						<p>Regulamin instruktorów SKIACTIVE</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
+						<p>Regulamin instruktorów<br class="line-break"> SKIACTIVE</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
 					</div>
 				</a>
 				<a href="#">
 					<div class="download">
-						<p>Warunki ubezpieczenia</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
+						<p>Warunki<br class="line-break"> ubezpieczenia</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
 					</div>
 				</a>
 				<a href="#">
 					<div class="download">
-						<p>Regulamin postępowania przy wypadkach narciarskich</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
+						<p>Regulamin postępowania przy<br class="line-break"> wypadkach narciarskich</p><img src="<?php echo get_template_directory_uri(); ?>/img/download-icon.png" alt="" class="img-responsive img-fluid">
 					</div>
 				</a>
 			</div>
