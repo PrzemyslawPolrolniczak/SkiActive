@@ -57,15 +57,16 @@
   }
   //////////////////
   .background {
-    z-index: -1;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    img {
-      width: 100%;
-    }
-  }
+    z-index: -10;
+		background-image: url("./img/home/home-background1.jpg");
+		height: 800px;
+		background-size: cover;
+		background-position: center top;
+	}
   .sliding-person {
     position: absolute;
     z-index: 0;
@@ -656,6 +657,21 @@
     }
   }
   .background-for-you {
+    .background-image {
+  		background-image: url("./img/home/home-background2.jpg");
+  		height: 600px;
+  		background-size: cover;
+  		background-position: center top;
+      @media (min-width: 1600px) {
+        height: 700px;
+      }
+  		@media (max-width: 991px) {
+  			height: 400px;
+  		}
+  		@media (max-width: 767px) {
+  			height: 300px;
+  		}
+  	}
     .question-stripe {
       margin-top: -1px;
       cursor: pointer;

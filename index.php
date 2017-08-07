@@ -16,7 +16,6 @@ get_header(); ?>
 
 	<div class="home-page">
 		<div class="background">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/home-bg.png" alt="mountains">
 		</div>
 		<div class="left-one sliding-person">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/left-1st.png" alt="mountains">
@@ -43,7 +42,7 @@ get_header(); ?>
 					<h1 class="visible-xs visible-sm">O NAS</h1>
 					<h2 class="visible-xs visible-sm">O NAS</h2>
 					<div class="underline visible-xs visible-sm"></div>
-					<img src="<?php echo get_template_directory_uri(); ?>/img/home-aboutus-photo2.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/home/home-image1.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
 					<a href="<?php echo get_site_url(); ?>/about-us"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
 				</div>
@@ -142,7 +141,7 @@ get_header(); ?>
 		 </div>
 		</div>
 		<div class="background-for-you">
-	    <img src="<?php echo get_template_directory_uri(); ?>/img/background-for-you.png" alt="" class="img-responsive img-fluid">
+			<div class="background-image"></div>
 	    <div class="question-stripe slider">
 	      <div>
 	        <h1>Masz pytania dotyczące<br class="line-break"> oferty dla Ciebie?</h1> <img src="<?php echo get_template_directory_uri(); ?>/img/arrows.png" alt="" class="img-responsive img-fluid">
@@ -159,7 +158,7 @@ get_header(); ?>
 					<h1 class="visible-xs visible-sm">DLA BIZNESU</h1>
 					<h2 class="visible-xs visible-sm">DLA BIZNESU</h2>
 					<div class="underline visible-xs visible-sm"></div>
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder-girl.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/home/home-image2.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. gratuluje spostrzegawczości ;) dolor es ipsum sit amet</p>
 					<a href="<?php echo get_site_url(); ?>/for_business"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
 				</div>
@@ -167,7 +166,7 @@ get_header(); ?>
 					<h1>DLA BIZNESU</h1>
 					<h2>DLA BIZNESU</h2>
 					<div class="underline"></div>
-					<img src="<?php echo get_template_directory_uri(); ?>/img/helicopter.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/home/home-helicopter.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
 				</div>
 			</div>
 		</div>
