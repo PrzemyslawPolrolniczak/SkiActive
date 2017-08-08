@@ -247,6 +247,187 @@
 			<div class="underline"></div>
 			<h4>24.01.2017</h4>
 			<h2>Narciarstwo zjazdowe</h2>
+			<div class="position-table">
+				<div class="row table-header">
+					<div class="col-md-1"><p>Lp.</p></div>
+					<div class="col-md-3"><p>Imię i nazwisko</p></div>
+					<div class="col-md-1"><p>Czas</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>1.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>2.</p></div>
+					<div class="col-md-3"><p>Aleksandra Głowacka</p></div>
+					<div class="col-md-1"><p>1:08:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>3.</p></div>
+					<div class="col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-md-1"><p>1:10:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>4.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>5.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>6.</p></div>
+					<div class="col-md-3"><p>Aleksandra Głowacka</p></div>
+					<div class="col-md-1"><p>1:08:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>7.</p></div>
+					<div class="col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-md-1"><p>1:10:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>8.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>9.</p></div>
+					<div class="col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-md-1"><p>1:10:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>10.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+			</div>
+			<h2>Bieg klasyczny</h2>
+			<div class="position-table">
+				<div class="row table-header">
+					<div class="col-md-1"><p>Lp.</p></div>
+					<div class="col-md-3"><p>Imię i nazwisko</p></div>
+					<div class="col-md-1"><p>Czas</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>1.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>2.</p></div>
+					<div class="col-md-3"><p>Aleksandra Głowacka</p></div>
+					<div class="col-md-1"><p>1:08:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>3.</p></div>
+					<div class="col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-md-1"><p>1:10:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>4.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>5.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>6.</p></div>
+					<div class="col-md-3"><p>Aleksandra Głowacka</p></div>
+					<div class="col-md-1"><p>1:08:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>7.</p></div>
+					<div class="col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-md-1"><p>1:10:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>8.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>9.</p></div>
+					<div class="col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-md-1"><p>1:10:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>10.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+			</div>
+			<h4>25.01.2017</h4>
+			<h2>Narciarstwo zjazdowe</h2>
+			<div class="position-table">
+				<div class="row table-header">
+					<div class="col-md-1"><p>Lp.</p></div>
+					<div class="col-md-3"><p>Imię i nazwisko</p></div>
+					<div class="col-md-1"><p>Czas</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>1.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>2.</p></div>
+					<div class="col-md-3"><p>Aleksandra Głowacka</p></div>
+					<div class="col-md-1"><p>1:08:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>3.</p></div>
+					<div class="col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-md-1"><p>1:10:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>4.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>5.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>6.</p></div>
+					<div class="col-md-3"><p>Aleksandra Głowacka</p></div>
+					<div class="col-md-1"><p>1:08:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>7.</p></div>
+					<div class="col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-md-1"><p>1:10:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>8.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>9.</p></div>
+					<div class="col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-md-1"><p>1:10:20</p></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 bold"><p>10.</p></div>
+					<div class="col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-md-1"><p>1:05:09</p></div>
+				</div>
+			</div>
+			<footer>
+				<h2><a href="">www.skiactive.com</a></h2>
+				<div class="icons">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/face-icon.png" alt="facebook icon" class="img-responsive img-fluid">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/insta-icon.png" alt="instagram icon" class="img-responsive img-fluid">
+				</div>
+			</footer>
 		</div>
 	</div>
 
