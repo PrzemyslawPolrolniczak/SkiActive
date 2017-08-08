@@ -23,12 +23,13 @@
 		<div class="logo"></div>
 		<div class="navigation">
 			<span>Dowiedz się więcej</span>
-			<h3>INFORMACJE PODSTAWOWE</h3>
-			<h3>PLAN WYJAZDU</h3>
-			<h3>WARTO WIEZDIEĆ</h3>
-			<h3>OPIEKUN WYJAZDU</h3>
-			<h3>GALERIA ZDJĘĆ</h3>
-			<h3>WYNIKI ZAWODÓW</h3>
+			<h3 class="section-one-link">INFORMACJE PODSTAWOWE</h3>
+			<h3 class="section-two-link">PLAN WYJAZDU</h3>
+			<h3 class="section-three-link">WARTO WIEDZIEĆ</h3>
+			<h3 class="section-four-link">OPIEKUN WYJAZDU</h3>
+			<h3 class="section-five-link">GALERIA ZDJĘĆ</h3>
+			<h3 class="section-six-link">WYNIKI ZAWODÓW</h3>
+			<div id="section-one-waypoint"></div>
 		</div>
 		<div class="first-section">
 			<h1>INFORMACJE PODSTAWOWE</h1>
@@ -52,6 +53,7 @@
 			<span>Warunki ubezpieczenia</span>
 			<h2>Ubezpieczenie obowiązuje od 24.01.2017 do 07.02.2017</h2>
 			<a href="">Pobierz pełną dokumentację <img src="<?php echo get_template_directory_uri(); ?>/img/arrow-right-b.png" alt="" class="img-responsive img-fluid arrow"></a>
+			<div id="section-two-waypoint"></div>
 		</div>
 		<div class="second-section">
 			<h1>PLAN WYJAZDU</h1>
@@ -204,6 +206,7 @@
 				<p><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/hyphen-before.png" alt="" class="img-responsive img-fluid hyphen">Lorem ipsum dolor <img src="<?php echo get_template_directory_uri(); ?>/img/arrow-right-b.png" alt="" class="img-responsive img-fluid arrow"></a></p>
 				<p><img src="<?php echo get_template_directory_uri(); ?>/img/hyphen-before.png" alt="" class="img-responsive img-fluid hyphen">Lorem ipsum dolor sit amet, consectetur</p>
 				<p><img src="<?php echo get_template_directory_uri(); ?>/img/hyphen-before.png" alt="" class="img-responsive img-fluid hyphen">Lorem</p>
+				<div id="section-three-waypoint"></div>
 			</div>
 			<div class="third-section">
 				<h1>WARTO WIEDZIEĆ</h1>
@@ -222,6 +225,7 @@
 					<p><img src="<?php echo get_template_directory_uri(); ?>/img/hyphen-before.png" alt="" class="img-responsive img-fluid hyphen">Lorem</p>
 					<h2>Dresscode na konferencje</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div id="section-four-waypoint"></div>
 				</div>
 			</div>
 			<div class="fourth-section">
@@ -233,6 +237,7 @@
 			</div>
 		</div>
 	</div>
+	<div id="section-five-waypoint"></div>
 	<div class="fifth-section">
 		<div class="container">
 			<h1>GALERIA ZDJĘĆ</h1>
@@ -240,6 +245,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 			<a href=""><button class="btn btn-outline btn-primary">Przejdź do galerii zdjęć</button></a>
 		</div>
+		<div id="section-six-waypoint"></div>
 	</div>
 	<div class="container">
 		<div class="sixth-section">
@@ -249,176 +255,176 @@
 			<h2>Narciarstwo zjazdowe</h2>
 			<div class="position-table">
 				<div class="row table-header">
-					<div class="col-md-1"><p>Lp.</p></div>
-					<div class="col-md-3"><p>Imię i nazwisko</p></div>
-					<div class="col-md-1"><p>Czas</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1"><p>Lp.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Imię i nazwisko</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>Czas</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>1.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>1.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>2.</p></div>
-					<div class="col-md-3"><p>Aleksandra Głowacka</p></div>
-					<div class="col-md-1"><p>1:08:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>2.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Aleksandra Głowacka</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:08:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>3.</p></div>
-					<div class="col-md-3"><p>Karolina Nowak</p></div>
-					<div class="col-md-1"><p>1:10:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>3.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:10:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>4.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>4.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>5.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>5.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>6.</p></div>
-					<div class="col-md-3"><p>Aleksandra Głowacka</p></div>
-					<div class="col-md-1"><p>1:08:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>6.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Aleksandra Głowacka</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:08:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>7.</p></div>
-					<div class="col-md-3"><p>Karolina Nowak</p></div>
-					<div class="col-md-1"><p>1:10:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>7.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:10:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>8.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>8.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>9.</p></div>
-					<div class="col-md-3"><p>Karolina Nowak</p></div>
-					<div class="col-md-1"><p>1:10:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>9.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:10:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>10.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>10.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 			</div>
 			<h2>Bieg klasyczny</h2>
 			<div class="position-table">
 				<div class="row table-header">
-					<div class="col-md-1"><p>Lp.</p></div>
-					<div class="col-md-3"><p>Imię i nazwisko</p></div>
-					<div class="col-md-1"><p>Czas</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1"><p>Lp.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Imię i nazwisko</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>Czas</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>1.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>1.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>2.</p></div>
-					<div class="col-md-3"><p>Aleksandra Głowacka</p></div>
-					<div class="col-md-1"><p>1:08:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>2.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Aleksandra Głowacka</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:08:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>3.</p></div>
-					<div class="col-md-3"><p>Karolina Nowak</p></div>
-					<div class="col-md-1"><p>1:10:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>3.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:10:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>4.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>4.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>5.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>5.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>6.</p></div>
-					<div class="col-md-3"><p>Aleksandra Głowacka</p></div>
-					<div class="col-md-1"><p>1:08:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>6.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Aleksandra Głowacka</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:08:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>7.</p></div>
-					<div class="col-md-3"><p>Karolina Nowak</p></div>
-					<div class="col-md-1"><p>1:10:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>7.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:10:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>8.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>8.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>9.</p></div>
-					<div class="col-md-3"><p>Karolina Nowak</p></div>
-					<div class="col-md-1"><p>1:10:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>9.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:10:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>10.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>10.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 			</div>
 			<h4>25.01.2017</h4>
 			<h2>Narciarstwo zjazdowe</h2>
 			<div class="position-table">
 				<div class="row table-header">
-					<div class="col-md-1"><p>Lp.</p></div>
-					<div class="col-md-3"><p>Imię i nazwisko</p></div>
-					<div class="col-md-1"><p>Czas</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1"><p>Lp.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Imię i nazwisko</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>Czas</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>1.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>1.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>2.</p></div>
-					<div class="col-md-3"><p>Aleksandra Głowacka</p></div>
-					<div class="col-md-1"><p>1:08:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>2.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Aleksandra Głowacka</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:08:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>3.</p></div>
-					<div class="col-md-3"><p>Karolina Nowak</p></div>
-					<div class="col-md-1"><p>1:10:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>3.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:10:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>4.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>4.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>5.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>5.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>6.</p></div>
-					<div class="col-md-3"><p>Aleksandra Głowacka</p></div>
-					<div class="col-md-1"><p>1:08:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>6.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Aleksandra Głowacka</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:08:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>7.</p></div>
-					<div class="col-md-3"><p>Karolina Nowak</p></div>
-					<div class="col-md-1"><p>1:10:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>7.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:10:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>8.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>8.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>9.</p></div>
-					<div class="col-md-3"><p>Karolina Nowak</p></div>
-					<div class="col-md-1"><p>1:10:20</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>9.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Karolina Nowak</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:10:20</p></div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 bold"><p>10.</p></div>
-					<div class="col-md-3"><p>Jan Kowalski</p></div>
-					<div class="col-md-1"><p>1:05:09</p></div>
+					<div class="col-xs-2 col-sm-1 col-md-1 bold"><p>10.</p></div>
+					<div class="col-xs-7 col-sm-4 col-md-3"><p>Jan Kowalski</p></div>
+					<div class="col-xs-3 col-sm-2 col-md-1"><p>1:05:09</p></div>
 				</div>
 			</div>
 			<footer>

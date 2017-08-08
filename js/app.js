@@ -297,22 +297,49 @@
       detailOpener('./detail2/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
     });
 
-    $('.scroll-button').click(function() {
+    function scrollHere(here) {
       $('html, body').animate({
-        scrollTop: $(".scroll-to-here").offset().top
+        scrollTop: $(here).offset().top
       }, 500);
+    }
+
+    $('.scroll-button').click(function() {
+      scrollHere(".scroll-to-here");
     });
 
     $('.for-you-scroll').click(function() {
-      $('html, body').animate({
-        scrollTop: $(".for-you-waypoint").offset().top
-      }, 500);
+      scrollHere(".for-you-waypoint");
     });
 
     $('.for-business-scroll').click(function() {
-      $('html, body').animate({
-        scrollTop: $(".for-business-waypoint").offset().top
-      }, 500);
+      scrollHere(".for-business-waypoint");
+    });
+
+    $('.section-one-link').click(function() {
+      scrollHere("#section-one-waypoint");
+      // $('html, body').animate({
+      //   scrollTop: $("#section-one-waypoint").offset().top
+      // }, 500);
+    });
+
+    $('.section-two-link').click(function() {
+      scrollHere("#section-two-waypoint");
+    });
+
+    $('.section-three-link').click(function() {
+      scrollHere("#section-three-waypoint");
+    });
+
+    $('.section-four-link').click(function() {
+      scrollHere("#section-four-waypoint");
+    });
+
+    $('.section-five-link').click(function() {
+      scrollHere("#section-five-waypoint");
+    });
+
+    $('.section-six-link').click(function() {
+      scrollHere("#section-six-waypoint");
     });
 
     //HEADER ANIMATION ON SCROLL
