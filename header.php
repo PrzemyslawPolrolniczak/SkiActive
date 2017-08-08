@@ -28,6 +28,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<?php if( is_page( array( 'about-us', 'contact', 'for_business', 'for-you', '') ) || is_front_page() ) { ?>
 <header>
 	<div id="page" class="">
 		<div class="container">
@@ -105,8 +106,11 @@
 								<a href="">dlabiznesu@skiactive.com</a>
 							</div>
 						</div>
-
-
-
 	</div>
 </header>
+
+<?php	} else { ?>
+
+	<?php	}
+
+		?>
