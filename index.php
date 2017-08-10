@@ -17,11 +17,25 @@ get_header(); ?>
 	<div class="home-page">
 		<div class="background">
 		</div>
+		<div class="img-container hidden">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/home/intro/left-1.png" alt="mountains" data="<?php echo get_template_directory_uri(); ?>/img/home/intro/">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/home/intro/left-2.png" alt="mountains" data="<?php echo get_template_directory_uri(); ?>/img/home/intro/">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/home/intro/left-3.png" alt="mountains" data="<?php echo get_template_directory_uri(); ?>/img/home/intro/">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/home/intro/left-4.png" alt="mountains" data="<?php echo get_template_directory_uri(); ?>/img/home/intro/">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/home/intro/right-1.png" alt="mountains" data="<?php echo get_template_directory_uri(); ?>/img/home/intro/">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/home/intro/right-2.png" alt="mountains" data="<?php echo get_template_directory_uri(); ?>/img/home/intro/">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/home/intro/right-3.png" alt="mountains" data="<?php echo get_template_directory_uri(); ?>/img/home/intro/">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/home/intro/right-4.png" alt="mountains" data="<?php echo get_template_directory_uri(); ?>/img/home/intro/">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/home/intro/right-5.png" alt="mountains" data="<?php echo get_template_directory_uri(); ?>/img/home/intro/">
+		</div>
 		<div class="left-one sliding-person">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/left-1st.png" alt="mountains">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/home/intro/left-1.png" alt="mountains" data="<?php echo get_template_directory_uri(); ?>/img/home/intro/">
 		</div>
 		<div class="right-one sliding-person">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/right-1st.png" alt="mountains">
+			<div>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/home/intro/helicopter.png" alt="mountains" class="hidde helicopter" data="<?php echo get_template_directory_uri(); ?>/img/home/intro/">
+			</div>
+			<img src="<?php echo get_template_directory_uri(); ?>/img/home/intro/right-1.png" alt="mountains" data="<?php echo get_template_directory_uri(); ?>/img/home/intro/">
 		</div>
 		<div class="hero-text">
 			<h3>AKTYWNIE<br>DLA CIEBIE I BIZNESU</h3>
@@ -111,7 +125,7 @@ get_header(); ?>
 	                <span>Molveno, Włochy</span>
 	              </div>
 	              <div class="color-info">
-	                <h4>Family & Friends</h4>
+	                <h4>FAMILY & FRIENDS</h4>
 	              </div>
 	            </div>
 	          </div>
@@ -129,7 +143,7 @@ get_header(); ?>
 	               <span>Molveno, Włochy</span>
 	             </div>
 	             <div class="color-info">
-	               <h4>Family & Friends</h4>
+	               <h4>FAMILY & FRIENDS</h4>
 	             </div>
 	          </div>
 	        </div>
@@ -160,7 +174,7 @@ get_header(); ?>
 					<div class="underline visible-xs visible-sm"></div>
 					<img src="<?php echo get_template_directory_uri(); ?>/img/home/home-image2.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. gratuluje spostrzegawczości ;) dolor es ipsum sit amet</p>
-					<a href="<?php echo get_site_url(); ?>/for_business"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
+					<a href="<?php echo get_site_url(); ?>/for-business"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
 				</div>
 				<div class="col-md-5 col-md-offset-1 right-side">
 					<h1>DLA BIZNESU</h1>

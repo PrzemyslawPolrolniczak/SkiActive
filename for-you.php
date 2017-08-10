@@ -179,7 +179,7 @@ get_header(); ?>
     </div>
 
     <div class="mobile-view visible-xs">
-  		<div class="row">
+  		<div class="row for-you-expander">
   			<h1>DLA DZIECI</h1>
   			<img src="<?php echo get_template_directory_uri(); ?>/img/expand-arrow.png" class="img-responsive img-fluid expand-for-you">
   		</div>
@@ -203,7 +203,7 @@ get_header(); ?>
           </p>
         </div>
   		</div>
-  		<div class="row">
+  		<div class="row for-business-expander">
   			<h1>DLA DOROSŁYCH</h1>
   			<img src="<?php echo get_template_directory_uri(); ?>/img/expand-arrow.png" class="img-responsive img-fluid expand-for-business">
   		</div>
@@ -227,7 +227,7 @@ get_header(); ?>
           </p>
         </div>
   		</div>
-  		<div class="row">
+  		<div class="row marketing-expander">
   			<h1>FREERIDE</h1>
   			<img src="<?php echo get_template_directory_uri(); ?>/img/expand-arrow.png" class="img-responsive img-fluid expand-marketing">
   		</div>
@@ -251,7 +251,7 @@ get_header(); ?>
           </p>
         </div>
   		</div>
-  		<div class="row">
+  		<div class="row finanses-expander">
   			<h1>SKITOURING</h1>
   			<img src="<?php echo get_template_directory_uri(); ?>/img/expand-arrow.png" class="img-responsive img-fluid expand-finanses">
   		</div>
@@ -275,7 +275,7 @@ get_header(); ?>
           </p>
         </div>
   		</div>
-  		<div class="row">
+  		<div class="row company-info-expander">
   			<h1>JAZDA SPORTOWA</h1>
   			<img src="<?php echo get_template_directory_uri(); ?>/img/expand-arrow.png" class="img-responsive img-fluid expand-company-info">
   		</div>
@@ -321,7 +321,7 @@ get_header(); ?>
       <div class="row tile-row">
         <?php if( get_field('tile' . $i . '_visible') == 'yes'): ?>
         <div class="col-md-6 relative-position">
-          <div class="card card-left card1 <?php the_field('check_tile' . $i . '_color_theme'); ?> shadowed row">
+          <div class="card card-left card1 shadowed row">
             <div class="image col-xs-6">
               <img src="<?php the_field('tile' . $i . '_image'); ?>" alt="" class="card-image">
             </div>

@@ -191,7 +191,7 @@ get_header(); ?>
 
 	<!-- Visible on mobile -->
 	<div class="mobile-view">
-		<div class="row hidden-lg hidden-md">
+		<div class="row hidden-lg hidden-md for-you-expander">
 			<h1>DLA CIEBIE</h1>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/expand-arrow.png" class="img-responsive img-fluid expand-for-you">
 		</div>
@@ -212,7 +212,7 @@ get_header(); ?>
 				<a href="">jan@skiactive.com</a>
 			</div>
 		</div>
-		<div class="row hidden-lg hidden-md">
+		<div class="row hidden-lg hidden-md for-business-expander">
 			<h1>DLA BIZNESU</h1>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/expand-arrow.png" class="img-responsive img-fluid expand-for-business">
 		</div>
@@ -233,7 +233,7 @@ get_header(); ?>
 				<a href="">jan@skiactive.com</a>
 			</div>
 		</div>
-		<div class="row hidden-lg hidden-md">
+		<div class="row hidden-lg hidden-md marketing-expander">
 			<h1>MARKETING</h1>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/expand-arrow.png" class="img-responsive img-fluid expand-marketing">
 		</div>
@@ -254,7 +254,7 @@ get_header(); ?>
 				<a href="">jan@skiactive.com</a>
 			</div>
 		</div>
-		<div class="row hidden-lg hidden-md">
+		<div class="row hidden-lg hidden-md finanses-expander">
 			<h1>FINANSE</h1>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/expand-arrow.png" class="img-responsive img-fluid expand-finanses">
 		</div>
@@ -275,7 +275,7 @@ get_header(); ?>
 				<a href="">jan@skiactive.com</a>
 			</div>
 		</div>
-		<div class="row alt-color hidden-lg hidden-md">
+		<div class="row alt-color hidden-lg hidden-md company-info-expander">
 			<h1>DANE SPÓŁKI</h1>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/expand-arrow-blue.png" class="img-responsive img-fluid expand-company-info">
 		</div>

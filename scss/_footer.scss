@@ -142,7 +142,7 @@
 				      outline: 0;
 				    }
 						border-width: 0px;
-		        box-shadow: 0px 0px 0px 2px rgba(239,128,30,1);
+		        box-shadow: 0px 0px 0px 1.5px rgba(239,128,30,1);
 		        &:hover {
 		          color: #FFF;
 		          background-color: $corange;
@@ -161,6 +161,10 @@
 						}
 						&::placeholder {
 							color: #a2a2a2;
+						}
+						color: #a2a2a2;
+						&:active, &:focus {
+							color: black;
 						}
 						font-size: 18px;
 						width: 400px;

@@ -256,22 +256,19 @@ get_header(); ?>
 
 			<div class="box">
 				<div class="partner-logos row">
-					<div class="partner-logo col-sm-4">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo_sitn.jpg" alt="logo SITN PZN" class="img-responsive img-fluid">
+					<div class="partner-logo col-sm-offset-2 col-sm-4">
+						<div class="double-logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/logo_sitn.jpg" alt="logo SITN PZN" class="img-responsive img-fluid">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/PZN.jpg" alt="logo SITN PZN" class="img-responsive img-fluid">
+						</div>
 						<p>
 							Licencja SITN PZN<br>od 2004 r.
 						</p>
 					</div>
 					<div class="partner-logo col-sm-4">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo_fischer.jpg" alt="logo Fischer" class="img-responsive img-fluid fisher-logo">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/fischer.jpg" alt="logo Fischer" class="img-responsive img-fluid fisher-logo">
 						<p>
-							Licencja<br>FISHER
-						</p>
-					</div>
-					<div class="partner-logo col-sm-4">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo_brikomaplus.jpg" alt="logo BRIKO-MAPLUS" class="img-responsive img-fluid">
-						<p>
-							Autoryzacja<br>BRIKO-MAPLUS
+							Licencja<br>FISCHER
 						</p>
 					</div>
 				</div>
@@ -323,13 +320,16 @@ get_header(); ?>
 	</div>
 
 	<div class="hidden owner2-details row">
-		<div class="col-xs-5 no-paddings">
+		<div class="col-xs-4 col-md-5 no-paddings hidden-xs hidden-sm">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
 		</div>
-		<div class="col-xs-7 text-div">
+		<div class="col-xs-12 col-md-7 text-div">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
-				<h1>Rafał Sionek</h1>
-				<h2>co-owner</h2>
+			<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid hidden-md hidden-lg owner-picture ">
+				<div class="owner-name">
+					<h1>Rafał Sionek</h1>
+					<h2>co-owner</h2>
+				</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
 				<a href="#">+ 48 123 456789</a>
 				<a href="#">rafal@skiactive.com</a>

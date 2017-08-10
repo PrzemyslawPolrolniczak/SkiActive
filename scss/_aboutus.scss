@@ -95,16 +95,17 @@
 		}
 
 		.photos {
-			padding-top: 35px;
+			//padding-top: 35px;
 			img {
+				margin-top: 35px;
 				box-shadow: 6px 10px 27.84px 4.16px rgba(0, 0, 0, 0.17);
 				border-bottom: 15px solid $cblue2;
-				margin-bottom: 75px;
+				margin-bottom: 40px;
 				max-height: 305px;
 				float: right;
 				@media (max-width: 991px) {
 					float: none;
-					margin: 0 auto;
+					margin: 20px 0 0 0;
 				}
 			}
 		}
@@ -112,9 +113,8 @@
 
 	.infographic {
     position: relative;
-    margin-top: 100px;
 		background: none;
-		background-image: url("./img/counter-img.png");
+		background-image: url("./img/counter-img.jpg");
 		background-size: cover;
 		background-position: center;
 
@@ -354,7 +354,7 @@
 		p {
 			display: block;
 			text-align: center;
-			padding: 40px 0;
+			padding-top: 40px;
 			margin-bottom: 90px;
 			line-height: 24px;
 		}
@@ -486,8 +486,8 @@
 	}
 
 	.licences {
-		margin-top: 200px;
-		padding-bottom: 100px;
+		margin-top: 130px;
+		padding-bottom: 150px;
 		@media (max-width: 991px) {
 			margin-top: 150px;
 		}
@@ -537,6 +537,9 @@
 				display: flex;
 				text-align: center;
 				flex-direction: column;
+				.double-logo {
+					display: flex;
+				}
 				img {
 					max-height: 110px;
 					max-width: 263px;

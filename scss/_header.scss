@@ -55,6 +55,7 @@ header {
         line-height: 70px;
       }
       a {
+        font-size: 16px;
         color: white;
         transition: color 0.3s;
         @media (max-width: 991px) {
@@ -134,12 +135,14 @@ header {
     display: flex;
     align-items: center;
     height: 35px;
+    padding-left: 15px;
+    padding-right: 0;
   }
   .burger-menu {
     @media (min-width: 768px) {
       display: block;
     }
-    &.navbar-toggle {
+    &.navbar-toggled {
       padding: 0;
       .icon-bar {
         background-color: white;
@@ -151,7 +154,7 @@ header {
         }
       }
     }
-    height: 24px;
+    height: 20px;
     float: left;
     margin: 0;
 

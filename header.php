@@ -28,7 +28,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<?php if( is_page( array( 'about-us', 'contact', 'for_business', 'for-you', '') ) || is_front_page() ) { ?>
+	<?php if( is_page( array( 'about-us', 'contact', 'for-business', 'for-you', '') ) || is_front_page() ) { ?>
 <header>
 	<div id="page" class="">
 		<div class="container">
@@ -63,11 +63,12 @@
 
 					<div class="row">
 		        <div class="navbar-header burger-container col-xs-2">
-		            <button type="button" class="navbar-toggle burger-menu">
+		            <!-- <button type="button" class="navbar-toggle burger-menu">
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
-		            </button>
+		            </button> -->
+								<img src="<?php echo get_template_directory_uri(); ?>/img/burger.png" alt="Logo" class="img-responsive img-fluid navbar-toggled burger-menu">
 		        </div>
 						<div class="col-xs-8 logo-mobile">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/Logo.png" alt="Logo" class="img-responsive img-fluid logo">
