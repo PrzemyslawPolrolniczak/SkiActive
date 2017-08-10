@@ -686,6 +686,18 @@
         $(this).css('color', '');
       }
     });
-    
+
+    $('.wysija-submit').click(function () {
+      mail = $('.wysija-input').val();
+      var regex = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/
+      if (regex.test(mail) == true) {
+        $('.invalid-mail').fadeOut();
+      } else {
+        $('.invalid-mail').fadeIn();
+      }
+    });
+
+
+
   });
 })()

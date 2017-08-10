@@ -17,11 +17,14 @@
 	<div class="overlay hidden"></div>
 		<div class="container">
 			<div class="newsletter">
-			<h1>
-			NEWSLETTER SKIACTIVE
-			</h1>
-			<div class="underline"></div>
-			<?php echo do_shortcode('[wysija_form id="2"]'); ?>
+				<h1>
+				NEWSLETTER SKIACTIVE
+				</h1>
+				<div class="underline"></div>
+				<?php echo do_shortcode('[wysija_form id="2"]'); ?>
+				<div class="invalid-mail hidde">
+					<p>Podany adres e-mail jest nieprawidłowy!</p>
+				</div>
 			</div>
 
 			<div class="site-info row">

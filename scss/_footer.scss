@@ -10,7 +10,7 @@
 		}
 	}
 	.footerimage {
-		background-image: url("./img/footer-mountains.png");
+		background-image: url("./img/footer-mountains.jpg");
 		height: 600px;
 		background-size: cover;
 		background-position: center top;
@@ -187,7 +187,22 @@
 				}
 			}
 		}
+		.invalid-mail {
+			margin-top: 20px;
+			text-align: center;
+			p {
+				color: red;
+			}
+			&.hidde {
+				display: none;
+			}
+		}
 	}
+
+	.formErrorContent {
+		display: none;
+	}
+
 
 	.regulations{
 		align-self:center;

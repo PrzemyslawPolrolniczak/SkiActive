@@ -50,7 +50,7 @@ get_header(); ?>
 					<h1>O NAS</h1>
 					<h2>O NAS</h2>
 					<div class="underline"></div>
-					<img src="<?php echo get_template_directory_uri(); ?>/img/home-aboutus-photo1.png" alt="placeholder" class="img-responsive img-fluid shadowed">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/home/home-image3.jpg" alt="placeholder" class="img-responsive img-fluid shadowed">
 				</div>
 				<div class="col-md-5 col-md-offset-1 right-side">
 					<h1 class="visible-xs visible-sm">O NAS</h1>
