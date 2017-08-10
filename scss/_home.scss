@@ -99,10 +99,11 @@
       }
       .hidde {
         display: none;
-        max-height: 170px;
-        position: absolute;
-        top: -240px;
-        right: 100px;
+        &.helicopter {
+          position: absolute;
+          top: -240px;
+          right: 100px;
+        }
       }
     }
     &.div-left-3 {

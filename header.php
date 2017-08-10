@@ -33,7 +33,7 @@
 	<div id="page" class="">
 		<div class="container">
 		<div class="row hidden-sm hidden-xs">
-			<div class="col-md-3"><a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/Logo.png" alt="Logo" class="img-responsive img-fluid logo"></a></div>
+			<div class="col-md-3"><a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="img-responsive img-fluid logo"></a></div>
 			<nav id="site-navigation" class="main-navigation  col-md-6">
 				<?php
 					wp_nav_menu( array(
@@ -63,15 +63,10 @@
 
 					<div class="row">
 		        <div class="navbar-header burger-container col-xs-2">
-		            <!-- <button type="button" class="navbar-toggle burger-menu">
-		                <span class="icon-bar"></span>
-		                <span class="icon-bar"></span>
-		                <span class="icon-bar"></span>
-		            </button> -->
 								<img src="<?php echo get_template_directory_uri(); ?>/img/burger.png" alt="Logo" class="img-responsive img-fluid navbar-toggled burger-menu">
 		        </div>
 						<div class="col-xs-8 logo-mobile">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/Logo.png" alt="Logo" class="img-responsive img-fluid logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/logomobile.png" alt="Logo" class="img-responsive img-fluid logo">
 						</div>
 						<div class="col-xs-2 contact-mobile"><img src="<?php echo get_template_directory_uri(); ?>/img/contact.png" alt="contact" class="img-responsive img-fluid contact-img mobile-expander"></div>
 					</div>

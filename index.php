@@ -56,7 +56,7 @@ get_header(); ?>
 					<h1 class="visible-xs visible-sm">O NAS</h1>
 					<h2 class="visible-xs visible-sm">O NAS</h2>
 					<div class="underline visible-xs visible-sm"></div>
-					<img src="<?php echo get_template_directory_uri(); ?>/img/home/home-image1.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/home/home-image1.jpg" alt="placeholder" class="img-responsive img-fluid shadowed ">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
 					<a href="<?php echo get_site_url(); ?>/about-us"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
 				</div>
@@ -172,7 +172,7 @@ get_header(); ?>
 					<h1 class="visible-xs visible-sm">DLA BIZNESU</h1>
 					<h2 class="visible-xs visible-sm">DLA BIZNESU</h2>
 					<div class="underline visible-xs visible-sm"></div>
-					<img src="<?php echo get_template_directory_uri(); ?>/img/home/home-image2.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/home/home-image2.jpg" alt="placeholder" class="img-responsive img-fluid shadowed ">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. gratuluje spostrzegawczości ;) dolor es ipsum sit amet</p>
 					<a href="<?php echo get_site_url(); ?>/for-business"><button class="btn btn-primary btn-outline">Dowiedz się więcej</button></a>
 				</div>
@@ -180,7 +180,7 @@ get_header(); ?>
 					<h1>DLA BIZNESU</h1>
 					<h2>DLA BIZNESU</h2>
 					<div class="underline"></div>
-					<img src="<?php echo get_template_directory_uri(); ?>/img/home/home-helicopter.png" alt="placeholder" class="img-responsive img-fluid shadowed ">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/home/home-helicopter.jpg" alt="placeholder" class="img-responsive img-fluid shadowed ">
 				</div>
 			</div>
 		</div>
