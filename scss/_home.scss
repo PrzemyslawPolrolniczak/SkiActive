@@ -291,7 +291,7 @@
     }
   }
   .about-us-section {
-    margin-top: 440px;
+    margin-top: 500px;
     @media (max-width: 991px) {
       margin-top: 100px;
     }
@@ -582,12 +582,12 @@
       }
       .hero-h3 {
         font-size: 30px;
-        font-weight: 600;
+        font-weight: 500;
         text-align: left;
         color: $corange;
         padding-left: 5px;
+        font-family: 'Roboto Condensed', sans-serif;
         @media (max-width: 380px) {
-          font-family: 'Roboto Condensed', sans-serif;
           font-size: 24px;
           margin-bottom: 0;
           margin-top: 0;
@@ -847,7 +847,7 @@
       position: absolute;
       top:-90px;
     }
-    margin-top: 200px;
+    margin-top: 120px;
     @media (max-width: 991px) {
       margin-top: 0;
     }

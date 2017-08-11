@@ -684,6 +684,7 @@
         $(this).css('color', 'black');
       } else {
         $(this).css('color', '');
+        $('.invalid-mail').fadeOut();
       }
     });
 
