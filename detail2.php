@@ -18,7 +18,7 @@
 
   <div class="header">
     <div class="row">
-      <div class="col-xs-8 col-xs-offset-1">PAGANELLA <br class="visible-xs"><span class="hidden-xs">-</span> Rodzinne ferie na nartach</div>
+      <div class="col-xs-8 col-xs-offset-1"><?php the_field('test'); ?><br class="visible-xs"><span class="hidden-xs">-</span> Rodzinne ferie na nartach</div>
       <div class="col-xs-2 exit"><img src="<?php echo get_template_directory_uri(); ?>/img/exitButton.png" alt="" class="img-responsive img-fluid"></div>
     </div>
   </div>
