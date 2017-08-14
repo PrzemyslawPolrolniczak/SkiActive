@@ -321,7 +321,7 @@ get_header(); ?>
       <div class="row tile-row">
         <?php if( get_field('tile' . $i . '_visible') == 'yes'): ?>
         <div class="col-md-6 relative-position">
-          <div class="card card-left card1 shadowed row">
+          <div class="card card-left <?php the_field('tile' . $i . '_open_detail'); ?> shadowed row">
             <div class="image col-xs-6">
               <img src="<?php the_field('tile' . $i . '_image'); ?>" alt="" class="card-image">
             </div>

@@ -287,14 +287,101 @@
       });
     }
 
-    $('.card1').click(function() {
+    $('.detail1').click(function() {
       showForm();
       detailOpener('./detail1/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
     });
-
-    $('.card2').click(function() {
+    $('.detail2').click(function() {
       showForm();
       detailOpener('./detail2/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail3').click(function() {
+      showForm();
+      detailOpener('./detail3/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail4').click(function() {
+      showForm();
+      detailOpener('./detail4/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail5').click(function() {
+      showForm();
+      detailOpener('./detail5/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail6').click(function() {
+      showForm();
+      detailOpener('./detail6/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail7').click(function() {
+      showForm();
+      detailOpener('./detail7/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail8').click(function() {
+      showForm();
+      detailOpener('./detail8/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail9').click(function() {
+      showForm();
+      detailOpener('./detail9/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail10').click(function() {
+      showForm();
+      detailOpener('./detail10/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail11').click(function() {
+      showForm();
+      detailOpener('./detail11/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail12').click(function() {
+      showForm();
+      detailOpener('./detail12/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail13').click(function() {
+      showForm();
+      detailOpener('./detail13/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail14').click(function() {
+      showForm();
+      detailOpener('./detail14/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail15').click(function() {
+      showForm();
+      detailOpener('./detail15/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail16').click(function() {
+      showForm();
+      detailOpener('./detail16/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail17').click(function() {
+      showForm();
+      detailOpener('./detail17/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail18').click(function() {
+      showForm();
+      detailOpener('./detail18/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail19').click(function() {
+      showForm();
+      detailOpener('./detail19/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail20').click(function() {
+      showForm();
+      detailOpener('./detail20/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail21').click(function() {
+      showForm();
+      detailOpener('./detail21/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail22').click(function() {
+      showForm();
+      detailOpener('./detail22/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail23').click(function() {
+      showForm();
+      detailOpener('./detail23/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
+    });
+    $('.detail24').click(function() {
+      showForm();
+      detailOpener('./detail24/', '.for-you-detal-slider-one', '.for-you-detal-slider-two');
     });
 
     function scrollHere(here) {

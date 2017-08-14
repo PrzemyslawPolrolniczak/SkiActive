@@ -178,6 +178,12 @@
       font-size: 17px;
       margin-top: 0;
       font-weight: 700;
+      a {
+        color: black;
+        &:hover, &:active, &:visited, &:focus {
+          color: black;
+        }
+      }
     }
     .info-text {
       margin-bottom: 30px;
