@@ -23,47 +23,35 @@
  <div class="content">
    <div class='row'>
       <div class="slider sliderSummer">
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-01.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-02.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-03.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-04.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-05.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-06.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-07.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-08.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-09.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-10.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-11.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-12.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-13.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-14.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-15.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-16.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/summerdetal/lato-17.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
+        <?php for ($i = 1; $i <= 20; $i = $i + 1) { ?>
+          <?php if( get_field('image' . $i) ): ?>
+            <div><img src="<?php the_field('image' . $i); ?>" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
+          <?php endif; ?>
+        <?php }; ?>
      </div>
   </div>
   <div class="text-row">
     <div class="text-col">
       <div class="plain-text">
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+        <?php for ($i = 1; $i <= 5; $i = $i + 1) { ?>
+          <?php if( get_field('text' . $i) ): ?>
+            <p><div class="hyphen-before"></div> <?php the_field('text' . $i); ?></p>
+          <?php endif; ?>
+        <?php }; ?>
       </div>
       <div class="plain-text">
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+        <?php for ($i = 6; $i <= 10; $i = $i + 1) { ?>
+          <?php if( get_field('text' . $i) ): ?>
+            <p><div class="hyphen-before"></div> <?php the_field('text' . $i); ?></p>
+          <?php endif; ?>
+        <?php }; ?>
       </div>
       <div class="plain-text">
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+        <?php for ($i = 11; $i <= 15; $i = $i + 1) { ?>
+          <?php if( get_field('text' . $i) ): ?>
+            <p><div class="hyphen-before"></div> <?php the_field('text' . $i); ?></p>
+          <?php endif; ?>
+        <?php }; ?>
       </div>
     </div>
   </div>

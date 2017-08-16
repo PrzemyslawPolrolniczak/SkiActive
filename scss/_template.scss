@@ -81,7 +81,13 @@
   .logo {
     margin-top: 50px;
     height: 500px;
-    background-color: $cgrey;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 767px) {
+      height: auto;
+    }
   }
   .navigation {
     padding-left: 60px;

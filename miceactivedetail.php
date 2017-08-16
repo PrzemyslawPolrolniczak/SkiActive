@@ -24,37 +24,35 @@
  <div class="content">
    <div class='row'>
       <div class="slider sliderMiceActive">
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/micedetal/mice-01.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/micedetal/mice-02.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/micedetal/mice-03.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/micedetal/mice-04.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/micedetal/mice-05.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/micedetal/mice-06.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
-       <div><img src="<?php echo get_template_directory_uri(); ?>/img/forbusiness/micedetal/mice-07.png" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
+      <?php for ($i = 1; $i <= 20; $i = $i + 1) { ?>
+        <?php if( get_field('image' . $i) ): ?>
+          <div><img src="<?php the_field('image' . $i); ?>" alt="" class="img-responsive img-fluid slide-image shadowed"></div>
+        <?php endif; ?>
+      <?php }; ?>
      </div>
   </div>
   <div class="text-row">
     <div class="text-col">
       <div class="plain-text">
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+        <?php for ($i = 1; $i <= 5; $i = $i + 1) { ?>
+          <?php if( get_field('text' . $i) ): ?>
+            <p><div class="hyphen-before"></div> <?php the_field('text' . $i); ?></p>
+          <?php endif; ?>
+        <?php }; ?>
       </div>
       <div class="plain-text">
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+        <?php for ($i = 6; $i <= 10; $i = $i + 1) { ?>
+          <?php if( get_field('text' . $i) ): ?>
+            <p><div class="hyphen-before"></div> <?php the_field('text' . $i); ?></p>
+          <?php endif; ?>
+        <?php }; ?>
       </div>
       <div class="plain-text">
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
-        <p><div class="hyphen-before"></div> Lorem ipsum dolor</p>
+        <?php for ($i = 11; $i <= 15; $i = $i + 1) { ?>
+          <?php if( get_field('text' . $i) ): ?>
+            <p><div class="hyphen-before"></div> <?php the_field('text' . $i); ?></p>
+          <?php endif; ?>
+        <?php }; ?>
       </div>
     </div>
   </div>

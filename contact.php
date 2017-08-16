@@ -39,51 +39,51 @@ get_header(); ?>
 
 		<div class="row row-contact">
 			<div class="person col-xs-6 col-md-4">
-					<h4>Katarzyna Żmuda</h4>
+					<h4><?php the_field('for_you_name1'); ?></h4>
 					<p>
-						+48 796 472930
+						<?php the_field('for_you_tel1'); ?>
 					</p>
 					<p>
-						katarzyna@skiactive.com
-					</p>
-				</div>
-				<div class="person col-xs-6 col-md-4">
-					<h4>Katarzyna Żmuda</h4>
-					<p>
-						+48 796 472930
-					</p>
-					<p>
-						katarzyna@skiactive.com
+						<?php the_field('for_you_mail1'); ?>
 					</p>
 				</div>
 				<div class="person col-xs-6 col-md-4">
-					<h4>Katarzyna Żmuda</h4>
+					<h4><?php the_field('for_business_name1'); ?></h4>
 					<p>
-						+48 796 472930
+						<?php the_field('for_business_tel1'); ?>
 					</p>
 					<p>
-						katarzyna@skiactive.com
+						<?php the_field('for_business_mail1'); ?>
+					</p>
+				</div>
+				<div class="person col-xs-6 col-md-4">
+					<h4><?php the_field('marketing_name'); ?></h4>
+					<p>
+						<?php the_field('marketing_tel'); ?>
+					</p>
+					<p>
+						<?php the_field('marketing_mail'); ?>
 					</p>
 				</div>
 		</div>
 
 		<div class="row row-contact">
 				<div class="person col-xs-6 col-md-4">
-					<h4>Adam Nowak</h4>
+					<h4><?php the_field('for_you_name2'); ?></h4>
 					<p>
-						+48 796 472930
+						<?php the_field('for_you_tel2'); ?>
 					</p>
 					<p>
-						adam@skiactive.com
+						<?php the_field('for_you_mail2'); ?>
 					</p>
 				</div>
 				<div class="person col-xs-6 col-md-4">
-					<h4>Adam Nowak</h4>
+					<h4><?php the_field('for_business_name2'); ?></h4>
 					<p>
-						+48 796 472930
+						<?php the_field('for_business_tel2'); ?>
 					</p>
 					<p>
-						adam@skiactive.com
+						<?php the_field('for_business_mail2'); ?>
 					</p>
 				</div>
 				<div class="contact-header col-xs-6 col-md-4">
@@ -95,30 +95,30 @@ get_header(); ?>
 
 		<div class="row row-contact">
 				<div class="person col-xs-6 col-md-4">
-					<h4>Jan Kowalski</h4>
+					<h4><?php the_field('for_you_name3'); ?></h4>
 					<p>
-						+48 796 472930
+						<?php the_field('for_you_tel3'); ?>
 					</p>
 					<p>
-						jan@skiactive.com
-					</p>
-				</div>
-				<div class="person col-xs-6 col-md-4">
-					<h4>Jan Kowalski</h4>
-					<p>
-						+48 796 472930
-					</p>
-					<p>
-						jan@skiactive.com
+						<?php the_field('for_you_mail3'); ?>
 					</p>
 				</div>
 				<div class="person col-xs-6 col-md-4">
-					<h4>Łukasz Kuźmiński</h4>
+					<h4><?php the_field('for_business_name3'); ?></h4>
 					<p>
-						+48 796 472930
+						<?php the_field('for_business_tel3'); ?>
 					</p>
 					<p>
-						lukasz@skiactive.com
+						<?php the_field('for_business_mail3'); ?>
+					</p>
+				</div>
+				<div class="person col-xs-6 col-md-4">
+					<h4><?php the_field('finanses_name'); ?></h4>
+					<p>
+						<?php the_field('finanses_tel'); ?>
+					</p>
+					<p>
+						<?php the_field('finanses_mail'); ?>
 					</p>
 				</div>
 		</div>
@@ -149,21 +149,21 @@ get_header(); ?>
 	  		<div class="row row-contact">
 
 	  			<div class="person col-xs-6 col-md-6">
-					<h4>Rafał Sionek, Łukasz Kuźmiński Spółka Jawna</h4>
+					<h4><?php the_field('company_name'); ?></h4>
 					<p>
-						ul. Pawia 20 lok. D
+						<?php the_field('company_adress'); ?>
 					</p>
 					<p>
-						52-235 Wrocław
+						<?php the_field('company_postcode'); ?>
 					</p>
 				</div>
 				<div class="person col-xs-6 col-md-6">
-					<h4>SKIACTIVE</h4>
+					<h4><?php the_field('correspondence_name'); ?></h4>
 					<p>
-						ul. Pawia 20 lok. D
+						<?php the_field('correspondence_adress'); ?>
 					</p>
 					<p>
-						52-235 Wrocław
+						<?php the_field('correspondence_postcode'); ?>
 					</p>
 				</div>
 
@@ -173,11 +173,7 @@ get_header(); ?>
 
 	  			<div class="person firm-data col-xs-6 col-md-6">
 					<p>
-						NIP: PL8992662434<br>REGON: 020914960<br>KRS: 0000322349<br>
-
-<br>ALIOR BANK SA
-<br>IBAN: 77 2490 0005 0000 4500 1263 5570
-<br>SWIFT: ALBPPLPW
+						<?php the_field('company_info'); ?>
 					</p>
 				</div>
 
@@ -197,19 +193,19 @@ get_header(); ?>
 		</div>
 		<div class="hidde hidden-lg hidden-md for-you-drop">
 			<div class="person">
-				<p>Katarzyna Żmuda</p>
-				<a href="">+48 796 472930</a>
-				<a href="">katarzyna@skiactive.com</a>
+				<p><?php the_field('for_you_name1'); ?></p>
+				<a href="tel:<?php the_field('for_you_tel1'); ?>"><?php the_field('for_you_tel1'); ?></a>
+				<a href="mailto:<?php the_field('for_you_mail1'); ?>"><?php the_field('for_you_mail1'); ?></a>
 			</div>
 			<div class="person">
-				<p>Adam Nowak</p>
-				<a href="">+48 796 472930</a>
-				<a href="">adam@skiactive.com</a>
+				<p><?php the_field('for_you_name2'); ?></p>
+				<a href="tel:<?php the_field('for_you_tel2'); ?>"><?php the_field('for_you_tel2'); ?></a>
+				<a href="mailto:<?php the_field('for_you_mail2'); ?>"><?php the_field('for_you_mail2'); ?></a>
 			</div>
 			<div class="person">
-				<p>Jan Kowalski</p>
-				<a href="">+48 796 472930</a>
-				<a href="">jan@skiactive.com</a>
+				<p><?php the_field('for_you_name3'); ?></p>
+				<a href="tel:<?php the_field('for_you_tel3'); ?>"><?php the_field('for_you_tel3'); ?></a>
+				<a href="mailto:<?php the_field('for_you_mail3'); ?>"><?php the_field('for_you_mail3'); ?></a>
 			</div>
 		</div>
 		<div class="row hidden-lg hidden-md for-business-expander">
@@ -218,19 +214,19 @@ get_header(); ?>
 		</div>
 		<div class="hidde hidden-lg hidden-md for-business-drop">
 			<div class="person">
-				<p>Katarzyna Żmuda</p>
-				<a href="">+48 796 472930</a>
-				<a href="">katarzyna@skiactive.com</a>
+				<p><?php the_field('for_business_name1'); ?></p>
+				<a href="tel:<?php the_field('for_business_tel1'); ?>"><?php the_field('for_business_tel1'); ?></a>
+				<a href="mailto:<?php the_field('for_business_mail1'); ?>"><?php the_field('for_business_mail1'); ?></a>
 			</div>
 			<div class="person">
-				<p>Adam Nowak</p>
-				<a href="">+48 796 472930</a>
-				<a href="">adam@skiactive.com</a>
+				<p><?php the_field('for_business_name2'); ?></p>
+				<a href="tel:<?php the_field('for_business_tel2'); ?>"><?php the_field('for_business_tel2'); ?></a>
+				<a href="mailto:<?php the_field('for_business_mail2'); ?>"><?php the_field('for_business_mail2'); ?></a>
 			</div>
 			<div class="person">
-				<p>Jan Kowalski</p>
-				<a href="">+48 796 472930</a>
-				<a href="">jan@skiactive.com</a>
+				<p><?php the_field('for_business_name3'); ?></p>
+				<a href="tel:<?php the_field('for_business_tel3'); ?>"><?php the_field('for_business_tel3'); ?></a>
+				<a href="mailto:<?php the_field('for_business_mail3'); ?>"><?php the_field('for_business_mail3'); ?></a>
 			</div>
 		</div>
 		<div class="row hidden-lg hidden-md marketing-expander">
@@ -239,19 +235,9 @@ get_header(); ?>
 		</div>
 		<div class="hidde hidden-lg hidden-md marketing-drop">
 			<div class="person">
-				<p>Katarzyna Żmuda</p>
-				<a href="">+48 796 472930</a>
-				<a href="">katarzyna@skiactive.com</a>
-			</div>
-			<div class="person">
-				<p>Adam Nowak</p>
-				<a href="">+48 796 472930</a>
-				<a href="">adam@skiactive.com</a>
-			</div>
-			<div class="person">
-				<p>Jan Kowalski</p>
-				<a href="">+48 796 472930</a>
-				<a href="">jan@skiactive.com</a>
+				<p><?php the_field('marketing_name'); ?></p>
+				<a href="tel:<?php the_field('marketing_tel'); ?>"><?php the_field('marketing_tel'); ?></a>
+				<a href="mailto:<?php the_field('marketing_mail'); ?>"><?php the_field('marketing_mail'); ?></a>
 			</div>
 		</div>
 		<div class="row hidden-lg hidden-md finanses-expander">
@@ -260,19 +246,9 @@ get_header(); ?>
 		</div>
 		<div class="hidde hidden-lg hidden-md finanses-drop">
 			<div class="person">
-				<p>Katarzyna Żmuda</p>
-				<a href="">+48 796 472930</a>
-				<a href="">katarzyna@skiactive.com</a>
-			</div>
-			<div class="person">
-				<p>Adam Nowak</p>
-				<a href="">+48 796 472930</a>
-				<a href="">adam@skiactive.com</a>
-			</div>
-			<div class="person">
-				<p>Jan Kowalski</p>
-				<a href="">+48 796 472930</a>
-				<a href="">jan@skiactive.com</a>
+				<p><?php the_field('finanses_name'); ?></p>
+				<a href="tel:<?php the_field('finanses_tel'); ?>"><?php the_field('finanses_tel'); ?></a>
+				<a href="mailto:<?php the_field('finanses_mail'); ?>"><?php the_field('finanses_mail'); ?></a>
 			</div>
 		</div>
 		<div class="row alt-color hidden-lg hidden-md company-info-expander">
@@ -281,25 +257,18 @@ get_header(); ?>
 		</div>
 		<div class="hidde hidden-lg hidden-md company-info-drop">
 			<div class="person">
-				<p>Rafał Sionek, Łukasz Kuźmiński Spółka Jawna</p>
-				<span>ul. Pawia 20 lok. D</span>
-				<span>52-235 Wrocław</span>
+				<p><?php the_field('company_name'); ?></p>
+				<span><?php the_field('company_adress'); ?></span>
+				<span><?php the_field('company_postcode'); ?></span>
 			</div>
 			<div class="person">
-				<span>NIP: PL8992662434</span>
-				<span>REGON: 020914960</span>
-				<span>KRS: 0000322349</span>
-			</div>
-			<div class="person">
-				<span>ALIOR BANK SA </span>
-				<span>IBAN: 77 2490 0005 0000 4500 1263 5570 </span>
-				<span>SWIFT: ALBPPLPW</span>
+				<span><?php the_field('company_info'); ?></span>
 			</div>
 			<div class="person">
 				<p>Adres korespondencyjny </p>
-				<span>SKIACTIVE</span>
-				<span>ul. Pawia 20 lok. D</span>
-				<span>52-235 Wrocław</span>
+				<span><?php the_field('correspondence_name'); ?></span>
+				<span><?php the_field('correspondence_adress'); ?></span>
+				<span><?php the_field('correspondence_postcode'); ?></span>
 			</div>
 		</div>
 	</div>
