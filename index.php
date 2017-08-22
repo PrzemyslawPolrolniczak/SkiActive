@@ -7,6 +7,8 @@
  * It is used to display a page when nothing more specific matches a query.
  * E.g., it puts together the home page when no home.php file exists.
  *
+ *Template Name: Home
+ *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package SkiActive
@@ -111,39 +113,42 @@ get_header(); ?>
 			 </div>
 
 				 	<div class="row nearest-events tile-row">
+						<div class="hidden">
+							<?php $i = get_field('1copy_tile_number:'); ?>
+							<?php $x = get_field('2copy_tile_number:'); ?>
+						</div>
 						<div class="col-md-6 relative-position">
-
-						<div class="card card-left card1 shadowed row">
+						<div class="card card-left <?php the_field('tile' . $i . '_open_detail',26); ?> shadowed row">
 	            <div class="image col-xs-6">
-	              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="card-image">
+	              <img src="<?php the_field('tile' . $i . '_image',26); ?>" alt="" class="card-image">
 	            </div>
 	            <div class="col-xs-6 no-paddings">
 	              <div class="text">
-	                <h3>KIERUNEK WYJAZDU ABC</h3>
-	                <h4>Rodzinne ferie na nartach lorem</h4>
-	                <p>31.01.2017 - 07.02.2017</p>
-	                <span>Molveno, Włochy</span>
+									<h3><?php the_field('tile' . $i . '_header',26); ?></h3>
+	                <h4><?php the_field('tile' . $i . '_text',26); ?></h4>
+	                <p><?php the_field('tile' . $i . '_start_date',26); ?> - <?php the_field('tile' . $i . '_end_date',26); ?></p>
+	                <span><?php the_field('tile' . $i . '_place',26); ?></span>
 	              </div>
 	              <div class="color-info">
-	                <h4>FAMILY & FRIENDS</h4>
+	                <h4><?php the_field('tile' . $i . '_footer',26); ?></h4>
 	              </div>
 	            </div>
 	          </div>
 					</div>
 					<div class="col-md-6 relative-position">
-						<div class="card card-right card2 shadowed row">
+						<div class="card card-right <?php the_field('tile' . $x . '_open_detail',26); ?> shadowed row">
 		           <div class="image col-xs-6">
-		             <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="card-image">
+		             <img src="<?php the_field('tile' . $x . '_image',26); ?>" alt="" class="card-image">
 	           	</div>
 	           <div class="col-xs-6 no-paddings">
 	             <div class="text">
-	               <h3>KIERUNEK WYJAZDU ABC</h3>
-	               <h4>Rodzinne ferie na nartach lorem</h4>
-	               <p>31.01.2017 - 07.02.2017</p>
-	               <span>Molveno, Włochy</span>
+								 <h3><?php the_field('tile' . $x . '_header',26); ?></h3>
+								 <h4><?php the_field('tile' . $x . '_text',26); ?></h4>
+								 <p><?php the_field('tile' . $x . '_start_date',26); ?> - <?php the_field('tile' . $x . '_end_date',26); ?></p>
+								 <span><?php the_field('tile' . $x . '_place',26); ?></span>
 	             </div>
 	             <div class="color-info">
-	               <h4>FAMILY & FRIENDS</h4>
+	               <h4><?php the_field('tile' . $x . '_footer',26); ?></h4>
 	             </div>
 	          </div>
 	        </div>

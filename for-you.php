@@ -341,9 +341,9 @@ get_header(); ?>
         <?php endif; ?>
         <?php if( get_field('tile' . $x . '_visible') == 'yes'): ?>
         <div class="col-md-6 relative-position">
-          <div class="card card-right card1 <?php the_field('check_tile' . $x . '_color_theme'); ?> shadowed row">
+          <div class="card card-right <?php the_field('tile' . $x . '_open_detail'); ?> shadowed row">
             <div class="image col-xs-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/test-photo.png" alt="" class="card-image">
+              <img src="<?php the_field('tile' . $x . '_image'); ?>" alt="" class="card-image">
             </div>
             <div class="col-xs-6 no-paddings">
               <div class="text">
