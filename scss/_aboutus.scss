@@ -286,23 +286,27 @@
 			justify-content: center;
 			flex-wrap: wrap;
 
+			.employees-row {
+				@media (max-width: 767px) {
+					padding-left: 135px;
+					padding-right: 135px;
+				}
+				@media (max-width: 610px) {
+					padding-left: 0px;
+					padding-right: 0px;
+				}
+			}
+
 			.employee-box {
 				margin-top: 30px;
 				text-align: center;
 				@media (max-width: 767px) {
-					padding-left: 150px;
+					padding-left: 15px;
+					padding-right: 15px;
 				}
 				@media (max-width: 610px) {
 					padding-left: 15px;
-				}
-				&:nth-of-type(2n) {
-					@media (max-width: 767px) {
-						padding-right: 150px;
-						padding-left: 15px;
-					}
-					@media (max-width: 610px) {
-						padding-right: 15px;
-					}
+					padding-right: 15px;
 				}
 
 				img {

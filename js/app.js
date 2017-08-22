@@ -591,20 +591,36 @@
       showAnimation($(direction), 1);
     }
 
-    $('.italia').click(function() {
-      showingDircetionsDetail('.italia-detail');
+    $('.country-tile1').click(function() {
+      showingDircetionsDetail('.country-detail1');
     });
 
-    $('.austria').click(function() {
-      showingDircetionsDetail('.austria-detail');
+    $('.country-tile2').click(function() {
+      showingDircetionsDetail('.country-detail2');
     });
 
-    $('.france').click(function() {
-      showingDircetionsDetail('.france-detail');
+    $('.country-tile3').click(function() {
+      showingDircetionsDetail('.country-detail3');
     });
 
-    $('.switzerland').click(function() {
-      showingDircetionsDetail('.switzerland-detail');
+    $('.country-tile4').click(function() {
+      showingDircetionsDetail('.country-detail4');
+    });
+
+    $('.country-tile5').click(function() {
+      showingDircetionsDetail('.country-detail5');
+    });
+
+    $('.country-tile6').click(function() {
+      showingDircetionsDetail('.country-detail6');
+    });
+
+    $('.country-tile7').click(function() {
+      showingDircetionsDetail('.country-detail7');
+    });
+
+    $('.country-tile8').click(function() {
+      showingDircetionsDetail('.country-detail8');
     });
 
 

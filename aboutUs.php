@@ -87,18 +87,18 @@ get_header(); ?>
 			<div class="section1 el-presidentos ">
 
 				<div class="owner-box owner1 ">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
+					<img src="<?php the_field('co-owner1_photo'); ?>" alt="placeholder" class="img-responsive img-fluid ">
 					<div class="owner-text">
-						<h4>Łukasz Kuźmiński</h4>
-						<p>co-owner</p>
+						<h4><?php the_field('co-owner1_name'); ?></h4>
+						<p><?php the_field('co-owner1_position'); ?></p>
 					</div>
 				</div>
 
 				<div class="owner-box owner2">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
+					<img src="<?php the_field('co-owner2_photo'); ?>" alt="placeholder" class="img-responsive img-fluid ">
 					<div class="owner-text">
-						<h4>Rafał Sionek</h4>
-						<p>co-owner</p>
+						<h4><?php the_field('co-owner2_name'); ?></h4>
+						<p><?php the_field('co-owner2_position'); ?></p>
 					</div>
 				</div>
 
@@ -108,79 +108,35 @@ get_header(); ?>
 
 			<div class="section2 col-xs-12 col-md-8 col-md-offset-2">
 
+				<div class="row employees-row">
 
-			<div class="row">
-				<div class="employee-box col-xs-6 col-sm-4 col-md-3">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
-					<h4>Jan Kowalski</h4>
-					<p>stanowisko</p>
-				</div>
+					<?php for ($i = 1; $i <= 16; $i = $i + 1) { ?>
+						<?php if( get_field('employee_name' . $i) ): ?>
+							<div class="employee-box col-xs-6 col-sm-4 col-md-3">
+								<img src="<?php the_field('employee_photo' . $i); ?>" class="img-responsive img-fluid ">
+								<h4><?php the_field('employee_name' . $i); ?></h4>
+								<p><?php the_field('employee_position' . $i); ?></p>
+							</div>
+						<?php else: ?>
+							<div class="col-md-3 visible-md visible-lg"></div>
+						<?php endif; ?>
 
-				<div class="employee-box col-xs-6 col-sm-4 col-md-3">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
-					<h4>Jan Kowalski</h4>
-					<p>stanowisko</p>
-				</div>
+	        <?php }; ?>
 
-				<div class="employee-box col-xs-6 col-sm-4 col-md-3">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
-					<h4>Jan Kowalski</h4>
-					<p>stanowisko</p>
-				</div>
+					<!-- <div class="employee-box col-xs-6 col-sm-4 col-md-3 col-md-offset-3">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
+						<h4>Jan Kowalski</h4>
+						<p>stanowisko</p>
+					</div>
 
-				<div class="employee-box col-xs-6 col-sm-4 col-md-3">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
-					<h4>Jan Kowalski</h4>
-					<p>stanowisko</p>
-				</div>
-
-				<div class="employee-box col-xs-6 col-sm-4 col-md-3">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
-					<h4>Jan Kowalski</h4>
-					<p>stanowisko</p>
-				</div>
-				<div class="employee-box col-xs-6 col-sm-4 col-md-3">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
-					<h4>Jan Kowalski</h4>
-					<p>stanowisko</p>
-				</div>
-
-				<div class="employee-box col-xs-6 col-sm-4 col-md-3">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
-					<h4>Jan Kowalski</h4>
-					<p>stanowisko</p>
-				</div>
-
-				<div class="employee-box col-xs-6 col-sm-4 col-md-3">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
-					<h4>Jan Kowalski</h4>
-					<p>stanowisko</p>
-				</div>
-
-				<div class="employee-box col-xs-6 col-sm-4 col-md-3 col-md-offset-3">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
-					<h4>Jan Kowalski</h4>
-					<p>stanowisko</p>
-				</div>
-
-				<div class="employee-box col-xs-6 col-sm-4 col-md-3 col-sm-offset-4 col-md-offset-0">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
-					<h4>Jan Kowalski</h4>
-					<p>stanowisko</p>
+					<div class="employee-box col-xs-6 col-sm-4 col-md-3 col-sm-offset-4 col-md-offset-0">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="placeholder" class="img-responsive img-fluid ">
+						<h4>Jan Kowalski</h4>
+						<p>stanowisko</p>
+					</div> -->
 				</div>
 			</div>
-
-			</div>
-
 		</div>
-
-
-
-
-
-
-
-
 
 		<div class="directions ">
 
@@ -200,7 +156,25 @@ get_header(); ?>
 
 
 			<div class="slider aboutus-slider">
-					<div class="country italia col-xs-4">
+
+				<?php for ($i = 1; $i <= 8; $i = $i + 1) { ?>
+
+          <?php if( get_field('name_tile' . $i) ): ?>
+						<div class="country country-tile<?php echo $i ?> col-xs-4">
+							<img src="<?php the_field('image_tile' . $i); ?>" alt="" class="img-responsive img-fluid">
+							<div class="txt">
+								<h1><?php the_field('name_tile' . $i); ?></h1>
+								<p><?php the_field('text_tile' . $i); ?></p>
+							</div>
+						</div>
+          <?php endif; ?>
+
+        <?php }; ?>
+			</div>
+
+
+
+					<!-- <div class="country italia col-xs-4">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/aboutus/aboutus-italia.png" alt="" class="img-responsive img-fluid">
 						<div class="txt">
 							<h1>WŁOCHY</h1>
@@ -236,7 +210,7 @@ get_header(); ?>
 							<p>24 lokalizacje wyjazdów</p>
 						</div>
 					</div>
-			</div>
+			</div> -->
 
 
 
@@ -336,7 +310,51 @@ get_header(); ?>
 		</div>
 	</div>
 
-	<div class="hidden country-detail italia-detail">
+
+	<?php for ($i = 1; $i <= 8; $i = $i + 1) { ?>
+
+		<?php if( get_field('name_tile' . $i) ): ?>
+			<div class="hidden country-detail country-detail<?php echo $i ?>">
+				<div class="row">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
+					<div class="col-sm-5 col-md-6">
+						<h1><?php the_field('name_tile' . $i); ?></h1>
+						<div class="underline"></div>
+						<p class="description" ><?php the_field('text_detail' . $i); ?></p>
+					</div>
+					<div class="col-sm-7 col-md-6">
+						<img src="<?php the_field('image_tile' . $i); ?>" alt="" class="img-responsive img-fluid detail-img">
+					</div>
+				</div>
+				<div class="flexbox">
+					<div class="plain-text">
+						<?php for ($j = 1; $j <= 24; $j = $j + 3) { ?>
+		          <?php if( get_field('hyphen'.$j.'_detail' .$i) ): ?>
+		            <p><div class="hyphen-before"></div> <?php the_field('hyphen'.$j.'_detail' .$i); ?></p>
+		          <?php endif; ?>
+		        <?php }; ?>
+					</div>
+					<div class="plain-text">
+						<?php for ($j = 2; $j <= 24; $j = $j + 3) { ?>
+		          <?php if( get_field('hyphen'.$j.'_detail' .$i) ): ?>
+		            <p><div class="hyphen-before"></div> <?php the_field('hyphen'.$j.'_detail' .$i); ?></p>
+		          <?php endif; ?>
+		        <?php }; ?>
+					</div>
+					<div class="plain-text">
+						<?php for ($j = 3; $j <= 24; $j = $j + 3) { ?>
+		          <?php if( get_field('hyphen'.$j.'_detail1') ): ?>
+		            <p><div class="hyphen-before"></div> <?php the_field('hyphen'.$j.'_detail' . $i); ?></p>
+		          <?php endif; ?>
+		        <?php }; ?>
+					</div>
+				</div>
+			</div>
+		<?php endif; ?>
+
+	<?php }; ?>
+
+	<!-- <div class="hidden country-detail italia-detail">
 		<div class="row">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/x-button-blue.png" alt="placeholder" class="img-responsive img-fluid exit">
 			<div class="col-sm-5 col-md-6">
@@ -521,7 +539,7 @@ get_header(); ?>
 				<p><div class="hyphen-before"></div>Lorem ipsum dolor</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 </div>
 <?php get_footer(); ?>
